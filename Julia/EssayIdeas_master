@@ -1,10 +1,13 @@
 Generating random graphs using Julia - Bram
 Implementing a finite difference method
-Solving ODEs - Taylor inegration
+Solving ODEs 
 Flow control
-Matrix algebra and TinySparse
+Matrix algebra
 Graphing and ploting
 WorldBankData
-Twitter
-TimeSeries
-TensorToolbox and Tensors
+Networking and streams
+Embedding
+Stack tracing
+Parallel Computing
+
+Example: https://github.com/ULStats/MA4128Assessment-2016/blob/master/Julia%20in%20Imaging%20-%20Siobhan%20Ryan.md

@@ -1,3 +1,4 @@
 XXXXX from the Julia Language
 ==============================
-Am I a collaborator?
+Generating random graphs with Julia
+Constructors

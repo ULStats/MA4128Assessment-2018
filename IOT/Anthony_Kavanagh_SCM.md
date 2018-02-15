@@ -1,4 +1,4 @@
-Supply Chain Management (Anthony Kavanagh-14147793)
+Supply Chain Management 
 ===========================
 
 *_Compiled by Anthony Kavanagh - Student ID No. 14147793_*

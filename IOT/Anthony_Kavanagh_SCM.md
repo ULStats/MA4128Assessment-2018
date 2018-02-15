@@ -71,7 +71,7 @@ Operations and Supply Chain Processes can be categorized into the views of the p
 
 5.	Returning: involves processing old worn-out defective and excess products back from customers and support to customers who have issues with delivered products   e.g. after sales support
 
-![Supply Chain Management Features](https://github.com/ULStats/MA4128Assessment-2018/blob/master/IOT/SCM%20Images%20Anthony%20Kavanagh/Supply%20Chain%20Management%20Features.jpg
+![Supply Chain Management Features](https://github.com/ULStats/MA4128Assessment-2018/blob/master/IOT/SCM%20Images%20Anthony%20Kavanagh/Supply%20Chain%20Management%20Features.jpg)
 
 The SCOR Process extends from your suppliers supplier to your customers customer. This includes all customer interaction from order entry to paid invoice and all market interactions in between. The purpose of the reference model below gives us the ability to describe the process architecture in a way that makes sense to key business partners. Once the process has been captured, a Standard process reference model it can be measured managed and controlled
 

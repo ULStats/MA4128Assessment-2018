@@ -1,3 +1,3 @@
 Extreme Value Theory
 ==========================
-*** Barry O'Leary***
+***Barry O'Leary***

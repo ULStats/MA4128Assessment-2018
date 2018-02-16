@@ -1,1 +1,3 @@
-
+Marketing Analytics
+==============================
+***Jingyi Wang***

@@ -14,7 +14,7 @@ is a cloud-based software system that works on any device connected to the Inter
 while optimizing their data to make informed decisions. The Athlete OSTM system comprises of three parts
 * Workload assessment
 * Motion capture
-* The Profiler system.
+* The Profiler system. 
 
 # Workload Assessment
 Elite athletes spend their days training, practicing or competing. Each of these activities is intense and puts a great deal of stress on 

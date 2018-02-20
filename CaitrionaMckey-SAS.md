@@ -21,6 +21,7 @@ SAS has product sets for specific industries, such as government, retail, teleco
 ## Projects 
 SAS are looking for new ways to use analytics to make a difference. SAS was founded on the principle of using analytics to change the world. From fighting cancer and researching the Zika virus to changing the lives of Ghana women by teaching them how to code, SAS has remained committed to helping solve critical humanitarian issues using data and analytics.
 One of SAS' current projects is called "Using big data to predict suicide risk among Canadian youth"
+============================
 **Reference List**
 
 1. Analytics, Business Intelligence and Data Management| SAS Ireland. [ONLINE] Available at: https://www.sas.com/en_ie/home.html.

@@ -2,10 +2,11 @@
 # Kitman Labs
 
 # Background
-Kitman Labs was founded in November 2012 and is a sports science technology company with offices in the US and Ireland. The company was 
-founded by Stephen Smith, former Senior Strength & Conditioning/Rehabilitation Coach at Leinster Rugby. The foundation of the company was 
-Smith's Master's research, which focused on combined risk factors as predictors of athletic injury. Kitman Labs partners with elite and 
-professional sports organisations around the world to enable teams to prevent the risk of injury and increase player availability.
+Stephen Smith founded sports technology company Kitman Labs in 2012 to enable professional and elite sports teams to help reduce injury risk and increase player availability. Prior to founding Kitman Labs, Stephen was senior injury rehabilitation and conditioning coach with Leinster Rugby for six years. Kitman Labs was founded in Dublin in October 2012, where its headquarters remain. The foundation of the company was Smith's Master's research, which focused on combined risk factors as predictors of athletic injury. 
+
+Built by sports practitioners and data and sport scientists, Kitman Labs understands there is a better way to leverage the data available to sports coaches and staff. Based around its Athlete Optimisation System, it enables teams to optimise athlete health and performance while reducing injury risk and increasing overall performance potential. 
+
+Kitman Labs opened its first US office in Menlo Park, California, in 2014 and is building its presence with US professional and collegiate level sports teams. In less than four years, it is now working with more than 40 teams across 15 leagues in four continents.  Kitman Labs partners with elite and professional sports organisations around the world to enable teams to prevent the risk of injury and increase player availability.
 
 # The System
 Their unique Athlete Optimization System was developed by their rich team of sports and data scientists and practitioners. Athlete OSTM 

@@ -84,5 +84,5 @@ res$ind$contrib
 
 dimdesc(res)
 ```
-
+%https://www.sporttechie.com/grenoble-announce-partnership-with-kitman-labs/
 

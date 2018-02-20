@@ -10,4 +10,12 @@ The World Headquarters of SAS in in Cary, North Carolina, USA. Today SAS softwar
 
 ![Alt text](https://www.sas.com/en_ie/references/stats-financial/_jcr_content/par/image_e00.img.jpg/1517426034680.jpg)
 
+
+## Products
+As of 2011 SAS's largest set of products is its line for customer intelligence. Numerous SAS modules for web, social media and marketing analytics may be used to profile customers and prospects, predict their behaviors and manage and optimize communications. SAS also provides the SAS Fraud Framework. The framework's primary functionality is to monitor transactions across different applications, networks and partners and use analytics to identify anomalies that are indicative of fraud. SAS Enterprise GRC (Governance, Risk and Compliance) provides risk modeling, scenario analysis and other functions, in order to manage and visualize risk, compliance and corporate policies. There is also a SAS Enterprise Risk Management product-set designed primarily for banks and financial services organizations.
+
+SAS' products for monitoring and managing the operations of IT systems are collectively referred to as SAS IT Management Solutions. SAS collects data from various IT assets on performance and utilization, then creates reports and analyses.SAS' Performance Management products consolidate and provide graphical displays for key performance indicators (KPIs) at the employee, department and organizational level.The SAS Supply Chain Intelligence product suite is offered for supply chain needs, such as forecasting product demand, managing distribution and inventory and optimizing pricing. There is also a "SAS for Sustainability Management" set of software to forecast environmental, social and economic effects and identify causal relationships between operations and an impact on the environment or ecosystem.
+
+SAS has product sets for specific industries, such as government, retail, telecommunications and aerospace and for marketing optimization or high-performance computing.
+
 ***Caitriona McKey***

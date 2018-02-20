@@ -18,4 +18,7 @@ SAS' products for monitoring and managing the operations of IT systems are colle
 
 SAS has product sets for specific industries, such as government, retail, telecommunications and aerospace and for marketing optimization or high-performance computing.
 
+**Reference List**
+Analytics, Business Intelligence and Data Management| SAS Ireland. [ONLINE] Available at: https://www.sas.com/en_ie/home.html.
+
 ***Caitriona McKey***

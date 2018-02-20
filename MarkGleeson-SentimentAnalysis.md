@@ -46,3 +46,5 @@ However, one important aspect with regards to sentiment analysis is its ability,
 (https://www.clarabridge.com/sentiment-analysis/)
 
 (https://www.brandwatch.com/blog/understanding-sentiment-analysis/) 
+
+https://blog.insightsatlas.com/7-benefits-of-sentiment-analysis-you-cant-overlook

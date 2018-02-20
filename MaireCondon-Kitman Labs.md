@@ -48,7 +48,7 @@ coaches and medical staffs to get in front of many injuries. So far, the results
 Initial customers are comprised of professional level rugby teams, such as the four Irish provinces, Grenoble, Bath and Sale, and Premier 
 League soccer teams, such as Everton and Norwich City. Kitman Labs have also added NFL team Miami Dolphins and NBA team Detroit Pistons 
 to their ever expanding client list. Kitman Labs report that they have reduced their clients injury profiles by 30-32 percent. For NFL, 
-NBA and other professional sports teams that use the system, more players were available to play, improving their seasons and each team's 
+NBA and other professional sports teams that use the system, more players were available to play, improving their seasons and each team's
 odds of winning. It is estimated that it costs US sports teams $500 million in salaries for players who are forced to miss games through 
 injury. To reduce their clients injury profiles by 30-32 percent, represents a massive saving to Kitman Labs clients.
 

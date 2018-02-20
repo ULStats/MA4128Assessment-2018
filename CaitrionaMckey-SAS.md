@@ -21,5 +21,6 @@ SAS has product sets for specific industries, such as government, retail, teleco
 **Reference List**
 
 1. Analytics, Business Intelligence and Data Management| SAS Ireland. [ONLINE] Available at: https://www.sas.com/en_ie/home.html.
+2. Wikipedia. 2018. SAS (software). [ONLINE] Available at: https://en.wikipedia.org/wiki/SAS_(software). [Accessed 20 February 2018].
 
 ***Caitriona McKey***

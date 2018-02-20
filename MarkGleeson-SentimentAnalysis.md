@@ -29,6 +29,18 @@ Twitter is another example of a company which utilizes a sentimental analysis ap
 
 However, one important aspect with regards to sentiment analysis is its ability, or lack of, to understand contextual language and tone. Something which may look obvious to a human often gets mis understood by a machine. A simple example of this would be if someone were to say “Caught late in work again…. Brilliant”. To a human, this is obviously sarcastic, however, to a machine, the word ‘brilliant’ indicates that this is a positive. The machine cannot distinguish this realisation and so, the data can be wrong.
 
+**Benifits of Sentiment Analysis**
+
+1. Adjust marketing strategy
+2. Measure ROI of your marketing campaign
+3. Develop product quality
+4. Improve customer service
+5. Crisis management
+6. Lead generation
+7. Sales Revenue
+
+
+
 **References**
 
 (https://www.clarabridge.com/sentiment-analysis/)

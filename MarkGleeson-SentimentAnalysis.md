@@ -1,9 +1,10 @@
-
+**Sentiment Analysis**
 
 **Completed by: Mark Gleeson 13129619**
 
 ![sentiment](https://user-images.githubusercontent.com/35773704/36447225-9a85ac1c-167b-11e8-86ec-480c5b1b5495.jpg)
 
+**Definition**
 
 Sentiment analysis, also known as ‘opinion mining’, refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information.
 

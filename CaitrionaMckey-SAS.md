@@ -8,5 +8,6 @@ SAS – both the software and the company – thrived throughout the next few de
 ## SAS Today
 The World Headquarters of SAS in in Cary, North Carolina, USA. Today SAS software is installed in more than 83,000 business, government and university sites. SAS has customers in 149 countries and has a total of 14,175 employees. In 2016, 94 of the top 100 companies on the Fortune Global 500 were SAS customers. In 2017 SAS had a world revenue of US$3.24 billion.
 
-(![Alt text](https://www.sas.com/en_ie/references/stats-financial/_jcr_content/par/image_e00.img.jpg/1517426034680.jpg)
+![Alt text](https://www.sas.com/en_ie/references/stats-financial/_jcr_content/par/image_e00.img.jpg/1517426034680.jpg)
+
 ***Caitriona McKey***

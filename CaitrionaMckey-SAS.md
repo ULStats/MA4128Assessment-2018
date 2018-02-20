@@ -2,7 +2,7 @@
 git init
 git config --global user.name "Caitriona"
 ============
-@font-face {
+{
   font-family: 'Helvetica';
   font-weight: normal;
   font-style: normal;

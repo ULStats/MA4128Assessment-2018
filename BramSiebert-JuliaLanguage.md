@@ -1,7 +1,7 @@
 XXXXX from the Julia Language
 ==============================
-Generating random graphs with Julia
+# Bram Siebert 17179246
+## Generating random graphs with Julia
 
-Constructors
 
-Constructors are functions which create new objects. Objects, in Julia, are referred to as "Composite types". All values are objects, but they don't come packaged with functions which operate on the object. That is, functions are an object in their own right, and aren't placed inside your object. 
+LightGraphs is a package which offers network and graph analysis in Julia. It can generate simple graphs using `SimpleGraph`(for undirected graphs) or `SimpleDiGraph`(For directed graphs), and perhaps more importantly, an API for developing more sophisticated graphs using the `AbstractGraph` type.

@@ -10,5 +10,8 @@ A programmer working in Julia needs to clearly manage only one of the processes 
 In Julia, parallel computing is built on two primitives, which are *remote references* and *remote calls*.
 Remote references come in two types: `Future` and `RemoteChannel`.
 
-A `RemoteChanel`is rewritable.
+`Future`using a remote call returns it to it's result. 
+To obtain the full value of a result you can use `fetch`, and you can wait for a remote call to finish by calling `wait`on the returned `Future`.
+A `RemoteChanel`is rewritable. Each process has a corresponding identifier. The default processes used for parallel operations are referred to as "workers".
 
+[] insert relevant code

@@ -2,7 +2,7 @@ Plotly
 =============
 ***Ed Barry***
 
-##What is Plotly?
+## What is Plotly?
 
 
 ### references

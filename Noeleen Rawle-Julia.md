@@ -15,3 +15,21 @@ To obtain the full value of a result you can use `fetch`, and you can wait for a
 A `RemoteChanel`is rewritable. Each process has a corresponding identifier. The default processes used for parallel operations are referred to as "workers".
 
 [] insert relevant code
+
+### Code Availability and Loading Packages
+Any written code must be available on any process that runs it.
+
+[] Include example
+
+Usually you will be loading code from packages of files, and this gives you a lot of flexibility and control over which processes to load.
+Using the `@everywhere`macro it is possible to force a command to run on all processes.
+It can also be used to directly define a function on all processes.
+The base Julia installation is built to support two types of clusters:
+
+* A local cluster
+* A cluster spanning machines
+
+A cluster spanning machines uses a passwordless `ssh`login to start the Julia worker process on the specified machine.
+
+### Data Movement
+Most of the overhead in a parallel program is made up of sending messages and moving data

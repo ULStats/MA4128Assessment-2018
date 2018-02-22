@@ -1,3 +1,4 @@
-Parallel Computing with Julia
-Noeleen Rawle 17071844
+Julia Language
 ============================================
+# Noeleen Rawle 17071844
+## Parallel Computing with Julia

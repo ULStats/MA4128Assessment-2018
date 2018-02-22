@@ -1,4 +1,5 @@
 Gephi: Network Analytics
+![alt text](https://github.com/DragonflyStats/MA4128Assessment/blob/master/images/gephilogo.png "Gephy")
 ===============================
 ###### History
 Gephi is an open-source software for network visualization and analysis written in Java on the NetBeans platform. It was initally developed by student from the University of Technology of Compiègne in France in french. Gephi is now on version, 0.9.2 launched in September 2017. Gephi runs on Windows, Mac and Linux. Gephi Consortium was founded in 2010 as a french non-profit corporation which supports development of future releases of Gephi.

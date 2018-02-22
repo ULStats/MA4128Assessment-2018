@@ -1,2 +1,2 @@
-Statistical Disclosure Control
+Parallel Computing with Julia
 ============================================

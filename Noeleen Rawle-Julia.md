@@ -32,4 +32,7 @@ The base Julia installation is built to support two types of clusters:
 A cluster spanning machines uses a passwordless `ssh`login to start the Julia worker process on the specified machine.
 
 ### Data Movement
-Most of the overhead in a parallel program is made up of sending messages and moving data
+Most of the overhead in a parallel program is made up of sending messages and moving data. 
+To achieve performace and scalability it is important to reduce the number of messages and the amount of data sent.
+`fetch`can be looked at as and explicit data movement operation.
+This is because it directly asks for an object to be moved to the  local machine.

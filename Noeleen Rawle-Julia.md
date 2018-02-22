@@ -36,3 +36,8 @@ Most of the overhead in a parallel program is made up of sending messages and mo
 To achieve performace and scalability it is important to reduce the number of messages and the amount of data sent.
 `fetch`can be looked at as and explicit data movement operation.
 This is because it directly asks for an object to be moved to the  local machine.
+
+### Global Variables
+Closures specified for remote execution i.e. using `remotecall` or expressions executed remotely using `spawn` may refer to global variables.
+Remote calls with embedded global references are able to manage globals in the following ways:
+* Global constants are also declared as constants on remote nodes.

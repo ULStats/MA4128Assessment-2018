@@ -1,6 +1,6 @@
 Gephi: Network Analytics
 ===============================
-#### History 
+####History 
 Gephi is an open-source software for network visualization and analysis written in Java on the NetBeans platform. It was initally developed by student from the University of Technology of Compiègne in France in french. 
 
 

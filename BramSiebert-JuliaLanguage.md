@@ -18,6 +18,30 @@ add_edge!(g,1,5) #We can add an edge between the first and fifth node to make a 
 
   LightGraphs also defines the `AbstractGraph` type. It is used by libraries such as MetaGraphs (for graphs associated with meta-data) and SimpleWeightedGraphs (for weighted graphs). The AbstractGraph type comes with an entire family of types and methods. These types define vertices, edge iterators and the graphs themselves.
   
+  With a basic understanding of types we can have a bit of fun making our own graphs.
+  ```
+using LightGraphs
+using GraphPlot
+g = DiGraph(9)
+for i = 2:nv(g)
+    e_1 = Edge(1,i)
+    e_2 = Edge(i,i+1)
+    add_edge!(g,e_1)
+    add_edge!(g,e_2)
+end
+add_edge!(g,Edge(nv(g),2))
+nodelabel = [1:nv(g)]
+gplot(g)
+```
+The above code uses a `for` loop to generate a wheel graph. We have defined our edges before adding them to the graph, but we could concatonate them into the add_edge command as, `add_edge!(g,Edge(1,i))`. There are also lots of commands which make (random) graphs for us. For example, the above graph could also be made using `g = WheelGraph(9)`, although this would be an undirected graph. 
+
+A relatively simple random graph is the ErdosRenyi graph. We can generate these graph in two easy ways with Julia. `erdos_renti(n,ne)` creates a random graph with `n` vertices and `ne` edges. Another way is using `erdos_renyi(n,p)`, where `n` is the number of vertices, and `p` is the probability that any two nodes are connected. We can also make the graph directed, using the code:
+```
+n = 10
+p = 0.25
+g = erdos_renyi(n, p,is_directed = true)
+```
+  
   Many of the methods associated with AbstractGraphs allow us to assess the properties of the graph. `nv(g)` returns the number of vertices in a graph. `ne(g)` returns the number of edges in a graph. Other useful commands include `has_vertex` and `has_edge` which check if the graph includes the specified vertex and edge.`has_self_loops`checks if the graph has self-loops, that is, wether or not any vertices connect to themselves.
   
   We can also check the properties of our vertices and edges. `neighbors` returns an array of neighbours of a vertex, if the graph is directed the outpiut is quivalent to `outneighbors`. The converse command to this is `inneighbors` which returns an array of vertices which connect to the specified vertex (but not from the specified vertex to its neighbours). Edges can be assessed, in a directed graph, using `src` (gives source vertex of an edge) and `dst` (which gives its destination). The `reverse` command creates a new edge in the opposite direction of the passed edge. 

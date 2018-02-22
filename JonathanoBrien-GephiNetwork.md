@@ -28,4 +28,5 @@ It helps data analysts to intuitively reveal patterns and trends, highlight outl
 * cluster
 * manipulate 
 * export
+
 ***Jonathan O'Brien* **

@@ -1,13 +1,14 @@
 ## Gephi: Network Analytics
 
-![alt text](https://www.bing.com/images/search?view=detailV2&ccid=hOnhx0Mv&id=8AC9C794957301D4F3AD6C26982673CC2A4261BF&thid=OIP.hOnhx0MvdLMM2bmR4dEfsgHaHB&q=gephi&simid=608001284865196796&selectedIndex=3&ajaxhist=0)
+![alt text]()
 
 ###### History
-Gephi is an open-source software for network visualization and analysis written in Java on the NetBeans platform. It was initally developed by student from the University of Technology of Compiègne in France in french. Gephi is now on version, 0.9.2 launched in September 2017. Gephi runs on Windows, Mac and Linux. Gephi Consortium was founded in 2010 as a french non-profit corporation which supports development of future releases of Gephi.
+Gephi is an open-source software for network visualization and analysis written in Java on the NetBeans platform. It was initally developed by student from the University of Technology of Compiègne in France in french. Gephi is now on version, 0.9.2 launched in September 2017. Gephi runs on Windows, Mac and Linux. Gephi Consortium was founded in 2010 as a french non-profit corporation which supports development of future releases of Gephi. Gephi is one of the most modern graph visualization applications available and certainly adds to the statistical analysis world. Gephi represents a friendly user interface with a sleek design and simple user controls.
 
 ###### Application
-Gephi is a Network visualization and analysis platform used when working with different types of networks e.g. online networks or offline networks. 
-what can Gephi be used for?
+Gephi is a Network visualization and analysis platform used when working with different types of networks e.g. online networks or offline networks. The main objective of Gephi is to provide a interactive visualization and exploration platform for all kinds of networks and complex graphs. Gephi is creates a graph made up of nodes, a person, place or thing, the edges represent the relationships between the nodes. Nodes can be personalized to include images and no overlapping this makes the experience better for the customer. The open source aspect of Gephi extends to the use of free plugins within the application. These help the digestion of large amounts of data, for example the Semantic Web Plugin which allows for specific Sparql, a query language, searches through large files including Dbpedia, a database of Wikipedia entries.
+
+###### What can Gephi be used for?
 * Analyse populations of posts that planning organizations post on their website. 
 * Identify key stakeholders in a community or an organization. 
 * Undersatnd the relationships between members of a network or an organization. 
@@ -20,13 +21,5 @@ what can Gephi be used for?
 * It works well with large networks (neibourboud groups, companys)
 * great help features
 
-Gephi is used in a number of research projects in academia, journalism and elsewhere. 
-It helps data analysts to intuitively reveal patterns and trends, highlight outliers and tells stories with their data. It uses a 3D render engine to display large graphs in real-time and to speed up the exploration. Gephi combines built-in functionalities and flexible architecture to:
-* explore
-* analyze
-* filter
-* cluster
-* manipulate 
-* export
 
 ***Jonathan O'Brien* **

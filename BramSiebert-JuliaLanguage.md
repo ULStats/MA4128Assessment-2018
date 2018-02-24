@@ -41,7 +41,6 @@ n = 10
 p = 0.25
 g = erdos_renyi(n, p,is_directed = true)
 ```
-!<blockquote class="imgur-embed-pub" lang="en" data-id="a/YHvbB"><a href="//imgur.com/YHvbB"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
   Many of the methods associated with AbstractGraphs allow us to assess the properties of the graph. `nv(g)` returns the number of vertices in a graph. `ne(g)` returns the number of edges in a graph. Other useful commands include `has_vertex` and `has_edge` which check if the graph includes the specified vertex and edge.`has_self_loops`checks if the graph has self-loops, that is, wether or not any vertices connect to themselves.
   
   Lightgraphs also allows for a number of useful algorithims. We can find the shortest path between two nodes using `a_star(g,n,t)` to find the shortest path between vertex `n` and `t`, using the A* search algorithm. There's a plethora of different algorithims we can use, another relatively simple algorithm is the Dijkstra algorithm. We can find the shortest path to a node `srcs` and all other nodes using `dijkstra_shortert_paths(g,srcs)`. Of course it can help to check if a graph is connected first, we do this using `is_connected(g)`, which outputs true if g is connected. 

@@ -51,4 +51,4 @@ g = erdos_renyi(n, p,is_directed = true)
   
   Like most scientific computing languages, Julia has an array implementation. An array is a collection of objects stored in a multi-dimensional grid (think of a matrix in linear algebra). Although an array may contrain objects of any type, they usually contain floats or integers. Julia, unlike matlab, passes data by reference. Therefore, it is important to make copies of parent arrays should we want to work on an array while keeping the original. 
   
-  A quick way to initialise an array is by using `zeros(A)` or `ones(A)` which creates a matrix of zeros or ones of dimension A respectively. 
+  A quick way to initialise an array is by using `zeros(A)` or `ones(A)` which creates a matrix of zeros or ones of dimension A (syntax is (i,j) respectively. We can also create an array with random numbers between zero and one using `rand(A)`. 

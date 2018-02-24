@@ -1,8 +1,8 @@
-XXXXX from the Julia Language
-==============================
+
+
 # Bram Siebert 17179246
 ## Generating random graphs with Julia
-
+==============================
 
 A graph *G* is described by a set of vertices *V* and edges *E:G={V,E}*. V is an integer, and E is represented as forward (and in the case of directed graphs, backward) adjacency lists. LightGraphs is a package which offers network and graph analysis in Julia. It can generate simple graphs using `SimpleGraph`(for undirected graphs) or `SimpleDiGraph`(For directed graphs), and perhaps more importantly, an API for developing more sophisticated graphs using the `AbstractGraph` type. There are additional packages such as LightGraphsExtras, MetaGraphs and SimpleWeightedGraphs which I will discuss later in this essay.
 
@@ -46,3 +46,9 @@ g = erdos_renyi(n, p,is_directed = true)
   Lightgraphs also allows for a number of useful algorithims. We can find the shortest path between two nodes using `a_star(g,n,t)` to find the shortest path between vertex `n` and `t`, using the A* search algorithm. There's a plethora of different algorithims we can use, another relatively simple algorithm is the Dijkstra algorithm. We can find the shortest path to a node `srcs` and all other nodes using `dijkstra_shortert_paths(g,srcs)`. Of course it can help to check if a graph is connected first, we do this using `is_connected(g)`, which outputs true if g is connected. 
   
   In this essay, I have given a brief introduction to the lightgraphs package, and shown some of the useful elementary algorithms which we may want to run on out graphs.
+  
+  ## Multi-Dimensional arrays with Julia
+  
+  Like most scientific computing languages, Julia has an array implementation. An array is a collection of objects stored in a multi-dimensional grid (think of a matrix in linear algebra). Although an array may contrain objects of any type, they usually contain floats or integers. Julia, unlike matlab, passes data by reference. Therefore, it is important to make copies of parent arrays should we want to work on an array while keeping the original. 
+  
+  A quick way to initialise an array is by using `zeros(A)` or `ones(A)` which creates a matrix of zeros or ones of dimension A respectively. 

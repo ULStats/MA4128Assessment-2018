@@ -49,6 +49,26 @@ g = erdos_renyi(n, p,is_directed = true)
   
   ## Multi-Dimensional arrays with Julia
   
-  Like most scientific computing languages, Julia has an array implementation. An array is a collection of objects stored in a multi-dimensional grid (think of a matrix in linear algebra). Although an array may contrain objects of any type, they usually contain floats or integers. Julia, unlike matlab, passes data by reference. Therefore, it is important to make copies of parent arrays should we want to work on an array while keeping the original. 
+  Like most scientific computing languages, Julia has an array implementation. An array is a collection of objects stored in a multi-dimensional grid (think of a matrix in linear algebra). Although an array may contrain objects of any type, they usually contain floats or integers. Julia, unlike matlab, passes function arguments by reference. Pass by reference means that the assignment operator points to the memory where the object is stored as opposed to the object itself. Therefore, it is important to make copies of parent arrays should we want to work on an array while keeping the original. 
   
-  A quick way to initialise an array is by using `zeros(A)` or `ones(A)` which creates a matrix of zeros or ones of dimension A (syntax is (i,j) respectively. We can also create an array with random numbers between zero and one using `rand(A)`. 
+  A quick way to initialise an array is by using `zeros(A)` or `ones(A)` which creates a matrix of zeros or ones of dimension A, for example
+  `
+  x = zeros(3,3)
+  `
+  We can also create an array with random numbers between zero and one using `rand(A)`. Arrays don't have to contain numbers. For example, they can contain strings, or booleans too (using `trues(A)` or `falses(A)`). We can also create an array manually.
+  `
+  x = ([1,2,3],[4,5],[6,7,8,9])
+  `
+  Notice how we can define an array with different sized rows. If we wanted to check the size of this array we use `size(x)`, but for the above array we would get an error. 
+  
+  In a mathematical sense we often think of an array as a matrix. Therefore we often want to do some linear algebra with our arrays. This is fairly easy to do in Julia, and a lot of operators we expect from other programming languages are also found in Julia.
+`
+x = ones(3,3) # first we initialise two arrays, one with numbers less than one and one with ones. This makes it easier to understand our outputs
+y = rand(3,3) 
+a = cat(1,x,y) #concatonate by rows
+b = cat(2,x,y) #concatonate by columns
+c = x+y #array addition
+d = x*y #array multiplication
+e = x/y #array division
+`
+

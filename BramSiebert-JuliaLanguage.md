@@ -55,7 +55,7 @@ g = erdos_renyi(n, p,is_directed = true)
   `
   x = zeros(3,3)
   `
-  We can also create an array with random numbers between zero and one using `rand(A)`. Arrays don't have to contain numbers. For example, they can contain strings, or booleans too (using `trues(A)` or `falses(A)`). We can also create an array manually.
+  But what if we don't want an array of just zeros or ones, we can fill the array with the fill command, `fill!(x,y)`, replaces all entries in the array `x` with the value `y`. We can also create an array with random numbers between zero and one using `rand(A)`. Arrays don't have to contain numbers. For example, they can contain strings, or booleans too (using `trues(A)` or `falses(A)`). We can also create an array manually.
   `
   x = ([1,2,3],[4,5],[6,7,8,9])
   `
@@ -63,7 +63,7 @@ g = erdos_renyi(n, p,is_directed = true)
   
   In a mathematical sense we often think of an array as a matrix. Therefore we often want to do some linear algebra with our arrays. This is fairly easy to do in Julia, and a lot of operators we expect from other programming languages are also found in Julia.
 ```
-x = ones(3,3) # first we initialise two arrays, one with numbers less than one and one with ones. This makes it easier to understand our outputs
+x = ones(3,3) 
 y = rand(3,3) 
 a = cat(1,x,y) #concatonate by rows
 b = cat(2,x,y) #concatonate by columns
@@ -71,4 +71,4 @@ c = x+y #array addition
 d = x*y #array multiplication
 e = x/y #array division
 ```
-
+  

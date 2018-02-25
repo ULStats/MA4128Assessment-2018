@@ -62,7 +62,7 @@ g = erdos_renyi(n, p,is_directed = true)
   Notice how we can define an array with different sized rows. If we wanted to check the size of this array we use `size(x)`, but for the above array we would get an error. 
   
   In a mathematical sense we often think of an array as a matrix. Therefore we often want to do some linear algebra with our arrays. This is fairly easy to do in Julia, and a lot of operators we expect from other programming languages are also found in Julia.
-`
+```
 x = ones(3,3) # first we initialise two arrays, one with numbers less than one and one with ones. This makes it easier to understand our outputs
 y = rand(3,3) 
 a = cat(1,x,y) #concatonate by rows
@@ -70,5 +70,5 @@ b = cat(2,x,y) #concatonate by columns
 c = x+y #array addition
 d = x*y #array multiplication
 e = x/y #array division
-`
+```
 

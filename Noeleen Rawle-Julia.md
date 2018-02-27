@@ -19,7 +19,20 @@ A `RemoteChanel` is rewritable. Each process has a corresponding identifier. The
 ### Code Availability and Loading Packages
 Any written code must be available on any process that runs it.
 
-[] Include example
+```
+julia> function rand2(dims...)
+           return 2*rand(dims...)
+       end
+
+julia> rand2(2,2)
+2×2 Array{Float64,2}:
+ 0.153756  0.368514
+ 1.15119   0.918912
+
+julia> fetch(@spawn rand2(2,2))
+ERROR: RemoteException(2, CapturedException(UndefVarError(Symbol("#rand2"))
+[...]
+```
 
 Usually you will be loading code from packages of files, and this gives you a lot of flexibility and control over which processes to load.
 Using the `@everywhere` macro it is possible to force a command to run on all processes.

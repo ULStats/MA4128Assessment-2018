@@ -13,7 +13,8 @@ Remote references come in two types: `Future` and `RemoteChannel`.
 `Future` using a remote call returns it to it's result. 
 To obtain the full value of a result you can use `fetch`, and you can wait for a remote call to finish by calling `wait`on the returned `Future`.
 A `RemoteChanel` is rewritable. Each process has a corresponding identifier. The default processes used for parallel operations are referred to as "workers".
-```$ ./julia -p 2
+```julia
+$ ./julia -p 2
 
 julia> r = remotecall(rand, 2, 2, 2)
 Future(2, 1, 4, Nullable{Any}())
@@ -30,7 +31,7 @@ julia> fetch(s)
 ### Code Availability and Loading Packages
 Any written code must be available on any process that runs it.
 
-``````
+```julia
 julia> function rand2(dims...)
            return 2*rand(dims...)
        end
@@ -43,7 +44,7 @@ julia> rand2(2,2)
 julia> fetch(@spawn rand2(2,2))
 ERROR: RemoteException(2, CapturedException(UndefVarError(Symbol("#rand2"))
 [...]
-``````
+```
 The first process knew about the function `rand2` but the second process did not.
 Usually you will be loading code from packages of files, and this gives you a lot of flexibility and control over which processes to load.
 Using the `@everywhere` macro it is possible to force a command to run on all processes.

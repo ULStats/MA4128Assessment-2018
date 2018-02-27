@@ -33,7 +33,7 @@ julia> fetch(@spawn rand2(2,2))
 ERROR: RemoteException(2, CapturedException(UndefVarError(Symbol("#rand2"))
 [...]
 ```
-
+The first process knew about the function `rand2` but the second process did not.
 Usually you will be loading code from packages of files, and this gives you a lot of flexibility and control over which processes to load.
 Using the `@everywhere` macro it is possible to force a command to run on all processes.
 It can also be used to directly define a function on all processes.

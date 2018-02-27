@@ -13,8 +13,7 @@ Remote references come in two types: `Future` and `RemoteChannel`.
 `Future` using a remote call returns it to it's result. 
 To obtain the full value of a result you can use `fetch`, and you can wait for a remote call to finish by calling `wait`on the returned `Future`.
 A `RemoteChanel` is rewritable. Each process has a corresponding identifier. The default processes used for parallel operations are referred to as "workers".
-``````
-$ ./julia -p 2
+```$ ./julia -p 2
 
 julia> r = remotecall(rand, 2, 2, 2)
 Future(2, 1, 4, Nullable{Any}())
@@ -26,7 +25,7 @@ julia> fetch(s)
 2×2 Array{Float64,2}:
  1.18526  1.50912
  1.16296  1.60607
-``````
+```
 
 ### Code Availability and Loading Packages
 Any written code must be available on any process that runs it.

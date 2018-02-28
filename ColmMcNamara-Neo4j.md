@@ -1,4 +1,5 @@
 Neo4j
 ===================
 ***Colm McNamara***
-guhjkg
+
+* https://github.com/nicolewhite/RNeo4j

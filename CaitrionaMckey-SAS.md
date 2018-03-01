@@ -41,11 +41,6 @@ One of the simplest ways to use a comparison operator is in a WHERE statement.  
 
 We also can specify SAS to output only certain ranges of values for numeric variables. 
 The logical or Boolean operators include AND, OR, & NOT. They are often used to link a series of comparisons. Just like the comparison operators, these can be written as either symbols or mnemonics. Below is each symbol and it’s mnemonic alternative.
-
-Symbol	Mnemonic
-^ ~	NOT
- &	AND
- |	OR
  
  two WHERE statements can't be used in SAS but the AND operator can be used to combine the information contained in those two statements to achieve the desired result.
 

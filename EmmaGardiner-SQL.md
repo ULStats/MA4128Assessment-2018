@@ -8,7 +8,11 @@ Structured Query Language (SQL), pronounced "sequel", is a domain-specific langu
 
 The uses of SQL include modifying database table and index structures, adding, updating and deleting rows of data, and retrieving subsets of information from within a database for transaction processing and analytics applications. Queries and other SQL operations take the form of commands written as statements. Commonly used SQL statements include select, add, insert, update, delete, create, alter and truncate.
 
+Brief History of SQL
+--------------------
+In 1970, Dr. E.F. Codd published "A Relational Model of Data for Large Shared Data Banks," an article that outlined a model for storing and manipulating data using tables. Shortly after Codd's article was published, IBM began working on creating a relational database. Between 1979 and 1982, Oracle, Relational Technology, Inc., and IBM all put out commercial relational databases, and by 1986 they all were using SQL as the data query language.
 
+In 1986, the American National Standards Institute (ANSI) standardized SQL. This standard was updated in 1989, in 1992, 1999, 2003, 2006 and 2008. Standard SQL is sometimes called ANSI SQL. All major relational databases support this standard but each has its own proprietary extensions.
 
 SQL commands and syntax
 -------------------------
@@ -48,7 +52,6 @@ SELECT column FROM table1
 UNION ALL
 SELECT column FROM table2;
 ```
-
 
 
 Joins within SQL

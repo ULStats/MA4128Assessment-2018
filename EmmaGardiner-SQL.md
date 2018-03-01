@@ -5,15 +5,15 @@ Structured Query Language (SQL), pronounced "sequel", is a domain-specific langu
 2. It eliminates the need to specify how to reach a record, e.g. with or without an index.
 
 The uses of SQL include modifying database table and index structures, adding, updating and deleting rows of data, and retrieving subsets of information from within a database for transaction processing and analytics applications. Queries and other SQL operations take the form of commands written as statements. Commonly used SQL statements include select, add, insert, update, delete, create, alter and truncate.
-![Alt text](https://azure.microsoft.com/en-us/services/sql-server-stretch-database/)
+![Alt text](https://azurecomcdn.azureedge.net/cvt-08d30f7c5efd7cdd3322a8a33933c6e90debe131f3e793d87bdcefb4ba6123e9/images/page/services/sql-server-stretch-database/04-streamline.png)
 
 SQL commands and syntax
 -------------------------
 SQL commands are divided into several different types, among them data manipulation language (DML) and data definition language (DDL) statements, transaction controls and security measures. The DML vocabulary is used to retrieve and manipulate data, while DDL statements are for defining and modifying database structures. The transaction controls help manage transaction processing, ensuring that transactions are either completed or rolled back if errors or problems occur. The security statements are used to control database access as well as to create user roles and permissions
 SQL syntax is the coding format used in writing statements. Say that our table is called _mytable_ , an Example of this format is:
 
-**SELECT column, another_column
-FROM mytable**
+**SELECT column, another_column **
+**FROM mytable**
 
 
 Joins within SQL

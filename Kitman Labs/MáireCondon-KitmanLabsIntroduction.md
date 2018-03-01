@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Kitman%20Labs%20Logo.png">
+  <img width="360" height="200" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Kitman%20Labs%20Logo.png">
 </p>
 
 __Kitman Labs__ 
@@ -66,7 +66,11 @@ athletes. Believing that if there's an opportunity to reduce injuries, it needs 
 and athletes may not have the resources to acquire and use such a comprehensive system, founder Stephen Smith believes that a time will 
 come when they will and that the future for Kitman Labs is that they'll be the gold standard platform across all sports.
 
-![alt tag](https://raw.githubusercontent.com/DragonflyStats/MA4128Assessment/master/images/Rlogo.jpg)
+<p align="center">
+  <img width="200" height="160" src="https://raw.githubusercontent.com/DragonflyStats/MA4128Assessment/master/images/Rlogo.jpg">
+</p>
+
+
 
 ## R Code
 

@@ -43,7 +43,7 @@ We also can specify SAS to output only certain ranges of values for numeric vari
 The logical or Boolean operators include AND, OR, & NOT. They are often used to link a series of comparisons. Just like the comparison operators, these can be written as either symbols or mnemonics. Below is each symbol and it’s mnemonic alternative.
  
  two WHERE statements can't be used in SAS but the AND operator can be used to combine the information contained in those two statements to achieve the desired result.
-
+![Alt text](This PC//Downloads/Capture.png?raw=true "Title")
 
 ## Projects 
 SAS are looking for new ways to use analytics to make a difference. SAS was founded on the principle of using analytics to change the world. From fighting cancer and researching the Zika virus to changing the lives of Ghana women by teaching them how to code, SAS has remained committed to helping solve critical humanitarian issues using data and analytics. One of SAS' current projects is called "Using big data to predict suicide risk among Canadian youth"

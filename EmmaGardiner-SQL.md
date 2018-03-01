@@ -1,5 +1,10 @@
 Structured Query Language (SQL)
 ===============================
+```
+_Emma Gardiner_
+14165864
+```
+
 <img src="https://azurecomcdn.azureedge.net/cvt-08d30f7c5efd7cdd3322a8a33933c6e90debe131f3e793d87bdcefb4ba6123e9/images/page/services/sql-server-stretch-database/04-streamline.png" width="500">
 
 Structured Query Language (SQL), pronounced "sequel", is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). In comparison to older read/write APIs like ISAM or VSAM, SQL offers two main advantages: 

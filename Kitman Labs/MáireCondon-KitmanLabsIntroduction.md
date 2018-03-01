@@ -1,6 +1,7 @@
+<p align="center">
+  <img width="460" height="300" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Kitman%20Labs%20Logo.png">
+</p>
 
-![alt tag](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Kitman%20Labs%20Logo.png)
-==========================
 __Kitman Labs__ 
 ===========================
 :stuck_out_tongue_winking_eye:***Máire Condon**    13142259*

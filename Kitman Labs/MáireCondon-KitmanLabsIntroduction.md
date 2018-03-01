@@ -1,10 +1,9 @@
-![alt tag](https://media.licdn.com/media/AAEAAQAAAAAAAAaWAAAAJDQ1MjQ2MjhjLWJkN2EtNDk5MC1iMGFiLThkYmJiZjkzOTBkYQ.png)
+![alt tag](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Kitman%20Labs%20Logo.png)
 ===================
 __Kitman Labs__ 
 ===========================
 :stuck_out_tongue_winking_eye:***Máire Condon**    13142259*
 
-![alt tag](https://media.licdn.com/media/AAEAAQAAAAAAAAaWAAAAJDQ1MjQ2MjhjLWJkN2EtNDk5MC1iMGFiLThkYmJiZjkzOTBkYQ.png)
 
 
 ## Background

@@ -14,13 +14,25 @@ The uses of SQL include modifying database table and index structures, adding, u
 SQL commands and syntax
 -------------------------
 SQL commands are divided into several different types, among them data manipulation language (DML) and data definition language (DDL) statements, transaction controls and security measures. The DML vocabulary is used to retrieve and manipulate data, while DDL statements are for defining and modifying database structures. The transaction controls help manage transaction processing, ensuring that transactions are either completed or rolled back if errors or problems occur. The security statements are used to control database access as well as to create user roles and permissions
-SQL syntax is the coding format used in writing statements. Say that our table is called _mytable_ , an Example of this format is:
+SQL syntax is the coding format used in writing statements. Some of The Most Important SQL Commands are:
+- SELECT - extracts data from a database
+- UPDATE - updates data in a database
+- DELETE - deletes data from a database
+- INSERT INTO - inserts new data into a database
+- CREATE DATABASE - creates a new database
+- ALTER DATABASE - modifies a database
+- CREATE TABLE - creates a new table
+- ALTER TABLE - modifies a table
+- DROP TABLE - deletes a table
+- CREATE INDEX - creates an index (search key)
+- DROP INDEX - deletes an index
 
+
+Say that our table is called _mytable_ , an Example of this format is:
 ```
 SELECT column, another_column
 FROM mytable
 ```
-
 
 Joins within SQL
 ----------------

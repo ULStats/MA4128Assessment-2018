@@ -1,7 +1,7 @@
 Structured Query Language (SQL)
 ===============================
-#####_Emma Gardiner_
-#####14165864
+##### _Emma Gardiner_
+##### 14165864
 
 
 <img src="https://azurecomcdn.azureedge.net/cvt-08d30f7c5efd7cdd3322a8a33933c6e90debe131f3e793d87bdcefb4ba6123e9/images/page/services/sql-server-stretch-database/04-streamline.png" width="500">

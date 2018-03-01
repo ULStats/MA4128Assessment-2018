@@ -17,6 +17,5 @@ Joins within SQL
 ----------------
 One method in SQL is to join two table together
 
-![Alt text](https://no.wikipedia.org/wiki/Join_(SQL))
 ![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/SQL_Joins.svg/800px-SQL_Joins.svg.png)
 

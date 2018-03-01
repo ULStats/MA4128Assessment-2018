@@ -1,7 +1,11 @@
 ![alt tag](https://media.licdn.com/media/AAEAAQAAAAAAAAaWAAAAJDQ1MjQ2MjhjLWJkN2EtNDk5MC1iMGFiLThkYmJiZjkzOTBkYQ.png)
-# Kitman Labs 
-### _Máire Condon_ :stuck_out_tongue_winking_eye:
-### _13142259_ 
+===================
+__Kitman Labs__ 
+===========================
+:stuck_out_tongue_winking_eye:***Máire Condon**    13142259*
+
+![alt tag](https://media.licdn.com/media/AAEAAQAAAAAAAAaWAAAAJDQ1MjQ2MjhjLWJkN2EtNDk5MC1iMGFiLThkYmJiZjkzOTBkYQ.png)
+
 
 ## Background
 Stephen Smith founded sports technology company Kitman Labs in 2012 to enable professional and elite sports teams to help reduce injury risk and increase player availability. Prior to founding Kitman Labs, Stephen was senior injury rehabilitation and conditioning coach with Leinster Rugby for six years. Kitman Labs was founded in Dublin in October 2012, where its headquarters remain. The foundation of the company was Smith's Master's research, which focused on combined risk factors as predictors of athletic injury. 

@@ -1,3 +1,11 @@
+<p align="center">
+  <img width="360" height="200" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Kitman%20Labs%20Logo.png">
+</p>
+
+__Kitman Labs Research: Is less more?__ 
+===========================
+:stuck_out_tongue_winking_eye:***Máire Condon**    13142259*
+
 
 Sport Science is an industry that has adopted a ‘less is more’ mindset over the last 5-10 years, something that is creating a stigma within the industry and might even be creating more problems than it’s solving.
 It may sound like a big statement, but numerous times we see sport scientists telling coaches that an athlete should do less today or even nothing because their risk of injury is increased? Kitman Labs found that this is a very frequent conversation and unfortunately puts the sports scientist in role of the grim reaper. In an honest effort to keep the team healthy, they are the ones who arrive to the coaches office trying to put the brakes on athletes.

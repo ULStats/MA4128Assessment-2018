@@ -21,6 +21,10 @@ The problem, however, is that every team is not the same, every athlete is not t
 Kitman Labs are seeing evidence that deconditioning may occur far quicker than we actually think which creates a knock-on impact of athletes breaking more frequently due to a reduction in stimulus. Kitman Labs released a series of insights providing examples that highlight the importance of maintain high levels of stimulus for both the volume of work athletes participate in and the intensity of the work they do without increasing health risk. The old adage of train hard, play hard, holds true even in 2018.
 
 ## Examples:
+<p align="left">
+  <img width="260" height="360" src="">
+</p>
+
 <p align="center">
-  <img width="360" height="200" src="">
+  <img width="260" height="360" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/A-Foot_injury-Less-is-More.png">
 </p>

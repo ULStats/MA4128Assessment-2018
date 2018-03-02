@@ -30,3 +30,4 @@ Kitman Labs are seeing evidence that deconditioning may occur far quicker than w
 
 ## Academic Research supporting Kitman Labs' findings
 oo
+http://www.imperialjournals.com/index.php/IJIR/article/view/4577/4393

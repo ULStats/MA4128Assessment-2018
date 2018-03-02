@@ -22,8 +22,14 @@ Kitman Labs are seeing evidence that deconditioning may occur far quicker than w
 
 ## Examples:
 <p align="left">
-  <img width="260" height="360" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Less-%20is-More.png">
+  <img width="280" height="390" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Less-%20is-More.png">
 </p>
 <p align="center">
-  <img width="260" height="360" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/A-Foot_injury-Less-is-More.png">
+  <img width="280" height="390" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/A-Foot_injury-Less-is-More.png">
 </p>
+<p align="right">
+  <img width="280" height="390" src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/Kitman%20Labs/Images/Soccer-Injury-Less-is-More-1.png">
+</p>
+
+## Academic Research supporting Kitman Labs' findings
+oo

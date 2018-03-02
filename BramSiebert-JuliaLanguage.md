@@ -55,11 +55,13 @@ g = erdos_renyi(n, p,is_directed = true)
   `
   x = zeros(3,3)
   `
-  But what if we don't want an array of just zeros or ones, we can fill the array with the fill command, `fill!(x,y)`, replaces all entries in the array `x` with the value `y`. We can also create an array with random numbers between zero and one using `rand(A)`. Arrays don't have to contain numbers. For example, they can contain strings, or booleans too (using `trues(A)` or `falses(A)`). We can also create an array manually.
+  But what if we don't want an array of just zeros or ones, we can fill the array with the fill command, `fill!(x,y)`, replaces all entries in the array `x` with the value `y`. We can also create an array with random numbers between zero and one using `rand(A)`. Arrays don't have to contain numbers. For example, they can contain strings, or booleans too (using `trues(A)` or `falses(A)`). We can also create an array manually, like this:
   `
-  x = ([1,2,3],[4,5],[6,7,8,9])
+  x = [1 2 3; 4 5 6; 7 8 9]
   `
-  Notice how we can define an array with different sized rows. If we wanted to check the size of this array we use `size(x)`, but for the above array we would get an error. 
+This is a two dimensional array, where each semi-colon makes a new row.
+  
+What if we wanted to access specific parts of our array? For exmple the first row, or last column. This is fairly simple in Julia, `x[i,j]` will give us the element in row `i` column `j`.
   
   In a mathematical sense we often think of an array as a matrix. Therefore we often want to do some linear algebra with our arrays. This is fairly easy to do in Julia, and a lot of operators we expect from other programming languages are also found in Julia.
 ```
@@ -69,6 +71,9 @@ a = cat(1,x,y) #concatonate by rows
 b = cat(2,x,y) #concatonate by columns
 c = x+y #array addition
 d = x*y #array multiplication
-e = x/y #array division
+e = x/y # right array division
+f = x\y # left array division
 ```
+
+
   

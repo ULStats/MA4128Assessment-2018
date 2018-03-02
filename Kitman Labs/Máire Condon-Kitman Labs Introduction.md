@@ -57,6 +57,7 @@ odds of winning. It is estimated that it costs US sports teams $500 million in s
 injury. To reduce their clients injury profiles by 30-32 percent, represents a massive saving to Kitman Labs clients.
 
   ### Quantifying Injury Risk 
+  Stephen Smith discusses the importance of Kitman Labs' role in identifying and quantifying injury risks.
   https://www.youtube.com/watch?v=AO1Q9_SX_Us
 
 

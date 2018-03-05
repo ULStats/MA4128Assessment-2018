@@ -56,8 +56,8 @@ NBA and other professional sports teams that use the system, more players were a
 odds of winning. It is estimated that it costs US sports teams $500 million in salaries for players who are forced to miss games through 
 injury. To reduce their clients injury profiles by 30-32 percent, represents a massive saving to Kitman Labs clients.
 
-  ### Quantifying Injury Risk 
-  Stephen Smith discusses the importance of Kitman Labs' role in identifying and quantifying injury risks.
+## Quantifying Injury Risk 
+Stephen Smith discusses the importance of Kitman Labs' role in identifying and quantifying injury risks.
   https://www.youtube.com/watch?v=AO1Q9_SX_Us
 
 

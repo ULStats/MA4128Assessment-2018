@@ -29,5 +29,9 @@ Kitman Labs are seeing evidence that deconditioning may occur far quicker than w
 
 
 ## Academic Research supporting Kitman Labs' findings
-oo
+Karara (2017) found that several data analytics, pilot programs using  Radio Frequency Identification (RFID) and wearable technology can provide data metrics on player’s performance as well as help in proactive injury prediction. 
+
+## References
+Karara, S., 2017. Big Data and Analytics: The Future of Business. Imperial Journal of Interdisciplinary Research, 3(4).
+
 http://www.imperialjournals.com/index.php/IJIR/article/view/4577/4393

@@ -29,9 +29,10 @@ Kitman Labs are seeing evidence that deconditioning may occur far quicker than w
 
 
 ## Academic Research supporting Kitman Labs' findings
-Karara (2017) found that several data analytics, pilot programs using  Radio Frequency Identification (RFID) and wearable technology can provide data metrics on player’s performance as well as help in proactive injury prediction. 
+* Karara (2017) found that several data analytics, pilot programs using  Radio Frequency Identification (RFID) and wearable technology can provide data metrics on player’s performance as well as help in proactive injury prediction. 
+* Kiesel, Plishy and Voight (2007) found that fundamental movement (as measured by the FMS™) is an identifiable risk factor for injury in professional football players. The findings of this study suggest professional football players with dysfunctional fundamental movement patterns as measured by the FMS™ are more likely to suffer an injury than those scoring higher on the FMS™. Therefore, by testing players FMS pre-season, coaches can identify players at risk of injury that season. 
 
 ## References
-Karara, S., 2017. Big Data and Analytics: The Future of Business. Imperial Journal of Interdisciplinary Research, 3(4).
+1. Karara, S., 2017. Big Data and Analytics: The Future of Business. Imperial Journal of Interdisciplinary Research, 3(4).
+2. Kiesel, K., Plisky, P.J. and Voight, M.L., 2007. Can serious injury in professional football be predicted by a preseason functional movement screen?. North American journal of sports physical therapy: NAJSPT, 2(3), p.147.
 
-http://www.imperialjournals.com/index.php/IJIR/article/view/4577/4393

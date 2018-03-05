@@ -33,6 +33,6 @@ Kitman Labs are seeing evidence that deconditioning may occur far quicker than w
 * Kiesel, Plishy and Voight (2007) found that fundamental movement (as measured by the FMS™) is an identifiable risk factor for injury in professional football players. The findings of this study suggest professional football players with dysfunctional fundamental movement patterns as measured by the FMS™ are more likely to suffer an injury than those scoring higher on the FMS™. Therefore, by testing players FMS pre-season, coaches can identify players at risk of injury that season. 
 
 ## References
-1. Karara, S., 2017. Big Data and Analytics: The Future of Business. Imperial Journal of Interdisciplinary Research, 3(4).
-2. Kiesel, K., Plisky, P.J. and Voight, M.L., 2007. Can serious injury in professional football be predicted by a preseason functional movement screen?. North American journal of sports physical therapy: NAJSPT, 2(3), p.147.
+1. Karara, S. (2017) 'Big Data and Analytics: The Future of Business', Imperial Journal of Interdisciplinary Research, 3(4).
+2. Kiesel, K., Plisky, P.J. and Voight, M.L. (2007) 'Can serious injury in professional football be predicted by a preseason functional movement screen?', North American journal of sports physical therapy: NAJSPT, 2(3), 147.
 

@@ -97,10 +97,3 @@ res$ind$contrib
 
 dimdesc(res)
 ```
-%https://www.sporttechie.com/grenoble-announce-partnership-with-kitman-labs/
-
-%http://mondaycall.com/dev/wp-content/uploads/2015/06/MondayCall_KitmanLabs_CaseStudy.pdf
-
-%http://fourballsblog.blogspot.ie/2016/01/partnerships-with-kitman-labs-to-help.html?m=0
-
-%https://www.enterprise-ireland.com/en/Publications/The-Market/The-Market-Winter-2013.pdf

@@ -22,10 +22,10 @@ When running the MICE package in r there is an assumption that the missing data 
 
 ## Methods of Imputation:
 There are 4 methods of imputation used by MICE in R.
-*PMM (Predictive Mean Matching)  – For numeric variables
-*logreg(Logistic Regression) – For Binary Variables( with 2 levels)
-*polyreg(Bayesian polytomous regression) – For Factor Variables (>= 2 levels)
-*Proportional odds model (ordered, >= 2 levels)
+* PMM (Predictive Mean Matching)  – For numeric variables*
+* logreg(Logistic Regression) – For Binary Variables( with 2 levels)
+* polyreg(Bayesian polytomous regression) – For Factor Variables (>= 2 levels)
+* Proportional odds model (ordered, >= 2 levels)
 
 
 

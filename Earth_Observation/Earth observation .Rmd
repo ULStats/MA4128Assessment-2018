@@ -14,22 +14,22 @@ Uses of remote sensing data has almost no bounds. It is used in nutrient analysi
 
 The image below is a Red, Green, Blue or true colour image of the Cloosh area in Galway before the fire. This image can be freely downloaded from the Sentinel 2 database using www.scihub.copernicus.eu as can any other images of Ireland. Cloosh is a forest with various roads through it for wind turbines. All of the dark green pixels are really healthy forest stands, and the lighter shaded green pixels are not so healthy with brown coloured pixels showing bare soil.
 
-![Pre_fire](/home/dylan/Documents/PhD/modules/Year_1_semester_2/RGB_cloosh.png)
+![Pre_fire](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Earth_Observation/RGB_cloosh.png)
 
 This net image is an image of the same area post fire. As you can see some of the dark green pixels in the previous picture as now coloured brown or darker in colour due to the fire burning the trees.
 
-![Post_fire.](/home/dylan/Documents/PhD/modules/Year_1_semester_2/RGB_post_fire_cloosh.png)
+![Post_fire.](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Earth_Observation/RGB_post_fire_cloosh.png)
 
 
 This next image is of NDVI where the darker the areas the more intensly the fire burned.
 
 
-![NDVI.](/home/dylan/Documents/PhD/modules/Year_1_semester_2/NDVI_cloosh.png)
+![NDVI.](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Earth_Observation/NDVI_cloosh.png)
 
 
 Finally, using a classification algorithim called random forest and training the algorithim to distinguish between unburned, lightly burned, and severly burned we get this image where red is severly burned, orange is low severity burn and yellow is unburned.
 
-![Classified.](/home/dylan/Documents/PhD/modules/Year_1_semester_2/classified_cloosh.png)
+![Classified.](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Earth_Observation/classified_cloosh.png)
 
 There are some issues related to earth observation such as the image resolution. The Sentinel 2 images above have a resolution of 10x10m pixels.
 

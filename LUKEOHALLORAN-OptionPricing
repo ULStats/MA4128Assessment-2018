@@ -1,4 +1,9 @@
-Luke O'Halloran
+***Luke O'Halloran***
+
+## Option Basics
+An option is a contract between a buyer and a seller. It gives the buyer the right, but not the obligation to exercise at an agreed maturity.\cite{hull2016options} There is a cost to acquire an option. This cost is known as the premium. There are two types of options, calls and puts. A call option gives the holder the right to buy the underlying asset by a certain date for a certain price. A put option gives the holder the right to sell the underlying asset by a certain date for a certain price. The price in the contract is known as the exercise price or strike price; the date in the contract is known as the expiration date or maturity. European options will be the type of option that is mainly focused on in this project. They can be exercised only on the expiration date itself.
+The contract size of an option refers to the amount of the underlying asset covered by the options contract. For each call or put option, 100 shares of stock will be traded when one contract is exercised. 
+
 Black Scholes in R-Code:
 # Black-Scholes Option Value
 # Call value is returned in values[1], put in values[2]

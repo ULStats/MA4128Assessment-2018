@@ -10,10 +10,6 @@ To demonstrate leaflets ability, a map of the 25 rainfall collecting stations in
 
 To do this, two datasets are needed. The rainfall file contains two dataframes. A rain dataframe which holds the information about the stations rainfall per month for each year from 1850 to 2014. The other dataframe is the stations dataframe which contains station information such as longditude, latitude, elevation, and what county it lies in. The maps data contrains two spatial polygon dataframes, one which outlines the county boarders and another which outlines main settlements of Ireland.
 ```{r setup, include=FALSE}
-setwd("your/dir")
-getwd()
-list.files()
-
 #install.packages("leaflet")
 #install.packages("dplyr")
 #install.packages("RColorBrewer")
@@ -21,8 +17,8 @@ list.files()
 library(leaflet)
 library(dplyr)
 library(RColorBrewer)
-load("your/dir/rainfall.RData")
-load("your/dir/maps.RData")
+load("https://github.com/ULStats/MA4128Assessment-2018/blob/master/leaflet/rainfall.RData")
+load("https://github.com/ULStats/MA4128Assessment-2018/blob/master/leaflet/maps.RData")
 ```
 It is always a good idea to look at the contents of your data before manipulating it.
 

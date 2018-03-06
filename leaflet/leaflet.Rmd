@@ -10,9 +10,9 @@ To demonstrate leaflets ability, a map of the 25 rainfall collecting stations in
 
 To do this, two datasets are needed. The rainfall file contains two dataframes. A rain dataframe which holds the information about the stations rainfall per month for each year from 1850 to 2014. The other dataframe is the stations dataframe which contains station information such as longditude, latitude, elevation, and what county it lies in. The maps data contrains two spatial polygon dataframes, one which outlines the county boarders and another which outlines main settlements of Ireland.
 ```{r setup, include=FALSE}
-#install.packages("leaflet")
-#install.packages("dplyr")
-#install.packages("RColorBrewer")
+install.packages("leaflet")
+install.packages("dplyr")
+install.packages("RColorBrewer")
 
 library(leaflet)
 library(dplyr)

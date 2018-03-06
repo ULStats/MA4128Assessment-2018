@@ -4,14 +4,11 @@ author: "Dylan Walshe"
 date: "5th March 2018"
 output: html_document
 ---
-
 The following document will be an introduction to the use of Leaflet. Leaflet is a rather useful tool in the world of Geographical Information System (GIS) as a visualisation tool due to its ability to compose interactive maps. Such interactions includepanning and zooming. Large news organisations such as The New York Times and The Washington Post have used leaflet to illustrate various topics such as general election results as [shown if you click here](http://www.nytimes.com/projects/elections/2013/nyc-primary/mayor/map.html).
 
 To demonstrate leaflets ability, a map of the 25 rainfall collecting stations in the Republic of ireland will be shown along with a pop up for each station showing its median monthly rainfall for January. 
 
 To do this, two datasets are needed. The rainfall file contains two dataframes. A rain dataframe which holds the information about the stations rainfall per month for each year from 1850 to 2014. The other dataframe is the stations dataframe which contains station information such as longditude, latitude, elevation, and what county it lies in. The maps data contrains two spatial polygon dataframes, one which outlines the county boarders and another which outlines main settlements of Ireland.
-
-
 ```{r setup, include=FALSE}
 setwd("your/dir")
 getwd()
@@ -27,7 +24,6 @@ library(RColorBrewer)
 load("your/dir/rainfall.RData")
 load("your/dir/maps.RData")
 ```
-
 It is always a good idea to look at the contents of your data before manipulating it.
 
 ```{r}
@@ -35,7 +31,6 @@ head(rain)
 head(stations)
 
 ```
-
 The first step is going to be to group the rain data by station. Then create the median value for each station and join it to the station data, so that the stations latitude, longditude, and median rainfall are all on the same dataframe.
 
 ```{r comment="", message=FALSE}
@@ -43,7 +38,6 @@ rain %>% group_by(Station) %>%  filter(Month=="Jan") %>% summarise(mrain=median(
 med_rain %>% left_join(stations) -> med_rain
 head(med_rain)
 ```
-
 The next step is to make the map. We would like for a popup of monthly plots of each station on the map and this will be created first. For the efficient use of time a function will be created.
 
 ```{r comment="", message=FALSE}
@@ -53,14 +47,12 @@ local_monthplot <- function(station,raindata) {
   rain_time_series %>% monthplot(col='dodgerblue',col.base='indianred',lwd.base=3, ylab="Rainfall (mm)", xlab="Month")
 }
 ```
-
 Next is to create the pop up files.
 
 ```{r comment="", warning=FALSE, message=FALSE}
 stations %>% mutate(Filename =paste0('mp',gsub('','',Station),'.png')) -> stations_pop
 stations_pop %>% select(Station,Filename) %>% head
 ```
-
 As can be seen above there is a new column which wil store the images of the pop up month plots. A loop to create all of the monthplots will be created.
 
 ```{r comment="", warning=FALSE, message=FALSE}
@@ -69,29 +61,24 @@ for (i in 1:nrow(stations_pop))
     png(Filename[i],width=400,height=300)
     local_monthplot(Station[i],rain)
     dev.off()} )
-
 ```
-
 To ensure your loop worked visualise a station.
 
 ```{r}
 local_monthplot("Enniscorthy", rain)
 ```
-
 Ensure there is 25 month plots in your working directory. The next step is to make the month plots pop ups. 
 
 ```{r comment="", warning=FALSE, message=FALSE}
 stations_pop %>% mutate(Popup=paste0('<img src="',Filename,'">')) -> stations_pop
 stations_pop %>% select(Station,Popup) %>% head
 ```
-
 Next step is to put all the information onto one dataframe so longditude, latitude, median rain, and the pop ups of the month plots into one single dataframe.
 
 ```{r comment="", warning=FALSE, message=FALSE}
 rain %>% group_by(Station) %>%  summarise(mrain=mean(Rainfall))  %>% left_join(stations_pop)  %>% select(Long,Lat,mrain,Popup) -> station_means
 station_means %>% head
 ```
-
 The map is now ready to be created.
 
 ```{r comment="", warning=FALSE, message=FALSE}
@@ -99,7 +86,6 @@ color_fun <- colorNumeric('Blues',med_rain$mrain)
 
 leaflet(data=med_rain,height=500,width=450) %>% addTiles %>% addProviderTiles('Esri.WorldImagery') %>% setView(-8,53.5,6) %>% addCircleMarkers(fillColor=color_fun(med_rain$mrain), weight=3, fillOpacity = 0.8,popup=station_means$Popup) %>% addLegend(pal=color_fun,values=med_rain$mrain,title="Rainfall",position='bottomright')
 ```
-
 To ensure what you have done is correct, create a bar plot of the median rainfall in January for the 25 weather stations and compare the high and low values to the map.
 
 ```{r comment="", warning=FALSE, message=FALSE}

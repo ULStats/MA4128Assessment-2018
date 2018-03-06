@@ -13,7 +13,7 @@ To do this, two datasets are needed. The rainfall file contains two dataframes. 
 
 
 ```{r setup, include=FALSE}
-setwd("~/Documents/PhD/modules/Year_1_semester_2/")
+setwd("your/dir")
 getwd()
 list.files()
 
@@ -24,8 +24,8 @@ list.files()
 library(leaflet)
 library(dplyr)
 library(RColorBrewer)
-load("~/Documents/PhD/modules/Year_1_semester_2/rainfall.RData")
-load("~/Documents/PhD/modules/Year_1_semester_2/maps.RData")
+load("your/dir/rainfall.RData")
+load("your/dir/maps.RData")
 ```
 
 It is always a good idea to look at the contents of your data before manipulating it.
@@ -105,17 +105,3 @@ To ensure what you have done is correct, create a bar plot of the median rainfal
 ```{r comment="", warning=FALSE, message=FALSE}
 barplot(med_rain$mrain,names=med_rain$Station, las=3, cex.names = 0.7, ylim=c(0,200), col='dodgerblue', ylab = "Rainfall (mm)", main = "Median rainfall for January for Irish weather stations")
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-

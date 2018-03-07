@@ -27,12 +27,13 @@ In the given dataset (Eldermet), it was of interest to analyse the missing data 
 
  ![MMSE Missing Data Matrix](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/ad8c623c08a1ec162278bdaa27ed030df446dfbb/MMSE%20Missing%20Data.PNG)
 
-The following code then produced the images below whis atre a visual representation of the missing data patterns.
+The following code then produced the images below whis atre a visual representation of the missing data patterns. The image on the left, labelled missing data, shows the proportion of values which are missing at each timepoint. The image on tthe right then displays the missing data pattern, where a column which is all blue represents data that is present at all three timepoints, with the proportion given below also. Cells which are coloured yellow then represent missing data. 
+```
 MMSE_mis <- aggr(NewMMSE, col=c('navyblue','yellow'),
                     numbers=TRUE, sortVars=TRUE,
                     labels=names(NewMMSE), cex.axis=.7,
                     gap=3, ylab=c("Missing data","Pattern"))
-
+```
  ![MMSE Missin Data](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/be3644704928b4947e2cbc3ab063c33c9a8803e6/MMSE%20Missing%20Data.png) 
 
 ## Methods of Imputation:

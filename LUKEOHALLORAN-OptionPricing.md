@@ -34,7 +34,7 @@ values[2] <- X*exp(-rf*T) * pnorm(-d2) - S*pnorm(-d1)    values}
 
 #Returns value 1= call, 2= put 
 
-# Example of code
+## Example of code
 blackscholes(100,110,.05,.25,.25)[1]  
 
 1.980506 10.614064

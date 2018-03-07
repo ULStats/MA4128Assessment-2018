@@ -25,7 +25,6 @@ Censoring  is  a  key  data  analysis  problem  in  survival  analysis.   Essent
 2) BREAKING DOWN 'Survival Analysis':
 
 Within finance, survival analysis has applications to several areas, particularly insurance. For instance, a study of death rates would be directly applicable to the calculation of life insurance premiums. Given a large enough data set, statisticians can develop a hazard function, which outlines the incidence of death at different ages given certain health conditions. From this function, it is simple to compute the probability that the insured will become deceased during the term of the life insurance policy. Factoring in the value of the potential payouts under the policy, an appropriate insurance premium can be calculated for any policy.
-
 Although medical use was the primary focus of survival analysis it has been adapted to suit the modern financial world.
 
 Time-to-event data present themselves in different ways which create special problems in analyzing

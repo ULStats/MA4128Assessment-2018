@@ -15,6 +15,7 @@ Plotly offers six main products:
 Noteable companies associated and activley use the Plotly interface are Proctor and Gamble, Shell, Invesco and S&P Capital IQ among many others.
 * API libraries for Python, R, MATLAB, Node.js, Julia, and Arduino and a REST API. Plotly can also be used to style interactive graphs with IPython.
 
+##### Plotly can be used to graphically represent datasets in R.
 ![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/plotly%20for%20R.gif)
 
 * Figure Converters which convert matplotlib, ggplot2, and IGOR Pro graphs into interactive, online graphs.

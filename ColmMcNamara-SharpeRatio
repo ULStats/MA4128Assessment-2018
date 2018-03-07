@@ -1,5 +1,7 @@
 #Sharpe Ratio
 
+============================================
+
  The Sharpe Ratio is a mathematical method to examine the performance of an investment by adjusting the price,
 The ratio measures the excess return (or risk premium) per unit of deviation in an investment asset or a trading strategy.
 Sharpe ratio is defined as, S_a = \frac{E[R_a-R_b]}{\sigma_a} = \frac{E[R_a-R_b]}{\sqrt{\mathrm{var}[R_a-R_b]}},where {\displaystyle R_{a}} R_{a} is the asset return, {\displaystyle R_{b}} R_b is the risk free rate. {\displaystyle E[R_{a}-R_{b}]} E[R_a-R_b] is the expected value of the excess of the asset return over the benchmark return, and {\displaystyle {\sigma _{a}}} {\displaystyle {\sigma _{a}}} is the standard deviation of the asset excess return.

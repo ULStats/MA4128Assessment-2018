@@ -1,4 +1,4 @@
-![Apache Spark logo](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Stock-market.jpg)
+![Apache Spark logo](https://softwareengineeringdaily.com/wp-content/uploads/2016/02/Spark-bigdata_feature.jpg)
 
 ## Apache Spark
 Jack Cantillon 14146746

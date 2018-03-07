@@ -50,7 +50,11 @@ val countsByAge = df.groupBy("age").count() // Counts people by age
 
 ##### Spark Streaming
 
-Spark Streaming utilizes Spark Core's fast scheduling capacity to perform streaming analytics (technologies designed to assist the construction of event-driven information systems). It takes in data in mini-batches and performs RDD transformations on those mini-batches of data. This design enables the same set of application code written for batch analytics to be used in streaming analytics, thus facilitating easy implementation of lambda architecture. However, this convenience comes with the penalty of latency equal to the mini-batch duration. Other streaming data engines that process event by event rather than in mini-batches include Storm and the streaming component of Flink. Spark Streaming has support built-in to consume from Kafka, Flume, Twitter, ZeroMQ, Kinesis, and TCP/IP sockets.
+Spark Streaming
+
+Spark Streaming was an early addition to Apache Spark that allowed it gain traction in environments that required real-time or near real-time processing. Previously, batch and stream processing in the world of Apache Hadoop were separate things. You would write MapReduce code for your batch processing needs and use something like Apache Storm for your real-time streaming requirements. This obviously leads to disparate codebases that need to be kept in sync for the application domain despite being based on completely different frameworks, requiring different resources, and involving different operational concerns for running them.
+
+Spark Streaming extended the Apache Spark concept of batch processing into streaming by breaking the stream down into a continuous series of microbatches, which could then be manipulated using the Apache Spark API. In this way, code in batch and streaming operations can share the same code, running on the same framework, thus reducing both developer and operator overhead. Everybody wins.
 
 
 ##### History

@@ -7,6 +7,7 @@ D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for produci
 In contrast to many other libraries, D3.js allows great control over the final visual result. Its development was noted in 2011,[4] as version 2.0.0 was released in August 2011.
 D3.js is used on hundreds of thousands of websites. Some popular uses include creating interactive graphics for online news websites, information dashboards for viewing data, and producing maps from GIS map making data. In addition, the exportable nature of SVG enables graphics created by D3 to be used in print publications.
 
+![alt tag]
 ## Context
 There have been various previous attempts to bring data visualization to web browsers. The most notable examples were the Prefuse, Flare, and Protovis toolkits, which can all be considered as direct predecessors of D3.js.
 Prefuse was a visualization toolkit created in 2005 that required usage of Java, and visualizations were rendered within browsers with a Java plug-in. Flare was a similar toolkit from 2007 that used ActionScript, and required a Flash plug-in for rendering.

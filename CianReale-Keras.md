@@ -18,3 +18,15 @@ It also allows use of distributed training of deep learning models on clusters o
 ## Neural Networks
 Keras, through deep learning, is used to peprocess, model, evaluate and optimize neural networks. Deep learning is a subfield of machine learning that is a set of algorithms that is inspired by the structure and function of the brain. These algorithms are usually called Artificial Neural Networks (ANN). Neural networks found their inspiration and biology, where the term “neural network” can also be used for neurons. The human brain is then an example of such a neural network, which is composed of a number of neurons. The brain is capable of performing quite complex computations and this is where the inspiration for Artificial Neural Networks comes from. The network as a whole is a powerful modeling tool. Much like biological neurons, which have dendrites and axons, the single artificial neuron is a simple tree structure which has input nodes and a single output node, which is connected to each input node. Here’s a visual comparison of the two:
 ![Biological Neuron versus Artificial Neural Network](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras+Python+Tutorial/content_content_neuron.png)
+
+## Loading Data
+'''
+# Import pandas 
+import pandas as pd
+
+# Read in white wine data 
+white = ___________("http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv", sep=';')
+
+# Read in red wine data 
+red = ___________("http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv", sep=';')
+'''

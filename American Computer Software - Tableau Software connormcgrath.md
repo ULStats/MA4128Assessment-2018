@@ -7,7 +7,12 @@ Their main aim was to make data understandable to ordinary people.
 ![Tableau Logo](http://cdn2.itpro.co.uk/sites/itpro/files/styles/gallery/public/images/dir_205/it_photo_102724.jpg?itok=CukNUINf)
 *Above is the official Tablea logo.*
 Tableau offers *six* main poducts:
-1. Tableau Desktop2. Tableau Server 3. Tableau Reader4. Tableau Online5. Tableau Public 6. Tableau Mobile 
+1. Tableau Desktop
+2. Tableau Server 
+3. Tableau Reader
+4. Tableau Online
+5. Tableau Public 
+6. Tableau Mobile 
 Tableau has currently has 29,000 accounts both personal and professional related, showing the extent of its impact. And it also has tens of thousands public accounts which allows them to share data in their blogs and websites.
 Tableau Software has recieved much recognition and many accolades over the years. It has won awards including *"Best Overall in Data Visualization"* by DM Review, *"Best of 2005 for Data Analysis"* by PC Magazine and *"2008 Best Business Intelligence Solution"* by the Software & Information Industry Association.
 ###Tableau Functions

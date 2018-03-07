@@ -8,18 +8,26 @@ is considered an "event" in the survival analysis literature. Although at the be
 survival analysis was used to study death as an event specific to medical studies.
 
 The key objectives of survival analysis are as follows:
+
 1.Estimating time-to-event of a group of individuals:
-such as time until death for a patient with kidney disease.
+
+Such as time until death for a patient with kidney disease.
 2.To compare time-to-event between two more groups:
+
 such as treated vs placebo patients.
 3.To assess the relationship of co-variables to time-to-event:
-such as does Albuminuria, serum creatinine, respiratory or cardiovascular problems influence the survival time of kidney disease patients? We must now become familiar with the basic variables that we will use time and time again in our study:
+
+Such as does Albuminuria, serum creatinine, respiratory or cardiovascular problems influence the survival time of kidney disease patients? We must now become familiar with the basic variables that we will use time and time again in our study:
 •Time:
+
 Time is the response variable of interest in survival analysis which can be the follow-up time (in months or years) from study entry to the occurrence of an event, or it may be the age of the individual when the event occurs.
 •Event:
+
 We mean death, disease incidence, relapse from remission, or any designated ex-perience of interest that may happen to an individual.A key factor is that we must assume only one event.  If more than one event then we havea recurrent event or a competing risk, both of which will be explained in later in our study.
+
 •While studying survival analysis, we typically refer to the time variable as survival time, as it represents the time an individual has ’survived’.  Along with this we usually refer to the event as a failure, as it normally refers to the death/disease incidence or another negativeindividual experience.
 •Censoring:
+
 Censoring  is  a  key  data  analysis  problem  in  survival  analysis.   Essentially, censoring occurs when we have some information about an individuals survival time, but we don’t know the survival time exactly.
 
 2) BREAKING DOWN 'Survival Analysis':

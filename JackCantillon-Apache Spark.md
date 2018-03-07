@@ -52,7 +52,6 @@ val countsByAge = df.groupBy("age").count() // Counts people by age
 
 ##### Spark Streaming
 
-Spark Streaming
 
 Spark Streaming was an early addition to Apache Spark that allowed it gain traction in environments that required real-time or near real-time processing. Previously, batch and stream processing in the world of Apache Hadoop were separate things. You would write MapReduce code for your batch processing needs and use something like Apache Storm for your real-time streaming requirements. This obviously leads to disparate codebases that need to be kept in sync for the application domain despite being based on completely different frameworks, requiring different resources, and involving different operational concerns for running them.
 

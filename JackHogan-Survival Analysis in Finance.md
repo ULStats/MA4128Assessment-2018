@@ -10,16 +10,14 @@ survival analysis was used to study death as an event specific to medical studie
 The key objectives of survival analysis are as follows:
 
 1.Estimating time-to-event of a group of individuals:
-
 Such as time until death for a patient with kidney disease.
 
 2.To compare time-to-event between two more groups:
-
 such as treated vs placebo patients.
 
 3.To assess the relationship of co-variables to time-to-event:
-
 Such as does Albuminuria, serum creatinine, respiratory or cardiovascular problems influence the survival time of kidney disease patients? We must now become familiar with the basic variables that we will use time and time again in our study:
+
 •Time:
 
 Time is the response variable of interest in survival analysis which can be the follow-up time (in months or years) from study entry to the occurrence of an event, or it may be the age of the individual when the event occurs.

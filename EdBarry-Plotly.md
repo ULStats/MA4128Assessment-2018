@@ -36,3 +36,4 @@ Before dash, apps like these would require an entire team of engineers and desig
 
 ### references
 * www.plot.ly
+* https://en.wikipedia.org/wiki/Plotly

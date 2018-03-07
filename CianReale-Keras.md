@@ -15,4 +15,4 @@ Keras allows users to productize deep models on smartphones (iOS and Android), o
 
 It also allows use of distributed training of deep learning models on clusters of Graphics Processing Units (GPU).
 
-![Biological Neuron versus Artificial Neural Network](https://www.google.ie/search?q=biological+neuron+versus+artificial+neural+network&rlz=1C1GCEB_enIE787&source=lnms&tbm=isch&sa=X&ved=0ahUKEwibj4WXlNrZAhVP6KQKHf7wCHoQ_AUICigB&biw=1280&bih=918#imgrc=KawB7IlN8HtQdM:)
+![Biological Neuron versus Artificial Neural Network](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras+Python+Tutorial/content_content_neuron.png)

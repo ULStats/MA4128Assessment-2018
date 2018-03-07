@@ -60,7 +60,13 @@ To run the MICE programme in R the following code can be used.
 ```
 This runs the multiple imputations m=5 times, with a maximum number of iterations = 50, and since MMSE is a numeric variable, predictive mean matching is used as the method.
 
-
+#### Using complete() function
+```
+completeSet <- complete(imputed_Data,1)
+> summary(completeSet)
+```
+The above code creates a new data frame in which the imputed values from the 1st imputation are combined with the original values.
+From this the descriptive statistics can be seen.
 
 
 

@@ -6,6 +6,14 @@ In contrast to many other libraries, D3.js allows great control over the final v
 D3.js is used on hundreds of thousands of websites. Some popular uses include creating interactive graphics for online news websites, information dashboards for viewing data, and producing maps from GIS map making data. In addition, the exportable nature of SVG enables graphics created by D3 to be used in print publications.
 
 ## Context
+There have been various previous attempts to bring data visualization to web browsers. The most notable examples were the Prefuse, Flare, and Protovis toolkits, which can all be considered as direct predecessors of D3.js.
+Prefuse was a visualization toolkit created in 2005 that required usage of Java, and visualizations were rendered within browsers with a Java plug-in. Flare was a similar toolkit from 2007 that used ActionScript, and required a Flash plug-in for rendering.
 
-####references
+In 2009, based on the experience of developing and utilizing Prefuse and Flare, Jeff Heer, Mike Bostock, and Vadim Ogievetsky of Stanford University's Stanford Visualization Group created Protovis, a JavaScript library to generate SVG graphics from data. The library was known to data visualization practitioners and academics.
+In 2011, the development of Protovis was stopped to focus on a new project, D3.js. Informed by experiences with Protovis, Bostock, along with Heer and Ogievetsky, developed D3.js to provide a more expressive framework that, at the same time, focuses on web standards and provides improved performance.
+
+## Technical principles
+
+
+#### references
 * https://github.com/d3/d3/wiki/Gallery

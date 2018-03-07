@@ -1,6 +1,5 @@
 Options
-===========================
-![stock-market-3](https://github.com/DragonflyStats/MA4128Assessment/blob/master/stock-market-3.jpg)
+
 
 
 ## Option Basics

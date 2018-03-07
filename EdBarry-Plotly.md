@@ -1,7 +1,7 @@
 Plotly
 =============
 ***Ed Barry***
-
+![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Plotly-logo-01-square.png)
 ## What is Plotly?
 Plotly, also known by its URL, Plot.ly, is a technical computing company headquartered in Montreal, Quebec that develops online data analytics and visualization tools. Plotly creates leading open source tools for composing, editing, and sharing interactive data visualization via the Web.
 

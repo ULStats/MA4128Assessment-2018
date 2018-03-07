@@ -41,3 +41,9 @@ Censoring can be broken into three main types: right/left and interval censoring
 I will not be focusing all my attention on the matter. In essence, censoring plays a huge role in any partivaular statistical study. The reason for this is that studies cannot be done over an infinite time period as the there are not infinite resources available to conduct studies. This is where survival analysis comes into play as it deals with censoring and allows us to continue to make estimations based and obtain results even though we may only have partial information on an individual. Right-censoring, also known as type 1 censoring is the most common form of censoruing and this occurs when true survival time is greater than observed sutrvival time. Informally, it just means a person has not experienced an 'event' before the study period ends.
 
 ![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Rightcensoring.png)
+
+3) BASIC-SURVIVAL:
+
+One of the most important factors associated with survival analysis is the assumption underlying the time intervals. Time periods are broken up based on occuring events. So the period between t(1) and t(2) is essentially an 'event' happening. An important characteristic is that censored observations are included in time intervals but are not accounted for as events. So we must assume that the censored individual was lost at an infinitesimally small time period (delta) just before the actual event. This is key in survival analyisis and allows us to plot our estimated 'survivor curves' which are the plotted representations used in survival analysis.
+
+Our standard estimated survival curve, also known as the empirical survivor curve is simply the number of individuals that survive past a time-point (t) divided by the total number of individuals in the dataset.

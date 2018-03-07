@@ -24,7 +24,7 @@ When running the MICE package in r there is an assumption that the missing data 
 As part of the MICE package it is possible to visualise the missing data patterns. 
 Using md.pattern() a table is created to display the observations with missing data as seen below.
 In the given dataset (Eldermet), it was of interest to analyse the missing data patterns in the MMSE (mini mental state exam). Test were done at 3 time intervals and the missing data pattern was as folloows:
-* https://studentmailul-my.sharepoint.com/:i:/g/personal/14175266_studentmail_ul_ie/EYYmJ9SpO_pBos7USIH9vPkBwFAuZReOi7HU5AfpcSNl-w?e=Y3ThHW
+![MMSE Missing Data](https://studentmailul-my.sharepoint.com/:i:/g/personal/14175266_studentmail_ul_ie/EYYmJ9SpO_pBos7USIH9vPkBwFAuZReOi7HU5AfpcSNl-w?e=Y3ThHW) 
 
 ## Methods of Imputation:
 There are 4 methods of imputation used by MICE in R.

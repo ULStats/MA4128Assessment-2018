@@ -1,4 +1,3 @@
-*** Luke O'Halloran ***
 
 ## Option Basics
 An option is a contract between a buyer and a seller. It gives the buyer the right, but not the obligation to exercise at an agreed maturity.\cite{hull2016options} There is a cost to acquire an option. This cost is known as the premium. There are two types of options, calls and puts. A call option gives the holder the right to buy the underlying asset by a certain date for a certain price. A put option gives the holder the right to sell the underlying asset by a certain date for a certain price. The price in the contract is known as the exercise price or strike price; the date in the contract is known as the expiration date or maturity. European options will be the type of option that is mainly focused on in this project. They can be exercised only on the expiration date itself.
@@ -36,3 +35,6 @@ blackscholes(100,110,.05,.25,.25)[1] 
 John C Hull, Options, futures and other Derivatives 2009.
 
 https://en.wikipedia.org/wiki/Subprime_mortgage_crisis.
+
+
+*** Luke O'Halloran ***

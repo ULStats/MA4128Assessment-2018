@@ -7,6 +7,16 @@ Multiple Imputation is a statistical means of imputing or creating values for mi
 
 Before running the mice package one must identify if the missing data is either Missing at Random, Missing Completely at Random or Missing Not at Random.
 
+## Preparation
+Before MICE can be run  the package must be loaded into R.
+```
+install.packages("VIM")
+install.packages("mice")
+library(VIM)
+library(mice)
+```
+VIM is used to create the plots of the missing data analysed using the MICE package.
+
 ### Missing Data Classifications
 
 #### Missing Completely at Random:
@@ -43,7 +53,12 @@ There are 4 methods of imputation used by MICE in R.
 * polyreg(Bayesian polytomous regression) – For Factor Variables (>= 2 levels)
 * Proportional odds model (ordered, >= 2 levels)
 
-
+### Implementing MICE
+To run the MICE programme in R the following code can be used.
+```
+ imputed_Data <- mice(NewMMSE, m=5, maxit = 50, method = 'pmm', seed = 500)
+```
+This runs the multiple imputations m=5 times, with a maximum number of iterations = 50, and since MMSE is a numeric variable, predictive mean matching is used as the method.
 
 
 

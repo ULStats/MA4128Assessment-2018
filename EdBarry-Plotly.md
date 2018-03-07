@@ -9,8 +9,13 @@ Plotly was founded by Alex Johnson, Jack Parmer, Chris Parmer, and Matthew Sundq
 
 ## Products
 Plotly offers six main products:
-* Plot.ly has a graphical user interface for importing and analyzing data into a grid and using stats tools.[6] Graphs can be embedded or downloaded. Mainly used to make creating graphs faster and more efficient.
-
+* Plot.ly has a graphical user interface for importing and analyzing data into a grid and using stats tools. Graphs can be embedded or downloaded. Mainly used to make creating graphs faster and more efficient. 
+Noteable companies associated and activley use the Plotly interface are Proctor and Gamble, Shell, Invesco and S&P Capital IQ among many others.
+* API libraries for Python, R, MATLAB, Node.js, Julia, and Arduino and a REST API. Plotly can also be used to style interactive graphs with IPython.
+* Figure Converters which convert matplotlib, ggplot2, and IGOR Pro graphs into interactive, online graphs.
+* Plotly Apps for Google Chrome.
+* Plotly.js is an open source JavaScript library for creating graphs and dashboards.
+* Plotly Enterprise an on-premises installation of Plotly.
 
 
 ### Feedback

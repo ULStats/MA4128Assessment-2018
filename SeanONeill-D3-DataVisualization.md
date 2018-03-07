@@ -18,7 +18,7 @@ In 2011, the development of Protovis was stopped to focus on a new project, D3.j
 Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built JavaScript functions to select elements, create SVG objects, style them, or add transitions, dynamic effects or tooltips to them. These objects can also be widely styled using CSS. Large datasets can be easily bound to SVG objects using simple D3.js functions to generate rich text/graphic charts and diagrams. The data can be in various formats, most commonly JSON, comma-separated values (CSV) or geoJSON, but, if required, JavaScript functions can be written to read other data formats.
 
 ### Selections
-
+The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of Document Object Model (DOM) nodes, then use operators to manipulate them in a similar manner to jQuery. For example, by using D3.js, one may select all HTML <p>...</p> elements, and then change their text color, e.g. to lavender:
 
 #### References
 * https://github.com/d3/d3/wiki/Gallery

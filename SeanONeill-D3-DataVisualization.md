@@ -18,7 +18,7 @@ In 2011, the development of Protovis was stopped to focus on a new project, D3.j
 Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built JavaScript functions to select elements, create SVG objects, style them, or add transitions, dynamic effects or tooltips to them. These objects can also be widely styled using CSS. Large datasets can be easily bound to SVG objects using simple D3.js functions to generate rich text/graphic charts and diagrams. The data can be in various formats, most commonly JSON, comma-separated values (CSV) or geoJSON, but, if required, JavaScript functions can be written to read other data formats.
 
 ### Selections
-The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of Document Object Model (DOM) nodes, then use operators to manipulate them in a similar manner to jQuery. For example, by using D3.js, one may select all HTML *p ... /p* elements, and then change their text color, e.g. to lavender:
+The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of Document Object Model (DOM) nodes, then use operators to manipulate them in a similar manner to jQuery. For example, by using D3.js, one may select all HTML `<p> ... </p>` elements, and then change their text color, e.g. to lavender:
 ```
  d3.selectAll("p")                 // select all <p> elements
    .style("color", "lavender")     // set style "color" to value "lavender"
@@ -28,7 +28,7 @@ The central principle of D3.js design is to enable the programmer to first use a
 The selection can be based on tag (as in the above example), class, identifier, attribute, or place in the hierarchy. Once elements are selected, one can apply operations to them. This includes getting and setting attributes, display texts, and styles (as in the above example). Elements may also be added and removed. This process of modifying, creating and removing HTML elements can be made dependent on data, which is the basic concept of D3.js.
 
 ## Transitions
-By declaring a transition, values for attributes and styles can be smoothly interpolated over a certain time. The following code will make all HTML *p ... /p* elements on a page gradually change their text color to pink:
+By declaring a transition, values for attributes and styles can be smoothly interpolated over a certain time. The following code will make all HTML `<p> ... </p>` elements on a page gradually change their text color to pink:
 ```
 d3.selectAll("p")             // select all <p> elements
    .transition("trans_1")      // transition with name "trans_1"

@@ -44,8 +44,10 @@ values[2] <- X*exp(-rf*T) * pnorm(-d2) - S*pnorm(-d1)    values}
 ## Example of code
 blackscholes(100,110,.05,.25,.25)
 
+
 [1]  1.980506 10.614064
 
+'''
 #### *_References_*:
 John C Hull, Options, futures and other Derivatives 2009.
 

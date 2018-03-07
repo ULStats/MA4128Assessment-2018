@@ -20,10 +20,10 @@ Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built Jav
 ### Selections
 The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of Document Object Model (DOM) nodes, then use operators to manipulate them in a similar manner to jQuery. For example, by using D3.js, one may select all HTML *p ... /p* elements, and then change their text color, e.g. to lavender:
 ```
-sparkContext.textFile("hdfs://...")
-            .flatMap(line => line.split(" "))
-            .map(word => (word, 1)).reduceByKey(_ + _)
-            .saveAsTextFile("hdfs://...")
+ d3.selectAll("p")                 // select all <p> elements
+   .style("color", "lavender")     // set style "color" to value "lavender"
+   .attr("class", "squares")       // set attribute "class" to value "squares"
+   .attr("x", 50);                 // set attribute "x" (horizontal position) to value 50px
 ```
 
 #### References

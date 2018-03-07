@@ -13,6 +13,7 @@ In 2009, based on the experience of developing and utilizing Prefuse and Flare, 
 In 2011, the development of Protovis was stopped to focus on a new project, D3.js. Informed by experiences with Protovis, Bostock, along with Heer and Ogievetsky, developed D3.js to provide a more expressive framework that, at the same time, focuses on web standards and provides improved performance.
 
 ## Technical principles
+Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built JavaScript functions to select elements, create SVG objects, style them, or add transitions, dynamic effects or tooltips to them. These objects can also be widely styled using CSS. Large datasets can be easily bound to SVG objects using simple D3.js functions to generate rich text/graphic charts and diagrams. The data can be in various formats, most commonly JSON, comma-separated values (CSV) or geoJSON, but, if required, JavaScript functions can be written to read other data formats.
 
 
 #### references

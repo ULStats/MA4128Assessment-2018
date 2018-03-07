@@ -22,6 +22,8 @@ It was proposed by Black and Scholes in 1973. It gave theoretical support for tr
 
 The Black-Scholes formula allows us the calculate the price of European call and put options. Here is the formula for the price of a call using Black-Scholes
 ## Black Scholes in R-Code:
+
+'''R
 #Black-Scholes Option Value
 #Call value is returned in values[1], put in values[2]
 

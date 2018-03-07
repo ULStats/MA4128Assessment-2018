@@ -1,5 +1,5 @@
  # Data Visualization with D3
- 
+--------------------------------------------- 
 ## Introduction
 D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. It makes use of the widely implemented SVG, HTML5, and CSS standards. It is the successor to the earlier Protovis framework.
 In contrast to many other libraries, D3.js allows great control over the final visual result. Its development was noted in 2011,[4] as version 2.0.0 was released in August 2011.
@@ -15,6 +15,8 @@ In 2011, the development of Protovis was stopped to focus on a new project, D3.j
 ## Technical principles
 Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built JavaScript functions to select elements, create SVG objects, style them, or add transitions, dynamic effects or tooltips to them. These objects can also be widely styled using CSS. Large datasets can be easily bound to SVG objects using simple D3.js functions to generate rich text/graphic charts and diagrams. The data can be in various formats, most commonly JSON, comma-separated values (CSV) or geoJSON, but, if required, JavaScript functions can be written to read other data formats.
 
+### Selections
 
-#### references
+
+#### References
 * https://github.com/d3/d3/wiki/Gallery

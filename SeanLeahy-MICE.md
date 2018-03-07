@@ -20,6 +20,12 @@ Missing not at random data is described as data whose missingness depends on the
 
 When running the MICE package in r there is an assumption that the missing data is missing at random. If data is MNAR or MCAR this can lead to increased bias. 
 
+## Visualisation of Missing Data Patterns
+As part of the MICE package it is possible to visualise the missing data patterns. 
+Using md.pattern() a table is created to display the observations with missing data as seen below.
+In the given dataset (Eldermet), it was of interest to analyse the missing data patterns in the MMSE (mini mental state exam). Test were done at 3 time intervals and the missing data pattern was as folloows:
+* https://studentmailul-my.sharepoint.com/:i:/g/personal/14175266_studentmail_ul_ie/EYYmJ9SpO_pBos7USIH9vPkBwFAuZReOi7HU5AfpcSNl-w?e=Y3ThHW
+
 ## Methods of Imputation:
 There are 4 methods of imputation used by MICE in R.
 * PMM (Predictive Mean Matching)  – For numeric variables*

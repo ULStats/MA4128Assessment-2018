@@ -25,6 +25,18 @@ The central principle of D3.js design is to enable the programmer to first use a
    .attr("class", "squares")       // set attribute "class" to value "squares"
    .attr("x", 50);                 // set attribute "x" (horizontal position) to value 50px
 ```
+The selection can be based on tag (as in the above example), class, identifier, attribute, or place in the hierarchy. Once elements are selected, one can apply operations to them. This includes getting and setting attributes, display texts, and styles (as in the above example). Elements may also be added and removed. This process of modifying, creating and removing HTML elements can be made dependent on data, which is the basic concept of D3.js.
+
+## Transitions
+By declaring a transition, values for attributes and styles can be smoothly interpolated over a certain time. The following code will make all HTML *p ... /p* elements on a page gradually change their text color to pink:
+```
+d3.selectAll("p")             // select all <p> elements
+   .transition("trans_1")      // transition with name "trans_1"
+     .delay(0)                 // transition starting 0ms after trigger
+     .duration(500)            // transitioning during 500ms
+     .ease("linear")           // transition easing progression is linear...
+   .style("color", "pink");    // ... to color:pink
+```
 
 #### References
 * https://github.com/d3/d3/wiki/Gallery

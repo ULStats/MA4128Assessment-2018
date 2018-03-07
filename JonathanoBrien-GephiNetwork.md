@@ -1,6 +1,6 @@
 ## Gephi: Network Analytics
 
-![alt text]()
+![alt text](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Gephi_logo.jpg)
 
 ###### History
 Gephi is an open-source software for network visualization and analysis written in Java on the NetBeans platform. It was initally developed by student from the University of Technology of Compiègne in France in french. Gephi is now on version, 0.9.2 launched in September 2017. Gephi runs on Windows, Mac and Linux. Gephi Consortium was founded in 2010 as a french non-profit corporation which supports development of future releases of Gephi. Gephi is one of the most modern graph visualization applications available and certainly adds to the statistical analysis world. Gephi represents a friendly user interface with a sleek design and simple user controls.
@@ -12,8 +12,9 @@ Gephi is a Network visualization and analysis platform used when working with di
 * Analyse populations of posts that planning organizations post on their website. 
 * Identify key stakeholders in a community or an organization. 
 * Undersatnd the relationships between members of a network or an organization. 
-* Visualize different communities or sub communities in a network or an organisation. 
+* Visualize different communities or sub communities in a network or an organisation.
 
+![alt text](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Gephi_graph.jpg)
 ###### advantages of Gephi
 
 * Gephi has excellent visualisation capabilities

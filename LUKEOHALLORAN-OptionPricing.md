@@ -46,7 +46,7 @@ blackscholes(100,110,.05,.25,.25)
 #### *_References_*:
 John C Hull, Options, futures and other Derivatives 2009.
 
-https://en.wikipedia.org/wiki/Subprime_mortgage_crisis.
+https://www.investopedia.com/terms/o/option.asp.
 
 
 *** Luke O'Halloran ***

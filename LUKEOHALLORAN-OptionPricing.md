@@ -27,7 +27,7 @@ The Black-Scholes formula allows us the calculate the price of European call and
 #Call value is returned in values[1], put in values[2]
 
 
-'''
+```
 blackscholes <- function(S, X, rf, T, sigma) {  
 values <- c(2)    
 d1 <- (log(S/X)+(rf+sigma^2/2)*T)/(sigma*sqrt(T))  
@@ -35,14 +35,14 @@ d2 <- d1 - sigma * sqrt(T)   
 values[1] <- S*pnorm(d1) - X*exp(-rf*T)*pnorm(d2)  
 values[2] <- X*exp(-rf*T) * pnorm(-d2) - S*pnorm(-d1)    
 values}
-'''
+```
 
 
 ## Example of code
-'''
+```
 blackscholes(100,110,.05,.25,.25)
 [1]  1.980506 10.614064
-'''
+```
 #### *_References_*:
 John C Hull, Options, futures and other Derivatives 2009.
 

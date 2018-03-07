@@ -14,3 +14,5 @@ Keras contains numerous implementations of commonly used neural network building
 Keras allows users to productize deep models on smartphones (iOS and Android), on the web, or on the Java Virtual Machine.
 
 It also allows use of distributed training of deep learning models on clusters of Graphics Processing Units (GPU).
+
+![Biological Neuron versus Artificial Neural Network](https://www.datacamp.com/community/tutorials/deep-learning-python)

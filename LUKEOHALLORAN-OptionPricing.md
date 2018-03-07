@@ -24,6 +24,7 @@ The Black-Scholes formula allows us the calculate the price of European call and
 ## Black Scholes in R-Code:
 
 #Black-Scholes Option Value
+
 #Call value is returned in values[1], put in values[2]
 
 

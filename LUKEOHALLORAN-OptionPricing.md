@@ -50,4 +50,4 @@ John C Hull, Options, futures and other Derivatives 2009.
 https://www.investopedia.com/terms/o/option.asp.
 
 
-*** Luke O'Halloran ***
+***Luke O'Halloran***

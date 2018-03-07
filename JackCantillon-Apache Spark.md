@@ -1,4 +1,4 @@
-![Apache Spark logo](https://www.google.ie/search?q=apache+spark&client=firefox-b-ab&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjWwJf8jNrZAhXJjqQKHeDDDagQ_AUICygC&biw=1366&bih=631#imgrc=Zai65uPB5vrbdM:)
+![Apache Spark logo](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Stock-market.jpg)
 
 ## Apache Spark
 Jack Cantillon 14146746

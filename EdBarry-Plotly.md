@@ -14,6 +14,9 @@ Plotly offers six main products:
 * Plot.ly has a graphical user interface for importing and analyzing data into a grid and using stats tools. Graphs can be embedded or downloaded. Mainly used to make creating graphs faster and more efficient. 
 Noteable companies associated and activley use the Plotly interface are Proctor and Gamble, Shell, Invesco and S&P Capital IQ among many others.
 * API libraries for Python, R, MATLAB, Node.js, Julia, and Arduino and a REST API. Plotly can also be used to style interactive graphs with IPython.
+
+![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/plotly%20for%20R.gif)
+
 * Figure Converters which convert matplotlib, ggplot2, and IGOR Pro graphs into interactive, online graphs.
 * Dash by Plotly: Dash is a Python framework for building analytical web applications. No JavaScript required. Built on top of Plotly.js, React, and Flask, Dash ties modern UI elements like dropdowns, sliders, and graphs to your analytical Python code. Built on top of Plotly.js, React, and Flask, Dash ties modern UI elements like dropdowns, sliders, and graphs to your analytical Python code.
 Before dash, apps like these would require an entire team of engineers and designers to create. 

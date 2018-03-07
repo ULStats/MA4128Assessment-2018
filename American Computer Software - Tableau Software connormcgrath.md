@@ -13,6 +13,8 @@ Tableau offers *six* main poducts:
 4. Tableau Online
 5. Tableau Public 
 6. Tableau Mobile 
+
+
 Tableau has currently has 29,000 accounts both personal and professional related, showing the extent of its impact. And it also has tens of thousands public accounts which allows them to share data in their blogs and websites.
 Tableau Software has recieved much recognition and many accolades over the years. It has won awards including *"Best Overall in Data Visualization"* by DM Review, *"Best of 2005 for Data Analysis"* by PC Magazine and *"2008 Best Business Intelligence Solution"* by the Software & Information Industry Association.
 ###Tableau Functions

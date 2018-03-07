@@ -14,7 +14,7 @@ Gephi is a Network visualization and analysis platform used when working with di
 * Undersatnd the relationships between members of a network or an organization. 
 * Visualize different communities or sub communities in a network or an organisation.
 
-![alt text](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Gephi_graph.jpg)
+![alt text](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Gephi_graph.png)
 ###### advantages of Gephi
 
 * Gephi has excellent visualisation capabilities

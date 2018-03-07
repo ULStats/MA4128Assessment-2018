@@ -19,8 +19,7 @@ Embedded within an HTML webpage, the JavaScript D3.js library uses pre-built Jav
 
 ### Selections
 The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of Document Object Model (DOM) nodes, then use operators to manipulate them in a similar manner to jQuery. For example, by using D3.js, one may select all HTML `<p> ... </p>` elements, and then change their text color, e.g. to lavender:
-```
- d3.selectAll("p")                 // select all <p> elements
+```d3.selectAll("p")                 // select all <p> elements
    .style("color", "lavender")     // set style "color" to value "lavender"
    .attr("class", "squares")       // set attribute "class" to value "squares"
    .attr("x", 50);                 // set attribute "x" (horizontal position) to value 50px
@@ -29,14 +28,16 @@ The selection can be based on tag (as in the above example), class, identifier, 
 
 ## Transitions
 By declaring a transition, values for attributes and styles can be smoothly interpolated over a certain time. The following code will make all HTML `<p> ... </p>` elements on a page gradually change their text color to pink:
-```
-d3.selectAll("p")             // select all <p> elements
+```d3.selectAll("p")             // select all <p> elements
    .transition("trans_1")      // transition with name "trans_1"
      .delay(0)                 // transition starting 0ms after trigger
      .duration(500)            // transitioning during 500ms
      .ease("linear")           // transition easing progression is linear...
    .style("color", "pink");    // ... to color:pink
 ```
+## Data-binding
+For more advanced uses, loaded data drives the creation of elements. D3.js loads a given dataset, then, for each of its elements, creates an SVG object with associated properties (shape, colors, values) and behaviors (transitions, events).
+
 
 #### References
 * https://github.com/d3/d3/wiki/Gallery

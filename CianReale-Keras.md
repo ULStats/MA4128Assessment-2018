@@ -20,6 +20,7 @@ Keras, through deep learning, is used to peprocess, model, evaluate and optimize
 ![Biological Neuron versus Artificial Neural Network](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras+Python+Tutorial/content_content_neuron.png)
 
 ## Loading Data
+Data can be simply loaded using code like the example below.
 ```
 # Import pandas 
 import pandas as pd

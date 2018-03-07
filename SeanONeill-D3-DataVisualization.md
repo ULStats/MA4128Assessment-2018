@@ -60,6 +60,8 @@ For more advanced uses, loaded data drives the creation of elements. D3.js loads
         .attr("r",  function(d) { return d.pop / 1000 *2 })   // set the circle's radius according to country's population 
         .attr("fill", function(d) { return d.color });        // set the circle's color according to country's color
 ```
-
+## Mathematical Applications
+* Generation of pseudorandom numbers with normal, log-normal, Bates, and Irwin-Hall distributions.
+* Transformations in 2D: translation, rotation, skew, and scaling.
 #### References
 * https://github.com/d3/d3/wiki/Gallery

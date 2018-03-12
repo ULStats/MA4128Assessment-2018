@@ -76,6 +76,29 @@ e = x/y # right array division
 f = x\y # left array division
 ```
 
+Julia has built-in support for sparse vectors and matrices, stored in the compressed sparse column format. A sparse matrix, in brief, changes the way a matrix is stored, so that zero entries get eliminated and thus use no memory or computing power. Implementing a sparse matrix is simple, we type `sparse` before we define the array. For example the code
+
+```
+x = sparse([1 0 0; 4 0 6; 0 8 0])
+``` 
+gives the output:
+``` 
+  [1, 1]  =  1
+  [2, 1]  =  4
+  [3, 2]  =  8
+  [2, 3]  =  6
+``` 
+Most common commands for making an array (such as `zeros`, `ones`, and `eye`) are modified with the letter `sp` before the rest of the command, i.e:
+
+```
+spzeros(m,n)  #Creates a m-by-n matrix of zeros
+spones(S)     #Creates a matrix filled with ones.
+speye(n)      #Creates a n-by-n identity matrix.
+```
+
+We can also convert an array A to a sparse or full matrix by using `sparse(A)` or `full(A)` repectively.
+
+
 
 
 

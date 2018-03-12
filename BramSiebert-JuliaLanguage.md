@@ -1,7 +1,7 @@
 
 
 # Bram Siebert 17179246
-![Alt text](https://en.wikipedia.org/wiki/File:Julia_prog_language.svg)
+![Alt text](https://www.wilmott.com/wp-content/uploads/2017/02/jcl-logo-e1487133902152.png)
 ## Generating random graphs with Julia
 ==============================
 

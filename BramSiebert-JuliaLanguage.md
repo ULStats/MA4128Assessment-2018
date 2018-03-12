@@ -1,6 +1,7 @@
 
 
 # Bram Siebert 17179246
+![Alt text](https://en.wikipedia.org/wiki/File:Julia_prog_language.svg)
 ## Generating random graphs with Julia
 ==============================
 
@@ -74,6 +75,9 @@ d = x*y #array multiplication
 e = x/y # right array division
 f = x\y # left array division
 ```
+
+
+
 
 
   

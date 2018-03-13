@@ -75,6 +75,15 @@ d = x*y #array multiplication
 e = x/y # right array division
 f = x\y # left array division
 ```
+We can also do a lot of basic linear algebra operations in Julia, such as finding the trace, determinant or inverse of a matrix with:
+
+```
+trace(x)
+det(x)
+inv(x)
+
+```
+respectively. Of particular use is finding eigenvalues and eigenvestrs using the `eigvals(x)` and `eigvecs(x)` command. 
 
 Julia has built-in support for sparse vectors and matrices, stored in the compressed sparse column format. A sparse matrix, in brief, changes the way a matrix is stored, so that zero entries get eliminated and thus use no memory or computing power. Implementing a sparse matrix is simple, we type `sparse` before we define the array. For example the code
 
@@ -97,6 +106,8 @@ speye(n)      #Creates a n-by-n identity matrix.
 ```
 
 We can also convert an array A to a sparse or full matrix by using `sparse(A)` or `full(A)` repectively.
+
+
 
 
 

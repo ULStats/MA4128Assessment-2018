@@ -1,4 +1,4 @@
-Julia Language
+![Alt text](https://www.wilmott.com/wp-content/uploads/2017/02/jcl-logo-e1487133902152.png)
 ============================================
 # Noeleen Rawle 17071844
 ## Calling C and Fortran Code

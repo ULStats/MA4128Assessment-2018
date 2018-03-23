@@ -4,7 +4,9 @@ Apache Kafka is a distributed streaming platform. A streaming platform typically
 
 Apache Kafka is generally used for two types of applications. The first is building real-time streaming data pipelines that reliably get data between systems or applications. The second is building real-time streaming applications that transform or react to the streams of data.
 ## How it works?
-Kafka maintains feeds of messages in topics. Producers write data to topics and consumers read from topics. Since Kafka is a distributed system, topics are partitioned and replicated across multiple nodes.
+To put it simply Apache Kafka stores streams of records in topics. Producers write data to topics while consumers read from topics. Streams Processors can read streams from topics, transform and then rewrite them to topics. Connectors allow data to be streamed between Kafka and other systems.
+
+<img src="https://kafka.apache.org/10/images/kafka-apis.png" width="400" height="400">
 ## What it's used for?
 Apache Kafka is often used as a general-purpose messaging system for scenarios where high throughput, reliable delivery, and horizontal scalability are important. Some examples are;
 

@@ -8,7 +8,7 @@ To put it simply Apache Kafka stores streams of records in topics and those topi
 
 <img src="https://kafka.apache.org/10/images/kafka-apis.png" width="400" height="400">
 
-A topic is a feed to which records are published. Each topic is an ordered list. Clusters store all topics wether or not they have been consumed for a set period of time. Each cluster can have its own retention period which defines how long a record will be stored. For example if the retention period is set to be one day, then after one day a record will be discarded to free up space.
+A topic is a feed to which records are published. Each topic is an ordered list. Clusters store all topics, whether or not they have been consumed for a set period of time. Each cluster can have its own retention period which defines how long a record will be stored. For example if the retention period is set to be one day, then after one day a record will be discarded to free up space.
 ## What it's used for?
 Apache Kafka is often used as a general-purpose messaging system for scenarios where high throughput, reliable delivery, and horizontal scalability are important. Some examples are;
 

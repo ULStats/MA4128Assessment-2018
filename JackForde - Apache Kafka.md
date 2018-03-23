@@ -1,4 +1,4 @@
-# Apache Kafka
+![Image ApacheKarfka](https://kafka.apache.org/images/logo.png)
 ## What is it?
 Apache Kafka is a distributed streaming platform. A streaming platform typically lets you publish and subscribe to streams of records, store streams of records in a fault-tolerant way and process streams of records as they occur. Kafka was initially developed by LinkedIn before being further developed by the Apache Software Foundation.
 ## How it works?

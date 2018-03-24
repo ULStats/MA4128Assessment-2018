@@ -21,3 +21,5 @@ In Kafka a stream processor is anything that takes continual streams of data fro
 ## Who uses Apache Kafka?
 * Spotify use Kafka as part of their log-delivery system. They send all the data produced in all their hosts into a cluster for later processing. By using Kafka as part of their pipeline they reduced the average time needed to transfer logs from 4 hours to 10 seconds.
 * The New York Times uses Apache Kafka to store and distribute published content in real-time to the various applications used by its readers.
+* Netflix uses Kafka as part of their data pipeline for real-time monitoring and event-processing
+* Twitter uses Kafka as part of its archival. Due to the extremely large amount of traffic encountered they have set the retention period to just a few hours to give them enough time to respond to any major errors. If a real-time processing layer goes down no data will be lost as the input to the speed processing layer is a durable Kafka cluster and once the layer is back and functioning, it will catch up on the data that it should have processed during its downtime.

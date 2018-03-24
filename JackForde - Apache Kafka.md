@@ -18,6 +18,3 @@ Traditionally a messaging system uses one of two models: queuing and publish and
 Kafka was originally designed to track website activity. This means thst site activity is published to topics with one topic per activity type e.g. page views, searches. These topics are available for subscription by consumers for a number of cases including real-time processing, real-time monitoring, and loading into data warehousing systems for offline processing and reporting. Activity tracking is usually a high volume process as a single page view can generate many activity messages.
 * ### Stream Processing
 The New York Times uses Apache Kafka to store and distribute published content in real-time to the various applications used by its readers.
-* Metrics
-* Event Sourcing
-* Log Aggregation

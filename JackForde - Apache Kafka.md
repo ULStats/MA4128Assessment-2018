@@ -9,11 +9,11 @@ To put it simply Apache Kafka stores streams of records in topics and those topi
 <img src="https://kafka.apache.org/10/images/kafka-apis.png" width="400" height="400">
 
 A topic is a feed to which records are published. Each topic is an ordered list. Clusters store all topics, whether or not they have been consumed, for a set period of time. Each cluster can have its own retention period which defines how long a record will be stored. For example if the retention period is set to be one day, then after one day a record will be discarded to free up space.
+
+When data is written to Kafka it is also replicated for fault-tolerance. The disk structures Kafka uses scale well, meaning Kafka will perform the same whether you have 50 KB or 50 TB of data on the server. Because of this Kafka works very well as a storage system due to its fault-tolerance and scalability.
 ## What it's used for?
 * ### Messaging System
 Traditionally a messaging system uses one of two models: queuing and publish and subscribe. In a queue, a pool of consumers may read from a server and each record goes to one of them; in publish-subscribe the record is broadcast to all consumers. Each Model has both advantages and disadvantages. The advantage of Kafka is that every topic has both of these properties. As a result Kafka is often used for scenarios where high throughput, reliable delivery, and scalability are important. Kafka is comparable to traditional messaging systems such as ActiveMQ or RabbitMQ.
-* ### Storage System
-Kafka works well storage system. When data is written to Kafka it is also replicated for fault-tolerance. The disk structures Kafka uses scale well, meaning Kafka will perform the same whether you have 50 KB or 50 TB of data on the server.
 * ### Website Activity Tracking
 * ### Stream Processing
 The New York Times uses Apache Kafka to store and distribute published content in real-time to the various applications used by its readers.

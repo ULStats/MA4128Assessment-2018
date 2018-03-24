@@ -15,6 +15,7 @@ When data is written to Kafka it is also replicated for fault-tolerance. The dis
 * ### Messaging System
 Traditionally a messaging system uses one of two models: queuing and publish and subscribe. In a queue, a pool of consumers may read from a server and each record goes to one of them; in publish-subscribe the record is broadcast to all consumers. Each Model has both advantages and disadvantages. The advantage of Kafka is that every topic has both of these properties. As a result Kafka is often used for scenarios where high throughput, reliable delivery, and scalability are important. Kafka is comparable to traditional messaging systems such as ActiveMQ or RabbitMQ.
 * ### Website Activity Tracking
+Kafka was originally designed to track website activity. This means thst site activity is published to topics with one topic per activity type e.g. page views, searches. These topics are available for subscription by consumers for a number of cases including real-time processing, real-time monitoring, and loading into data warehousing systems for offline processing and reporting. Activity tracking is usually a high volume process as a single page view can generate many activity messages.
 * ### Stream Processing
 The New York Times uses Apache Kafka to store and distribute published content in real-time to the various applications used by its readers.
 * Metrics

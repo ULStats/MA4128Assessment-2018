@@ -16,4 +16,6 @@ A topic is a feed to which records are published. Each topic is an ordered list.
 * Event Sourcing
 * Log Aggregation
 ### Messaging System
-Traditionally a messaging system uses one of two models: queuing and publish and subscribe. In a queue, a pool of consumers may read from a server and each record goes to one of them; in publish-subscribe the record is broadcast to all consumers. Each Model has both advantages and disadvantages. The advantage of Kafka is that every topic has both of these properties. As a result Kafka is often used for scenarios where high throughput, reliable delivery, and scalability are important.
+Traditionally a messaging system uses one of two models: queuing and publish and subscribe. In a queue, a pool of consumers may read from a server and each record goes to one of them; in publish-subscribe the record is broadcast to all consumers. Each Model has both advantages and disadvantages. The advantage of Kafka is that every topic has both of these properties. As a result Kafka is often used for scenarios where high throughput, reliable delivery, and scalability are important. Kafka is comparable to traditional messaging systems such as ActiveMQ or RabbitMQ.
+### Storage System
+Kafka works well storage system. When data is written to Kafka it is also replicated for fault-tolerance. The disk structures Kafka uses scale well, meaning Kafka will perform the same whether you have 50 KB or 50 TB of data on the server.

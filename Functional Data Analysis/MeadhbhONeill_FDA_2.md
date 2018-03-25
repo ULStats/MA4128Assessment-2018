@@ -60,3 +60,5 @@ Functional data analysis provides a basis for ensuring that important data are n
 [Functional data analysis of knee joint kinematics in the vertical jump](https://www.researchgate.net/profile/Andrew_Harrison6/publication/7255844_Functional_data_analysis_of_knee_joint_kinematics_in_the_vertical_jump/links/54abb6b20cf2bce6aa1d9bc1/Functional-data-analysis-of-knee-joint-kinematics-in-the-vertical-jump.pdf)
 
 [Standing Vertical Jump](http://people.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/VerticalJumping.htm)
+
+![Alt Text](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/jump.gif)

@@ -3,29 +3,18 @@ SAS
 ***Caitriona Mckey(14139189)***
 ## History of SAS
 SAS solutions meet the specific needs of a number of industries. These industries are: 
-*  Automotive
-*  Banking
-*  Capital Markets
-*  Casinos
-*  Communications
-*  Consumer Goods
-*  Defense & Security
-*  Government
-*  Health Care
-*  Health Insurance
-*  High-Tech Manufacturing
-*  Higher Education
-*  Hotels
-*  Insurance
-*  Life Sciences
-*  Manufacturing
-*  Media
-*  Oil & Gas
-*  P-12 Education
-*  Retail
-*  Small & Midsize Business
-*  Sports Analytics
-*  Travel & Transportation
+
+*  Automotive                          *  Insurance
+*  Banking                             *  Higher Education
+*  Hotels                              *  High-Tech Manufacturing
+*  Life Sciences                       *  Health Insurance
+*  Media                               *  Manufacturing
+*  Oil & Gas                           *  Health Care
+*  P-12 Education                      *  Government
+*  Retail                              *  Defense & Security
+*  Small & Midsize Business            *  Consumer Goods
+*  Sports Analytics                    *  Communications
+*  Travel & Transportation             *  Capital Markets
 *  Utilities
 
 We will now discuss how SAS meet he needs of some of these industries

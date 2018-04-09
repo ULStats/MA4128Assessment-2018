@@ -33,7 +33,7 @@ SAS solutions meet the specific needs of a number of industries. These industrie
 
 We will now discuss how SAS meet the needs of some of these industries
 ## 1. Banking
-![Alt text](https://exitpromise.com/wp-content/uploads/2013/07/Banking-Structure.jpg)
+![Alt text](https://exitpromise.com/wp-content/uploads/2013/07/Banking-Structure.jpg?auto=compress&cs=tinysrgb&h=350)
 
 
 99 of the top 100 global banks use SAS.
@@ -47,7 +47,7 @@ SAS delivers comprehensive solutions for:
 * Expected credit loss (IFRS 9/CECL). Perform credit exposure modeling for new financial reporting requirements in the US and around the world.
 
 ## 2. Automotive Solutions
-![Alt text](https://www.nehmeh.com/wp-content/uploads/2014/08/auto-800-590.jpg)
+![Alt text](https://www.nehmeh.com/wp-content/uploads/2014/08/auto-800-590.jpg?auto=compress&cs=tinysrgb&h=350)
 
 
 SAS can ease the cost of vehicle ownership for customers and enhance how they interact with brands. With SAS, firms gain insight into product quality and boost profitability with innovative promotions and vehicle performance monitoring. SAS helps strategize and bring valuable services to market with benefits such as: 
@@ -59,7 +59,7 @@ SAS can ease the cost of vehicle ownership for customers and enhance how they in
 * Multimodal transportation
 
 ## 3. Casinos
-![Alt text](http://best-rakeback.com/wp-content/uploads/2018/02/54.png)
+![Alt text](http://best-rakeback.com/wp-content/uploads/2018/02/54.png?auto=compress&cs=tinysrgb&h=350)
 
 
  SAS Credit Risk Management solutions provide precise understanding of patron needs, preferences, expectations and activities. SAS deliver casino software solutions that include capabilities for:
@@ -70,7 +70,7 @@ SAS can ease the cost of vehicle ownership for customers and enhance how they in
 * Marketing optimization
 
 ## 4. Defence and Security
-![Alt text](https://www.translatemedia.com/wp-content/uploads/2011/12/defense-and-security.jpg)
+![Alt text](https://www.translatemedia.com/wp-content/uploads/2011/12/defense-and-security.jpg?auto=compress&cs=tinysrgb&h=350)
 
 
  SAS defense and security software addresses your highest priorities, including:

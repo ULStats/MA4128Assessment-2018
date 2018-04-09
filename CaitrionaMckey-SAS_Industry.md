@@ -80,3 +80,7 @@ SAS can ease the cost of vehicle ownership for customers and enhance how they in
 * Predictive maintenance.
 * Defense health
 * Scenario planning
+
+**Reference List**
+
+1. Industry | SAS Ireland. [ONLINE] Available at: https://www.sas.com/en_ie/industry.html.

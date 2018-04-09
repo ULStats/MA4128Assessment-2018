@@ -30,7 +30,8 @@ SAS solutions meet the specific needs of a number of industries. These industrie
 
 
 We will now discuss how SAS meet the needs of some of these industries
-https://exitpromise.com/wp-content/uploads/2013/07/Banking-Structure.jpg
+
+![Alt text](https://exitpromise.com/wp-content/uploads/2013/07/Banking-Structure.jpg)
 ## 1. Banking
 99 of the top 100 global banks use SAS.
  SAS Credit Risk Management solutions  puts on-demand, high-performance risk analytics in the hands of CRO and risk professionals, and balance short- and long-term strategies.

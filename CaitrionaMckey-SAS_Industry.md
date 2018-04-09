@@ -6,6 +6,7 @@ SAS Industry
 
 
 SAS solutions meet the specific needs of a number of industries. These industries are: 
+
 *  Banking
 *  Capital Markets
 *  Casinos
@@ -34,6 +35,7 @@ We will now discuss how SAS meet the needs of some of these industries
 ## 1. Banking
 ![Alt text](https://exitpromise.com/wp-content/uploads/2013/07/Banking-Structure.jpg)
 
+
 99 of the top 100 global banks use SAS.
  SAS Credit Risk Management solutions  puts on-demand, high-performance risk analytics in the hands of CRO and risk professionals, and balance short- and long-term strategies.
 
@@ -46,6 +48,8 @@ SAS delivers comprehensive solutions for:
 
 ## 2. Automotive Solutions
 ![Alt text](https://www.nehmeh.com/wp-content/uploads/2014/08/auto-800-590.jpg)
+
+
 SAS can ease the cost of vehicle ownership for customers and enhance how they interact with brands. With SAS, firms gain insight into product quality and boost profitability with innovative promotions and vehicle performance monitoring. SAS helps strategize and bring valuable services to market with benefits such as: 
 
 * Predictive maintenance
@@ -56,6 +60,8 @@ SAS can ease the cost of vehicle ownership for customers and enhance how they in
 
 ## 3. Casinos
 ![Alt text](http://best-rakeback.com/wp-content/uploads/2018/02/54.png)
+
+
  SAS Credit Risk Management solutions provide precise understanding of patron needs, preferences, expectations and activities. SAS deliver casino software solutions that include capabilities for:
 
 * Data managemen
@@ -65,6 +71,8 @@ SAS can ease the cost of vehicle ownership for customers and enhance how they in
 
 ## 4. Defence and Security
 ![Alt text](https://www.translatemedia.com/wp-content/uploads/2011/12/defense-and-security.jpg)
+
+
  SAS defense and security software addresses your highest priorities, including:
 
 * Personnel

@@ -34,11 +34,12 @@ In case these advantages weren’t straightforward enough, you should definitely
 
 Database management is important, and when things get complex it’s easy to mess up data. SQL keeps things organized and simple, protecting your database from accidental manipulation and speeding up the process of data management. It’s quick, efficient, and will save your company a lot of money in the long run.
 
--- Stores analytical models created by expert data scientists for easy reuse. Models can be scaled to be used by multiple applications.
--- Monitors execution of models and logs their telemetry. Enables champion-challenger view to compare and promote trained models.
--- Reduces complexity of working with models, deploy models, managing model metadata, version control and security.
--- lowers barries to adoptiong of analytical models and enables faster development of intelligent apps with rapid iteration
--- Enables anayone to participate in modelling process
+
+Why companies choose to use SQL
+--------------------------------
+SO why do companies choose to use SQL sever for machine learning model management over others?
+SQL servers store analytical models created by expert data scientists, making it easy for reuse. These models can be scaled and then used by many other applications. Another reason SQL is chose is because SQL reduces the difficulty of working with models such as deploy models and managing models metadata as well as offering version contol and security. SQl also lowers barriers to adopting analytical models and enables faster development if intelligent application with rapid iteration. However, most importantly, SQL enables anyone to participate in the modelling process. 
+
 <img src="https://msdnshared.blob.core.windows.net/media/2016/10/Why-SQL-Server-2016-for-machine-learning-model-management1.png" width="500">
 
 

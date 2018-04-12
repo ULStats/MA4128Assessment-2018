@@ -37,8 +37,14 @@ Database management is important, and when things get complex it’s easy to mes
 
 Why companies choose to use SQL
 --------------------------------
-SO why do companies choose to use SQL sever for machine learning model management over others?
-SQL servers store analytical models created by expert data scientists, making it easy for reuse. These models can be scaled and then used by many other applications. Another reason SQL is chose is because SQL reduces the difficulty of working with models such as deploy models and managing models metadata as well as offering version contol and security. SQl also lowers barriers to adopting analytical models and enables faster development if intelligent application with rapid iteration. However, most importantly, SQL enables anyone to participate in the modelling process. 
+So why do companies choose to use SQL sever for machine learning model management over others? It's safe to say that SQL simply makes life easier. It doesn't take a long time for you programmer to set up and it's easy to maintain. As for database managment, SQL is an organised system that protects your database from accidental manilipulation. 
+
+
+However more technical reasons for choosing are:
+*   SQL servers store analytical models created by expert data scientists, making it easy for reuse. These models can be scaled and then used by many other applications. 
+*   Another reason SQL is chose is because SQL reduces the difficulty of working with models such as deploy models and managing models metadata as well as offering version contol and security. 
+*   SQl also lowers barriers to adopting analytical models and enables faster development if intelligent application with rapid iteration. 
+*   However, most importantly, SQL enables anyone to participate in the modelling process. 
 
 <img src="https://msdnshared.blob.core.windows.net/media/2016/10/Why-SQL-Server-2016-for-machine-learning-model-management1.png" width="500">
 

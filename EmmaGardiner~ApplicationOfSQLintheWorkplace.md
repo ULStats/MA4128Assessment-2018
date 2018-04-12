@@ -20,19 +20,24 @@ SQL is rather easy to work with itself, even though setting it up can sometimes 
 
 Used by large companies
 --------------------------
-Microsoft may be one of the largest companies out there to employ SQL. Microsoft uses it in Open Database Connectivity, SQL Server, and ActiveX Data Objects. You’ll also find that a majority of software development companies out there will use SQL with their programs in order to manage databases efficiently.
+One of the largest companies in the world, Microsoft, use SQL. Microsoft uses it in Open Database Connectivity, SQL Server, and ActiveX Data Objects. Many large companies use this Microsoft SQL server, such as:
+*    Nigel Frank International Limited [Companies Website](https://www.nigelfrank.com)
+*    Jack Henry & Associates, Inc. [Companies Website](https://www.jackhenry.com)
+*    Eagle Creek Software Services, Inc.[Companies Website](https://www.eaglecrk.com)
+*    ARUP Laboratories [Companies Website](https://www.aruplab.com)
+*    PEOPLE TECH GROUP [Companies Website](https://www.peopletechgroup.com)
+
+
+You’ll also find that a majority of software development companies out there will use SQL with their programmess in order to manage databases efficiently.
 
 Relational database managment
 ------------------------------
 <img src="https://blog.udemy.com/wp-content/uploads/2014/01/shutterstock_117975625-300x275.jpg" width="500">
 
-Relational databases are designed to have information that relates to one another, often through a primary key. In this type of structure, the database is organized into tables with a certain row having relations with other tables, such as an ID value. SQL makes it easy to relate tables through primary keys so that you can retrieve information from several tables at once and display it in an organized method that’s easy to read. For example, you might have a table of students as well as a table of classes. Using SQL, you can combine elements from both tables to figure out which student is taking which class as well as the teacher they will have, pulling that from the classes table.
+Firstly, what is a relational database? A relational database is a collection of data items organized as a set of formally-described tables from which data can be accessed or reassembled in many different ways without having to reorganize the database tables.
+These relational databases are designed to have information from one table that relates to another table. This if often through a primary key. An example of this is would be two tables with an ID value. SQL makes it easy to relate these tables through primary keys in order for them to retrieve information from several tables at once which is then displayed in a very easy to read mannor.
 
-Should you use SQL?
--------------------
-In case these advantages weren’t straightforward enough, you should definitely use SQL. SQL makes your life a whole lot easier and doesn’t take very much of your programmer’s time to setup. It is also easy to maintain, and when things get complex you can always use the 12 steps to SQL performance tuning to easily fix the complexities.
-
-Database management is important, and when things get complex it’s easy to mess up data. SQL keeps things organized and simple, protecting your database from accidental manipulation and speeding up the process of data management. It’s quick, efficient, and will save your company a lot of money in the long run.
+An example of this would be, say you have two tables. The first table contains students details, while the second table contacins classes. Using SQL, you can join elements from both tables, such as student IDs, to find which students are taking what classes.
 
 
 Why companies choose to use SQL

@@ -2,6 +2,8 @@ Applications of SQL in the Workplace
 ========================================
 ##### _Emma Gardiner_
 ##### 14165864
+<img src="http://www.iqonlinetraining.com/wp-content/uploads/2016/05/SQL-database-code-Feature_1290x688_MS1-1024x509.jpg" width="300">
+
 
 SQL is simply a basic programming language, which is used for organising information in a database and to send and recienve information about the database. It has necessary applications for large companies, but some medium and small companies have been found to used SQL in recent year.SQL is very useful for business-to-customer companies and also for companies that specialise in delivering a product to its customers.
 

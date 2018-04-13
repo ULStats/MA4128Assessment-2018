@@ -30,7 +30,7 @@ Another example could be counting the number of employees in each county, where 
 SELECT COUNTY,
        COUNT(DISTINCT EMPLOYEE_ID) AS NUMBER_OF_EMPLOYEES
 FROM EMPLOYEE_TABLE
-GROUP BY COUNTY
+GROUPBY COUNTY
 ```
 where the DISTINCT conmand makes sure that an employees number is only counted once.
 

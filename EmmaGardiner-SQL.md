@@ -69,6 +69,47 @@ One method in SQL is to join two table together. A **JOIN** clause is used to co
 
 <img src="https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg" width="700">
 
+An Example of a join may be if you have two table CUSTOMER_TBL and PRODUCT_TBL, such that
+
+# NEW_TABLE
+| CUSTOMER_ID   | CUSTOMER_NAME |  ORDER_ID   |
+| :-----------: |:-------------:| :----------:|
+| 000998        | Joe Bloggs    |   15315     |
+| 009871        | Sarah White   |   15542     |
+| 001112        | Paula Flynn   |   15563     |
+| 000259        | Pat Shortt    |   15316     |
+| 001111        | Mike Myers    |   15330     |
+and 
+
+# NEW_TABLE
+| PRODUCT_ID  | PRODUCT_NAME  |
+|:-----------:|--------------:|
+|   10010     | Red Pen       |
+|   00021     | Blue pen      |
+|   00897     | Black pen     |
+|   01895     | Grey pen      |
+|   02223     | Green pen     |
+|   00877     | Yellow pen    |
+And you decide to do an INNER JOIN
+```
+CREATE TABLE NEW_TABLE
+SELECT a.CUSTOMER_ID,
+       a.ORDER_ID
+       b.PRODUCT_ID
+       B.PRODUCT_NAME
+FROM CUSTOMER_TBL a
+INNER JOIN PRODUCT_TBL b
+    ON a.PRODUCT_ID = b.PRODUCT_ID
+```
+Which gives us the table
+# NEW_TABLE
+| CUSTOMER_ID   | ORDER_ID      | PRODUCT_ID  | PRODUCT_NAME  |
+| ------------- |:-------------:|:-----------:|--------------:|
+| 000998        | 15315         |   10010     | Red Pen       |
+| 000259        | 15316         |   00021     | Blue pen      |
+| 001111        | 15330         |   00897     | Black pen     |
+
+
 
 #### *_References_*:
 [Brief History of SQL](https://www.webucator.com/tutorial/learn-sql/relational-database-basics/brief-history-of-sql-reading.cfm)

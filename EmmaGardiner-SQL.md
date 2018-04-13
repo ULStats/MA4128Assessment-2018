@@ -24,14 +24,15 @@ SQL commands are divided into several different types, among them data manipulat
 SQL syntax is the coding format used in writing statements. Some of The Most Important SQL Commands are:
 ```
 SELECT - extracts data from a database
+FROM - table data is taken from
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
 UPDATE - updates data in a database
 DELETE - deletes data from a database
 INSERT INTO - inserts new data into a database
 CREATE DATABASE - creates a new database
 ALTER DATABASE - modifies a database
-CREATE TABLE - creates a new table
-ALTER TABLE - modifies a table
-DROP TABLE - deletes a table
 CREATE INDEX - creates an index 
 DROP INDEX - deletes an index
 ```
@@ -67,3 +68,10 @@ One method in SQL is to join two table together. A **JOIN** clause is used to co
 4. **OUTER JOIN**: Returns all the records where there is a match on either the left or right table
 
 <img src="https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg" width="700">
+
+
+#### *_References_*:
+[Brief History of SQL](https://www.webucator.com/tutorial/learn-sql/relational-database-basics/brief-history-of-sql-reading.cfm)
+[UNIONs and JOINs](https://www.essentialsql.com/what-is-the-difference-between-a-join-and-a-union/)
+[SQL Syntax](https://www.w3schools.com/sql/)
+

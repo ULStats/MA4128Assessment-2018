@@ -71,14 +71,12 @@ One method in SQL is to join two table together. A **JOIN** clause is used to co
 
 An Example of a join may be if you have two table CUSTOMER_TBL and PRODUCT_TBL, such that
 
-##### PRODUCT_TBL
-| CUSTOMER_ID   | CUSTOMER_NAME |  ORDER_ID   |
-| :-----------: |:-------------:| :----------:|
-| 000998        | Joe Bloggs    |   15315     |
-| 009871        | Sarah White   |   15542     |
-| 001112        | Paula Flynn   |   15563     |
-| 000259        | Pat Shortt    |   15316     |
-| 001111        | Mike Myers    |   15330     |
+##### CUSTOMER_TBL
+| CUSTOMER_ID   | CUSTOMER_NAME |  ORDER_ID   |  PRODUCT_ID  |
+| :-----------: |:-------------:| :----------:|:------------:|
+| 000998        | Joe Bloggs    |   15315     |  10010       |
+| 000259        | Pat Shortt    |   15316     |  00021       |
+| 001111        | Mike Myers    |   15330     |  00897       |
 
 and 
 

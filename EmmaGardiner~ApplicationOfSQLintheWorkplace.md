@@ -16,7 +16,24 @@ SQL’s sole design is to manage databases, and that’s the biggest benefit it 
 
 Little coding required
 -----------------------
-SQL is rather easy to work with itself, even though setting it up can sometimes be confusing. SQL only has seven different commands, which is a lot simpler than most programming languages. Of course, these commands can be used in a variety of ways so it does get a little more complicated, but not much. Compared to other languages, SQL is one of the least code dependent.
+SQL doesn't require long lines of code. SQL only has a handful of commands, making a simple programming language to learn and much easier to learn that most programming languages. It is true that this small handfull of commands can be used in a large vaietry of ways, meaning that it can become slightly complicated, but compared to most, SQL is one of the least code dependent programming languages. For example in order to obtain all employees aged between 25 and 30 who live in Dublin from a table called EMPLOYEE_TABLE, the code is simply,
+```
+SELECT EMPLOYEE_ID,
+       EMPLOYEE_FIRST_NAME,
+       EMPLOYEE_LAST_NAME
+FROM EMPLOYEE_TABLE
+WHERE 25 <= EMPLOYEE_AGE <= 30
+      AND COUNTY = "DUBLIN"
+```
+Another example could be counting the number of employees in each county, where the code is,
+```
+SELECT COUNTY,
+       COUNT(DISTINCT EMPLOYEE_ID) AS NUMBER_OF_EMPLOYEES
+FROM EMPLOYEE_TABLE
+GROUP BY COUNTY
+```
+where the DISTINCT conmand makes sure that an employees number is only counted once.
+
 
 Used by large companies
 --------------------------

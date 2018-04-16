@@ -111,8 +111,7 @@ Conclusion:
 
 Technical Trading Rules are essentially tools from which a trader can try and predict the future of a stock market. Mainly focusing on previous occurences, and applying these findings to shape their future predictions, in the hope of being correct, of course there is no gaurantee. 
 
-The rules I mentioned are merely a guide from which you can make a judgement with a degree of confidence but not certainty as if you could be certain that a stock will react in a particular way then the market would be inefficient and making money off it would be easy. This apporach also has an influence on the market as if most traders use these techniques then.
-
+The rules I mentioned are merely a guide from which you can make a judgement with a degree of confidence but not certainty as if you could be certain that a stock will react in a particular way then the market would be inefficient and making money off it would be easy. This apporach also has an influence on the market because if most traders use these techniques then they will have similar strategies and perform similar trades, and although one trader on his own would be like a drop in the ocean, enough trader doing the same trade will cause the stock to shift.
 
 * https://cran.r-project.org/web/packages/TTR/index.html
 

@@ -10,14 +10,6 @@ Extreme value theory or extreme value analysis (EVA) is a branch of statistics d
 
 Two approaches exist for practical extreme value analysis.The first method relies on deriving block maxima (minima) series as a preliminary step. In many situations it is customary and convenient to extract the annual maxima (minima), generating an "Annual Maxima Series" (AMS).The second method relies on extracting, from a continuous record, the peak values reached for any period during which values exceed a certain threshold (falls below a certain threshold). This method is generally referred to as the "Peak Over Threshold"  method (POT). For AMS data, the analysis may partly rely on the results of the Fisher–Tippett–Gnedenko theorem, leading to the generalized extreme value distribution being selected for fitting. However, in practice, various procedures are applied to select between a wider range of distributions. The theorem here relates to the limiting distributions for the minimum or the maximum of a very large collection of independent random variables from the same distribution. Given that the number of relevant random events within a year may be rather limited, it is unsurprising that analyses of observed AMS data often lead to distributions other than the generalized extreme value distribution (GEVD) being selected. For POT data, the analysis may involve fitting two distributions: one for the number of events in a time period considered and a second for the size of the exceedances.A common assumption for the first is the Poisson distribution, with the generalized Pareto distribution being used for the exceedances. A tail-fitting can be based on the Pickands–Balkema–de Haan theorem. Novak reserves the term “POT method” to the case where the threshold is non-random, and distinguishes it from the case where one deals with exceedances of a random threshold.
 
-'''
-im
-x ∞
-1−F  xtb x
-1−F  x
-=e
-−t
-'''
 
 ***Application***
 

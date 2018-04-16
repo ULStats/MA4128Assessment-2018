@@ -13,17 +13,17 @@ Two approaches exist for practical extreme value analysis.The first method relie
 ***Aplication***
 
 Applications of extreme value theory include predicting the probability distribution of:
--Extreme floods; The size of freak wavesMaximum sizes of ecological populations 
--Side effects of drugs (e.g., Ximelagatran)
--The amounts of large insurance lossesEquity risks;
--Day to day market risk
--Mutational events during evolution
--Large wildfires 
--Environmental loads on structures
--It can be applied to some characterization of the distribution of the maxima of incomes, like in some surveys done in virtually all the National Offices of Statistics
--Estimate fastest time humans are capable of running the 100 metres sprint and performances in other athletic disciplines.
--Pipeline failures due to pitting corrosion.
--Anomalous IT network traffic, prevent attackers from reaching important data
+* Extreme floods; The size of freak wavesMaximum sizes of ecological populations 
+* Side effects of drugs (e.g., Ximelagatran)
+* The amounts of large insurance lossesEquity risks;
+* Day to day market risk
+* Mutational events during evolution
+* Large wildfires 
+* Environmental loads on structures
+* It can be applied to some characterization of the distribution of the maxima of incomes, like in some surveys done in virtually all the National Offices of Statistics
+* Estimate fastest time humans are capable of running the 100 metres sprint and performances in other athletic disciplines.
+* Pipeline failures due to pitting corrosion.
+* Anomalous IT network traffic, prevent attackers from reaching important data
 
 ***History***
 

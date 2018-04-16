@@ -20,6 +20,11 @@ Murphy’s rules are designed to explain the concept of technical trading to the
 
 Study long-term charts. Begin a chart analysis with monthly and weekly charts spanning several years. A larger scale “map of the market” provides more visibility and a better long-term perspective on a market. Once the long-term has been established, then consult daily and intra-day charts. A short-term market view alone can often be deceptive. Even if you only trade the very short term, you will do better if you’re trading in the same direction as the intermediate and longer term trends.
 
+image:: C:\WorkArea\Kevin O'Brien 
+  :height: 100px
+  :width: 200 px
+  :scale: 50 %
+
 * 2 Spot the Trend and Go With It
 
 Determine the trend and follow it. Market trends come in many sizes: long-term, intermediate-term and short-term. First, determine which one you’re going to trade and use the appropriate chart. Make sure you trade in the direction of that trend. Buy dips if the trend is up. Sell rallies if the trend is down. If you're trading the intermediate trend, use daily and weekly charts. If you're day trading, use daily and intra-day charts. But in each case, let the longer range chart determine the trend, and then use the shorter term chart for timing.

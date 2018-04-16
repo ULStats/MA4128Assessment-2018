@@ -30,6 +30,34 @@ Find support and resistance levels. The best place to buy a market is near suppo
 
 * 4 Know How Far to Backtrack
 
+Measure percentage retracements. Market corrections up or down usually retrace a significant portion of the previous trend. You can measure the corrections in an existing trend in simple percentages. A 50% retracement of a prior trend is most common. A minimum retracement is usually one-third of the prior trend. The maximum retracement is usually two-thirds. Fibonacci retracements of 38.2% and 61.8% are also worth watching. During a pullback in an uptrend, therefore, initial buy points are in the 33-38% retracement area.
+
+* 5 Draw the Line
+
+Draw trend lines. Trend lines are one of the simplest and most effective charting tools. All you need is a straight edge and two points on the chart. Up trend lines are drawn along two successive lows. Down trend lines are drawn along two successive peaks. Prices will often pull back to trend lines before resuming their trend. The breaking of trend lines usually signals a change in trend. A valid trend line should be touched at least three times. The longer a trend line has been in effect, and the more times it has been tested, the more important it becomes.
+
+* 6 Follow that Average
+
+Follow moving averages. Moving averages provide objective buy and sell signals. They tell you if the existing trend is still in motion and help confirm a trend change. Moving averages do not tell you in advance, however, that a trend change is imminent. A combination chart of two moving averages is the most popular way of finding trading signals. Some popular futures combinations are 4- and 9-day moving averages, 9- and 18-day, 5- and 20-day. The shorter average line crossing the longer is a key signal. Price crossings above and below a 40-day moving average also provide good trading signals. Since moving average chart lines are trend-following indicators, they work best in a trending market.
+
+* 7 Learn the Turns
+
+Track oscillators. Oscillators help identify overbought and oversold markets. While moving averages offer confirmation of a market trend change, oscillators help warn us of markets that have rallied/ fallen too far and that may soon turn. Two of the most popular are the Relative Strength Index (RSI) and Stochastics. They both work on a scale of 0 to 100. With the RSI, readings over 70 are indicative of a market that is overbought while readings below 30 point to an oversold market. The overbought and oversold values for Stochastics are 80 and 20 respectively. Most traders use 14 days or weeks for stochastics and either 9 or 14 days or weeks for RSI. Oscillator divergences often warn of market turns. These tools work best in a trading market range. Weekly signals can be used as filters on daily signals. Daily signals can be used as filters for intra-day charts.
+
+* 8 Know the Warning Signs
+
+Trade MACD. The Moving Average Convergence Divergence (MACD) indicator combines a moving average crossover system with the overbought/oversold elements of an oscillator. A buy signal may be justified when the faster line crosses above the slower and both lines are below zero. A sell signal may be appropriate when the faster line crosses below the slower from above the zero line. Weekly signals take precedence over daily signals. A MACD histogram plots the difference between the two lines and gives even earlier warnings of trend changes. It's called a “histogram” because vertical bars are used to show the difference between the two lines on the chart.
+
+* 9 Trend or Not a Trend
+
+Use ADX. The Average Directional Movement Index (ADX) line helps determine whether a market is in a trending or a trading phase. It measures the degree of trend or direction in the market. A rising ADX line suggests the presence of a strong trend. A falling ADX line suggests the presence of a trading market and the absence of a trend. A rising ADX line favors moving averages; a falling ADX favors oscillators. By plotting the direction of the ADX line, the trader is able to determine which trading style and which set of indicators are most suitable for the current market environment.
+
+* 10 Know the Confirming Signs
+
+Volume and open interest are important confirming indicators in futures markets. Volume precedes price. It is important to ensure that heavier volume is taking place in the direction of the prevailing trend. In an uptrend, heavier volume should be seen on up days. Rising open interest confirms that new money is supporting the prevailing trend. Declining open interest is often a warning sign that the trend is near completion. A solid price uptrend should be accompanied by rising volume and rising open interest.
+
+
+One final note of caution: Do not try to incorporate every technical tool out there in every single one of your trades. They all have value and some work well in concert with others, but when you try and deploy them all at once, you stand the risk of suffering “paralysis by analysis.”
 
 
 

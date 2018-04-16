@@ -35,6 +35,10 @@ Determine the trend and follow it. Market trends come in many sizes: long-term, 
 
 Find support and resistance levels. The best place to buy a market is near support levels. That support is usually a previous reaction low. The best place to sell a market is near resistance levels. Resistance is usually a previous peak. After a resistance peak has been broken, it will usually provide support on subsequent pullbacks. In other words, the old "high" becomes the new "low." In the same way, when a support level has been broken, it will usually produce selling on subsequent rallies -- the old "low" can become the new "high".
 
+* Old Support can be New Resistance
+
+![Old Support - New Resistance](http://www.onlinetradingconcepts.com/images/technical-analysis/SupportResistanceAA.gif)
+
 * 4 Know How Far to Backtrack
 
 Measure percentage retracements. Market corrections up or down usually retrace a significant portion of the previous trend. You can measure the corrections in an existing trend in simple percentages. A 50% retracement of a prior trend is most common. A minimum retracement is usually one-third of the prior trend. The maximum retracement is usually two-thirds. Fibonacci retracements of 38.2% and 61.8% are also worth watching. During a pullback in an uptrend, therefore, initial buy points are in the 33-38% retracement area.

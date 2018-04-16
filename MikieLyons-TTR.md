@@ -10,6 +10,10 @@ In finance, technical analysis is an analysis methodology for forecasting the di
 Technical analysis involves making investment decisions based on past trading data. It aims to establish buying and selling rules that maximize profits and still control risks of loss. Unfortunately, according to the efficient market hypothesis (EMH), this endeavor is 
 ultimately futile. The EMH states that all available and relevant information are already incorporated in security prices. As technical analysis uses only current and past trading data, it is not possible to obtain abnormal positive returns by applying these technical trading rules. If investors could make money from applying these trading rules, this would indicate that the market is inefficient. Therefore, the question of whether technical trading rules can consistently generate profits becomes an empirical issue concerning efficiency of actual markets.
 
+* Principles
+
+A core principle of technical analysis is that a market's price reflects all relevant information impacting that market. A technical analyst therefore looks at the history of a security or commodity's trading pattern rather than external drivers such as economic, fundamental and news events. It is believed that price action tends to repeat itself due to the collective, patterned behavior of investors. Hence technical analysis focuses on identifiable price trends and conditions.
+
 * John J. Murphy
 
 Anyone who has ever looked into technical analysis will have heard of Murphy; a technical analyst with more than 35 years of market experience.  His book, “Technical Analysis of the Financial Markets,” should be part of every trader’s library.  Murphy wrote “The 10 Important Rules of Technical Trading,” and these principles remain relevant today. We can learn from and build on them.
@@ -92,27 +96,22 @@ Use ADX. The Average Directional Movement Index (ADX) line helps determine wheth
 Volume and open interest are important confirming indicators in futures markets. Volume precedes price. It is important to ensure that heavier volume is taking place in the direction of the prevailing trend. In an uptrend, heavier volume should be seen on up days. Rising open interest confirms that new money is supporting the prevailing trend. Declining open interest is often a warning sign that the trend is near completion. A solid price uptrend should be accompanied by rising volume and rising open interest.
 
 
-* One final note of caution: Do not try to incorporate every technical tool out there in every single one of your trades. They all have value and some work well in concert with others, but when you try and deploy them all at once, you stand the risk of suffering “paralysis by analysis.”
+* One final note of caution:
+
+Do not try to incorporate every technical tool out there in every single one of your trades. They all have value and some work well in concert with others, but when you try and deploy them all at once, you stand the risk of suffering “paralysis by analysis.”
 
 
 
 
-History Repeats Itself
+History Repeats Itself:
 
 Technical analysts believe that investors collectively repeat the behavior of the investors that preceded them. To a technician, the emotions in the market may be irrational, but they exist. Because investor behavior repeats itself so often, technicians believe that recognizable (and predictable) price patterns will develop on a chart. Recognition of these patterns can allow the technician to select trades that have a higher probability of success.
-Technical analysis is not limited to charting, but it always considers price trends For example, many technicians monitor surveys of investor sentiment. These surveys gauge the attitude of market participants, specifically whether they are bearish or bullish. Technicians use these surveys to help determine whether a trend will continue or if a reversal could develop; they are most likely to anticipate a change when the surveys report extreme investor sentiment. Surveys that show overwhelming bullishness, for example, are evidence that an uptrend may reverse; the premise being that if most investors are bullish they have already bought the market (anticipating higher prices). And because most investors are bullish and invested, one assumes that few buyers remain. This leaves more potential sellers than buyers, despite the bullish sentiment. This suggests that prices will trend down, and is an example of contrarian trading
 
+Conclusion:
 
+Technical Trading Rules are essentially tools from which a trader can try and predict the future of a stock market. Mainly focusing on previous occurences, and applying these findings to shape their future predictions, in the hope of being correct, of course there is no gaurantee. 
 
-
-
-
-
-
-
-
-
-
+The rules I mentioned are merely a guide from which you can make a judgement with a degree of confidence but not certainty as if you could be certain that a stock will react in a particular way then the market would be inefficient and making money off it would be easy. This apporach also has an influence on the market as if most traders use these techniques then 
 
 
 * https://cran.r-project.org/web/packages/TTR/index.html

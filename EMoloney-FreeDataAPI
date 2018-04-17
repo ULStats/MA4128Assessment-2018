@@ -1,0 +1,154 @@
+The search for free stock data. 
+With the rise of computing power there is a buzz and new army of data analysts comming to take over the world. There is an appeal to it,
+with good data and access to python/R/Julia/SPSS in a few lines of code one can see all sorts of relationships, anomalies and even 
+opportunites yet to be exploited. One does not have to look further than the US stock market where roughly 70% od daily volume is done 
+through algorithms. Given this rise, what is a little suprising is that it is increasingly hard to get free stock data. Yahoo was the main 
+site to go to to pull data through numerous api modules written and hosted through github itslef but like all good things that came to an end. Then one had 
+to look to quandl which is an excelent sourse for free economic data and is also a market place for data vendors. Below is a function that
+once given a list of stocks, a start date and finish date it will return a dataframe of the close prices. 
+
+
+@author: Eric Moloney
+"""
+import quandl
+import pandas as pd
+
+# api key = create own api key
+
+quandl.ApiConfig.api_key = 'api key'
+def Quandl_add_series(series,start,end):
+    x=series
+    
+    data = quandl.get_table('WIKI/PRICES', qopts = { 'columns': ['date', 'close'] }, ticker = x[0], date = { 'gte': start, 'lte': end })
+    data = data.rename(columns={"close":x[0]})
+    
+    for i in range(1,len(x)):
+        temp = quandl.get_table('WIKI/PRICES', qopts = { 'columns': ['close'] },
+                                                ticker = x[i], date = { 'gte': start, 'lte': end })
+        temp = temp.rename(columns={"close":x[i]})
+        data = data.join(temp, how='inner')
+        return data
+        
+series = ["XEL","CMS"]
+df=Quandl_add_series(series,'2010-01-01',"2018-04-02") 
+
+
+Unfortunately the universe of stocks availabe through quandl is limited and it does not hold ETF's. On top of this Quandls CFO released
+a statement last week that one of their main sources for stock data is no longer available and "As a result, the WIKI data feed is 
+likely to be a lot less reliable in the future, with potentially missing or incorrect data or delayed updates".
+So that leaves me to opion number 3, pulling data from the brokers. This can be easily done thorugh Interactive Brokers, all you have to 
+do is setup up a demo account if you are a little shy of the USD10,000 to setup up a live account. Once the account is setup you will 
+need to a python API such as IBPY https://github.com/blampe/IbPy. Below is a crude funciton IB_add_series() I wrote that takes in:
+
+series = list of stocks tickers
+lookback = how many years, months, days, hours ,mins, seconds of data to pull
+bar_size = can monthly, weekly, etc.
+time_break = pulling too much data too fast will cause IB to send back a empty dataframe, for exmaple it may take 20 seconds to get
+2 years of 5 in data whereas it would take 2 sec for 2 years of daily data.
+client_id = a unique id that allows the api to connect
+regular_hours = is either 1 or 0. 1 for normal trading hours(9:30 - 16:00) and 0 normal and extended hours.
+ 
+Once that data is received back from IB it is stored in a dataframe and written to a csv file.
+
+@author: Eric Moloney
+"""
+
+import pandas as pd
+import numpy as np
+import time
+from datetime import datetime
+from IBWrapper import IBWrapper, contract
+from ib.ext.EClientSocket import EClientSocket
+from ib.ext.ScannerSubscription import ScannerSubscription
+from time import sleep
+
+def IB_add_series(series, lookback,bar_size,time_break, client_id, regular_hours):
+    from datetime import datetime
+    accountName = "U9028183"
+    callback = IBWrapper()             # Instantiate IBWrapper. callback 
+    tws = EClientSocket(callback)      # Instantiate EClientSocket and return data to callback
+    host = ""
+    port = 7497
+    clientId = client_id
+
+    tws.eConnect(host, port, clientId)
+
+    
+    x=series
+    
+    create = contract()                # Instantiate contract class
+    callback.initiate_variables()
+    
+    contract_Details = create.create_contract(x[0], 'STK', 'SMART/ISLAND', 'USD')
+    data_endtime = datetime.now().strftime("%Y%m%d %H:%M:%S")
+    
+    tickerId = 0
+    tws.reqHistoricalData(tickerId, 
+                      contract_Details, 
+                      data_endtime ,
+                      lookback, 
+                      bar_size, 
+                      "TRADES", 
+                      regular_hours, 
+                      1)
+    
+    sleep(time_break)
+    data = pd.DataFrame(callback.historical_Data,columns = ["reqId", "date", "open",
+                              "high", "low", "close", 
+                              "volume", "count", "WAP", 
+                              "hasGaps"])
+    data.rename(columns={'close':x[0]}, inplace=True)
+    
+    data=data[["date", x[0]]][:-1]
+    data["date"]=pd.to_datetime(data['date'])
+    data.set_index('date')
+    callback.historical_Data = []
+    data
+    for i in range(1,len(x)):
+        
+        contract_Details = create.create_contract(x[i], 'STK', 'SMART/ISLAND', 'USD')
+        tickerId = i
+        tws.reqHistoricalData(tickerId, 
+                      contract_Details, 
+                      data_endtime ,
+                      lookback, 
+                      bar_size, 
+                      "TRADES", 
+                      regular_hours, 
+                      1)
+        
+        sleep(time_break)
+        
+        
+        temp = pd.DataFrame(callback.historical_Data,columns = ["reqId", "date", "open",
+                              "high", "low", "close", 
+                              "volume", "count", "WAP", 
+                              "hasGaps"])
+    
+        temp.rename(columns={'close':x[i]}, inplace=True)
+        
+        temp=temp[["date", x[i]]][:-1]
+        temp["date"]=pd.to_datetime(temp['date'])
+        temp.set_index('date')
+        
+        
+        data = data.merge(temp, on='date', how='outer')
+        
+        callback.historical_Data = []
+        print(x[i])
+        if i%2==0:
+            data.to_csv("C:\\Users\\Dell\\Documents\\Mean Reversion Project\\Material Stocks Data.csv")
+        
+        
+        
+        
+    callback.historical_Data = []    
+    
+    tws.eDisconnect()   
+    
+    return data
+   
+
+
+
+

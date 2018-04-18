@@ -33,7 +33,7 @@ plt.plot(X, Y);
 plt.plot(X, y_hat);
 
 ### **Conclusion**
-Ovrall Tesorflow allows you to do computations on most devices. It is widely popular in many companies who use it in deartments such as production. It has become so popular because it is dependable, well documented and powerful. Before TensorFlow there were plenty of ML libraries that offered great functionality for a handful of methods and were reasonably well documented— but there never was one catch all library that was nearly limitless in potential and continuously supported. 
+Overall Tesorflow allows you to do computations on most devices. It is widely popular in many companies who use it in deartments such as production. It has become so popular because it is dependable, well documented and powerful. Before TensorFlow there were plenty of ML libraries that offered great functionality for a handful of methods and were reasonably well documented— but there never was one catch all library that was nearly limitless in potential and continuously supported. 
 
 
 

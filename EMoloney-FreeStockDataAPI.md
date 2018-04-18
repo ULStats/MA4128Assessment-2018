@@ -1,7 +1,5 @@
 ## Python's API's
 
-[logo]: https://blog.quandl.com/wp-content/uploads/2015/10/API-for-global-stocks-data-980x423.png
-
 In this paper I give a run through some methods for getting free stock data using python. Up until mid 2017 Yahoo was the main website download data
 through numerous api modules written for languages such as R/Python/Julia. Unfortunately that came to an end and one had to look to other
 sources such as quandl which is an excellent for free economic and financial data. The following fucntion that is written in python 

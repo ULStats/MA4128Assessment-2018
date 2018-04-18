@@ -10,7 +10,7 @@ once given a list of stocks, a start date and a finish date it will return a dat
 import quandl
 import pandas as pd
 
-# api key = create own api key
+# api key = get your own api key from the website quandl.com by signing up
 
 quandl.ApiConfig.api_key = 'api key'
 def Quandl_add_series(series,start,end):

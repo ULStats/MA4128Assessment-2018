@@ -9,4 +9,15 @@ Not all, but many of the measures in this package require time series data. Perf
 ## Performence Analysis
 With the the increasing availability of complicated alternative investment strategies to both retail and institutional investors, and the broad availability of financial data, an engaging debate about performance analysis and evaluation is as important as ever. There won’t be one right answer delivered in these metrics and charts. What there will be is an accretion of evidence, organized to assist a decision maker in answering a specific question that is pertinent to the decision at hand. Using such tools to uncover information and ask better questions will, in turn, create a more informed investor.
 
-Performance measurement starts with returns. The more informed a trader is the better once they can utilise this information.  
+Performance measurement starts with returns. The more informed a trader is the better once they can utilise this information. Basic measures of performance tend to treat returns as independent observations. In this case, the entirety of R’s base is applicable to such analysis. Some basic statistics we have collected in table.Stats include:
+mean arithmetic mean
+mean.geometric geometric mean
+mean.stderr standard error of the mean (S.E. mean)
+mean.LCL lower confidence level (LCL) of the mean
+mean.UCL upper confidence level (UCL) of the mean
+quantile for calculating various quantiles of the distribution
+min minimum return
+max maximum return
+range range of returns
+length(R) number of observations
+sum(is.na(R)) number of NA’s

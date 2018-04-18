@@ -45,10 +45,9 @@ the dataframe to a csv file and saves it in a designated location.
 3regular_hours = is either 1 or 0. 1 for normal trading hours(9:30 - 16:00) and 0 normal and extended hours.
 
 
-'''python
-@author: Eric Moloney
+```python
+author: Eric Moloney
 
-# importing necessary modules
 import pandas as pd
 import numpy as np
 import time
@@ -143,7 +142,7 @@ def IB_add_series(series, lookback,bar_size,time_break, client_id, regular_hours
     tws.eDisconnect()   
     
     return data
-'''   
+``` 
 
 
 

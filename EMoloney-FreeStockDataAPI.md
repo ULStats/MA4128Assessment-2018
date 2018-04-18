@@ -36,13 +36,13 @@ https://github.com/blampe/IbPy. Below is a crude funciton IB_add_series() I wrot
 time_break, client_id, regular_hours) and returns a dataframe consisting of stock prices for the desired list. The function also writes 
 the dataframe to a csv file and saves it in a designated location. 
 
-series = list of stocks tickers
-lookback = how many years, months, days, hours ,mins, seconds of data to pull
-bar_size = can monthly, weekly, etc.
-time_break = pulling too much data too fast will cause IB to send back a empty dataframe, for exmaple it may take 20 seconds to get
-2 years of 5 in data whereas it would take 2 sec for 2 years of daily data.
-client_id = a unique id that allows the api to connect
-regular_hours = is either 1 or 0. 1 for normal trading hours(9:30 - 16:00) and 0 normal and extended hours.
+* series = list of stocks tickers
+* lookback = how many years, months, days, hours ,mins, seconds of data to pull
+* bar_size = can monthly, weekly, etc.
+* time_break = pulling too much data too fast will cause IB to send back a empty dataframe, for exmaple it may take 20 seconds to get
+* 2 years of 5 in data whereas it would take 2 sec for 2 years of daily data.
+* client_id = a unique id that allows the api to connect
+* regular_hours = is either 1 or 0. 1 for normal trading hours(9:30 - 16:00) and 0 normal and extended hours.
 
 
 ```python

@@ -9,6 +9,32 @@ Tensorflow programs are usually ran as a chunk. Usually when using languages suc
 
  https://github.com/tensorflow/models
 
+This link above gives examples of models ceated by tensorflow 
+
+Tensorflow uses a dataflow graph to represent your computation in terms of the dependencies between individual operations. This leads to a low-level programming model in which you first define the dataflow graph, then create a TensorFlow session to run parts of the graph across a set of local and remote devices. So what ae dataflow graphs? Dataflow is used in proramming models.  In a dataflow graph, the nodes represent units of computation, and the edges represent the data consumed or produced by a computation. Tensorflow uses dataflow for Parallelism, distributed excution, compilation and Portability. A Tensorflow graph contains two types of information. Graph Structure and collections. Tensorflow also includes tools that can help you to understand the code in a graph.  The graph visualizer is a component of TensorBoard that renders the structure of your graph visually in a browser. 
+
+A simple linear regression model in tensorflow is a good way to start in Tensorflow. It is described by the following equation:Y = aX + b. The slope and intercept we are looking for are respectively a=50 and b=40. Adding a bit of noise to the dependent variable the task is to minimize the mean squared error or in TensorFlow parlance — reduce the mean. Using the following code to minimise it using the gradient descent and using 330 steps as a learning process. Predicting this model and fitting it to the regression line it turns out to fit the data very well.
+loss = tf.reduce_mean(tf.square(y_var - Y))
+optimizer = tf.train.GradientDescentOptimizer(0.5)
+train = optimizer.minimize(loss)
+TRAINING_STEPS = 300
+results = []
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    for step in range(TRAINING_STEPS):
+        results.append(sess.run([train, a_var, b_var])[1:])
+final_pred = results[-1]
+a_hat = final_pred[0]
+b_hat = final_pred[1]
+y_hat = a_hat * X + b_hat
+
+print("a:", a_hat, "b:", b_hat)
+plt.plot(X, Y);
+plt.plot(X, y_hat);
+
+### **Conclusion**
+Ovrall Tesorflow allows you to do computations on most devices. It is widely popular in many companies who use it in deartments such as production. It has become so popular because it is dependable, well documented and powerful. Before TensorFlow there were plenty of ML libraries that offered great functionality for a handful of methods and were reasonably well documented— but there never was one catch all library that was nearly limitless in potential and continuously supported. 
+
 
 
 

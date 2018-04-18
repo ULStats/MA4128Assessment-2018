@@ -30,7 +30,7 @@ Unfortunately the universe of stocks availabe through quandl is limited and it d
 a statement last week that one of their main sources for stock data is no longer available and "As a result, the WIKI data feed is 
 likely to be a lot less reliable in the future, with potentially missing or incorrect data or delayed updates".
 So that leads to one other option, pulling data from the brokers. This can be easily done through Interactive Brokers and all you have to 
-do is setup up a demo account with them. Once the account is setup you will need to download a specially build python API module such as IBPY(https://github.com/blampe/IbPy). Below is a crude funciton IB_add_series() I wrote that takes in 6 parameters (series, lookback, bar_size,
+do is setup up a demo account with them. Once the account is setup you will need to download a specially build python API module such as [IBPY](https://github.com/blampe/IbPy). Below is a crude funciton IB_add_series() I wrote that takes in 6 parameters (series, lookback, bar_size,
 time_break, client_id, regular_hours) and returns a dataframe consisting of stock prices for the desired list. The function also writes 
 the dataframe to a csv file and saves it in a designated location on your computer. 
 

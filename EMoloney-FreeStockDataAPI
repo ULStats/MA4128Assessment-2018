@@ -36,7 +36,8 @@ likely to be a lot less reliable in the future, with potentially missing or inco
 So that leads to opion number 3, pulling data from the brokers. This can be easily done thorugh Interactive Brokers, all you have to 
 do is setup up a demo account, that is, if you are a little shy of the USD10,000 to setup up a live account. Once the account is setup 
 you will need to download a specially build python API module such as IBPY https://github.com/blampe/IbPy. Below is a crude funciton 
-IB_add_series() I wrote that takes in:
+IB_add_series() I wrote that takes in 6 parameters (series, lookback, bar_size, time_break, client_id, regular_hours) and returns a 
+dataframe consisting of stock prices for the desired list. The function will also write the dataframe to a csv file. 
 
 series = list of stocks tickers
 lookback = how many years, months, days, hours ,mins, seconds of data to pull
@@ -62,7 +63,7 @@ from time import sleep
 
 def IB_add_series(series, lookback,bar_size,time_break, client_id, regular_hours):
     from datetime import datetime
-    accountName = "U9028183"
+    accountName = "XXXXXXXX"
     callback = IBWrapper()             # Instantiate IBWrapper. callback 
     tws = EClientSocket(callback)      # Instantiate EClientSocket and return data to callback
     host = ""

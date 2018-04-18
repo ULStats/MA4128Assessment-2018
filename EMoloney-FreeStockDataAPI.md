@@ -65,15 +65,11 @@ def IB_add_series(series, lookback,bar_size,time_break, client_id, regular_hours
     host = ""
     port = 7497
     clientId = client_id
-
-    tws.eConnect(host, port, clientId)
-
-    
+    tws.eConnect(host, port, clientId)    
     x=series
     
     create = contract()                # Instantiate contract class
-    callback.initiate_variables()
-    
+    callback.initiate_variables()    
     contract_Details = create.create_contract(x[0], 'STK', 'SMART/ISLAND', 'USD')
     data_endtime = datetime.now().strftime("%Y%m%d %H:%M:%S")
     
@@ -98,9 +94,8 @@ def IB_add_series(series, lookback,bar_size,time_break, client_id, regular_hours
     data["date"]=pd.to_datetime(data['date'])
     data.set_index('date')
     callback.historical_Data = []
-    data
-    for i in range(1,len(x)):
-        
+    
+    for i in range(1,len(x)):        
         contract_Details = create.create_contract(x[i], 'STK', 'SMART/ISLAND', 'USD')
         tickerId = i
         tws.reqHistoricalData(tickerId, 
@@ -110,37 +105,28 @@ def IB_add_series(series, lookback,bar_size,time_break, client_id, regular_hours
                       bar_size, 
                       "TRADES", 
                       regular_hours, 
-                      1)
-        
-        sleep(time_break)
-        
+                      1)        
+        sleep(time_break)       
         
         temp = pd.DataFrame(callback.historical_Data,columns = ["reqId", "date", "open",
                               "high", "low", "close", 
                               "volume", "count", "WAP", 
                               "hasGaps"])
     
-        temp.rename(columns={'close':x[i]}, inplace=True)
-        
+        temp.rename(columns={'close':x[i]}, inplace=True)        
         temp=temp[["date", x[i]]][:-1]
         temp["date"]=pd.to_datetime(temp['date'])
-        temp.set_index('date')
+        temp.set_index('date')     
         
-        
-        data = data.merge(temp, on='date', how='outer')
-        
+        data = data.merge(temp, on='date', how='outer')        
         callback.historical_Data = []
         print(x[i])
         if i%2==0:
-            data.to_csv("C:\\Users\\Dell\\Documents\\Mean Reversion Project\\Material Stocks Data.csv")
+            data.to_csv("C:\\Users\\Dell\\Documents\\Mean Reversion Project\\Material Stocks Data.csv")       
+               
         
-        
-        
-        
-    callback.historical_Data = []    
-    
-    tws.eDisconnect()   
-    
+    callback.historical_Data = []       
+    tws.eDisconnect()       
     return data
 ``` 
 

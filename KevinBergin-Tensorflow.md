@@ -7,7 +7,7 @@ TensorFlow is an open-source software library for dataflow programming across a 
 Tensorflow is used widely by a range of different mulinational companies including the likes of Snapchat, Ebay and Twitter. Tensorflow can run on multiple CPU's and GPU's. It is available on many plaforms such as Linux, Widows and macOS. The applications for which TensorFlow are automated image captioning software, such as DeepDream(DeepDream is a computer vision program created by Google engineer Alexander Mordvintsev which uses a convolutional neural network to find and enhance patterns in images) as well as handling large numbers of search queries. 
 Tensorflow programs are usually ran as a chunk. Usually when using languages such as Python this is the opposite. One is expectd to be very comfortable with python before using Tensoflow. Tensorflow tutorials are widely available online making it quite easy to learn about deeep learning, what itmeans, how it works and develop the code necessary to build various algorithms.
 
-//github.com/tensorflow/models
+ https://github.com/tensorflow/models
 
 
 

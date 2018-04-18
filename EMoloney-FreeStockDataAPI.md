@@ -6,7 +6,7 @@ connects through quandls api and once given a list of stocks, a start date and a
 daily prices. To run the code you will need to download and install the [quandl](https://www.quandl.com/tools/python) package. 
 
 ```python
-author: Eric Moloney
+#author: Eric Moloney
 import quandl
 import pandas as pd
 
@@ -34,17 +34,17 @@ do is setup up a demo account with them. Once the account is setup you will need
 time_break, client_id, regular_hours) and returns a dataframe consisting of stock prices for the desired list. The function also writes 
 the dataframe to a csv file and saves it in a designated location. 
 
-* series = list of stocks tickers
-* lookback = how many years, months, days, hours ,mins, seconds of data to pull
-* bar_size = can monthly, weekly, etc.
-* time_break = pulling too much data too fast will cause IB to send back a empty dataframe, for exmaple it may take 20 seconds to get
-* 2 years of 5 in data whereas it would take 2 sec for 2 years of daily data.
-* client_id = a unique id that allows the api to connect
-* regular_hours = is either 1 or 0. 1 for normal trading hours(9:30 - 16:00) and 0 normal and extended hours.
 
 
 ```python
-author: Eric Moloney
+#author: Eric Moloney
+#series = list of stocks tickers
+#lookback = how many years, months, days, hours ,mins, seconds of data to pull
+#bar_size = can monthly, weekly, etc.
+#time_break = pulling too much data too fast will cause IB to send back a empty dataframe, for exmaple it may take 20 seconds to get
+#years of 5 in data whereas it would take 2 sec for 2 years of daily data.
+#client_id = a unique id that allows the api to connect
+#regular_hours = is either 1 or 0. 1 for normal trading hours(9:30 - 16:00) and 0 normal and extended hours.
 
 import pandas as pd
 import numpy as np

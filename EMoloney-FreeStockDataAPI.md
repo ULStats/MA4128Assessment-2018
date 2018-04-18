@@ -1,3 +1,4 @@
+## Introduction
 In this paper I give a run through some methods for getting free stock data using python. Up until mid 2017 Yahoo was the main website download data
 through numerous api modules written for languages such as R/Python/Julia. Unfortunately that came to an end and one had to look to other
 sources such as quandl which is an excelent for free economic and financial data. The following fucntion that is written in python 
@@ -5,36 +6,27 @@ connects through quandls api and once given a list of stocks, a start date and a
 daily prices. To run the code you will need to download and install the quandl package from the following webpage 
 https://www.quandl.com/tools/python
 
-
-@author: Eric Moloney
-"""
+```python
+author: Eric Moloney
 import quandl
 import pandas as pd
 
-# api key = get your own api key from the website quandl.com by signing up
-
-quandl.ApiConfig.api_key = 'api key'
+quandl.ApiConfig.api_key = api key
 def Quandl_add_series(series,start,end):
-    
-    x=series
-    
-    # creating a dataframe of closing prices using te first stock in the series
-    data = quandl.get_table('WIKI/PRICES', qopts = { 'columns': ['date', 'close'] }, ticker = x[0], date = { 'gte': start, 'lte': end })
-    data = data.rename(columns={"close":x[0]})
-    
-    # adding closing prices to the dataframe for every other stock in the series
-    for i in range(1,len(x)):
+    data = quandl.get_table('WIKI/PRICES', qopts = { 'columns': ['date', 'close'] }, ticker = series[0], date = { 'gte': start, 'lte': end })
+    data = data.rename(columns={"close":series[0]})
+
+        for i in range(1,len(series)):
         temp = quandl.get_table('WIKI/PRICES', qopts = { 'columns': ['close'] },
-                                                ticker = x[i], date = { 'gte': start, 'lte': end })
-        temp = temp.rename(columns={"close":x[i]})
+                                                ticker = series[i], date = { 'gte': start, 'lte': end })
+        temp = temp.rename(columns={"close":series[i]})
         data = data.join(temp, how='inner')
         return data
 
-# an example how to run the function
 series = ["XEL","CMS"]
 df=Quandl_add_series(series,'2010-01-01',"2018-04-02") 
 
-
+```
 Unfortunately the universe of stocks availabe through quandl is limited and it does not hold ETF's. On top of this Quandls CFO released
 a statement last week that one of their main sources for stock data is no longer available and "As a result, the WIKI data feed is 
 likely to be a lot less reliable in the future, with potentially missing or incorrect data or delayed updates".

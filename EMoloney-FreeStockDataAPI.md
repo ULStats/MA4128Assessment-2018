@@ -1,10 +1,9 @@
-## Introduction
+## Python's API's
 In this paper I give a run through some methods for getting free stock data using python. Up until mid 2017 Yahoo was the main website download data
 through numerous api modules written for languages such as R/Python/Julia. Unfortunately that came to an end and one had to look to other
 sources such as quandl which is an excelent for free economic and financial data. The following fucntion that is written in python 
 connects through quandls api and once given a list of stocks, a start date and a finish date it will return a dataframe of the closing 
-daily prices. To run the code you will need to download and install the quandl package from the following webpage 
-https://www.quandl.com/tools/python
+daily prices. To run the code you will need to download and install the [quandl](https://www.quandl.com/tools/python) package. 
 
 ```python
 author: Eric Moloney
@@ -31,8 +30,7 @@ Unfortunately the universe of stocks availabe through quandl is limited and it d
 a statement last week that one of their main sources for stock data is no longer available and "As a result, the WIKI data feed is 
 likely to be a lot less reliable in the future, with potentially missing or incorrect data or delayed updates".
 So that leads to another option, pulling data from the brokers. This can be easily done thorugh Interactive Brokers and all you have to 
-do is setup up a demo account with them. Once the account is setup you will need to download a specially build python API module such as IBPY at 
-https://github.com/blampe/IbPy. Below is a crude funciton IB_add_series() I wrote that takes in 6 parameters (series, lookback, bar_size,
+do is setup up a demo account with them. Once the account is setup you will need to download a specially build python API module such as IBPY(https://github.com/blampe/IbPy). Below is a crude funciton IB_add_series() I wrote that takes in 6 parameters (series, lookback, bar_size,
 time_break, client_id, regular_hours) and returns a dataframe consisting of stock prices for the desired list. The function also writes 
 the dataframe to a csv file and saves it in a designated location. 
 

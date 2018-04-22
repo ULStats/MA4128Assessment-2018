@@ -1,7 +1,7 @@
 __Applications of Functional Data Analysis__ :running:
 ===========================
 ***Meadhbh O'Neill**    13128159*
-![Jump](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/jump.PNG)
+![Jump](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/jump.PNG)
 
 # Functional Data Analysis of Knee Joint Kinematics in the Vertical Jump
 **Willie Ryan, Andrew Harrison, Kevin Hayes**
@@ -29,7 +29,7 @@ data distorts the original measurements and should be interpreted in this contex
 
 The figure below shows the landmark-registered knee curves for the 49 participants.
 
-![Knee1](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/knee1.PNG)
+![Knee1](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/knee1.PNG)
 
 
 ### Functional Principal Component Analysis
@@ -39,11 +39,11 @@ FPCA was completed on both the unregistered and registered knee joint data. When
 
 The first functional principal component on landmark-registered data accounted for 67.5% of the total variation and represents variation around the mean landmark-registered curve. The figure below plots the functional principal component scores for this component. The most obvious feature of these scores is the decrease in variability with the developmental stage.
 
-![Knee2](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/knee2.png)
+![Knee2](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/knee2.png)
 
 The third functional principal component on landmark-registered data accounts for 7.9% of the variation. Participants who scored positively in this functional principal component were characterized by knee joint flexion during the counter-movement that was smoother, faster and involved a greater range of motion when compared with participants who scored negatively on this functional principal component. The third functional principal component scores are presented below and show a very clear developmental trend. This trend is illustrated by the progressively increasing medians of the functional principal component scores across stages and by the lower quartile of stage 3 being both above the median of stage 2 and greater that the upper quartile of stage 1.
 
-![Knee3](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/knee3.png)
+![Knee3](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/knee3.png)
 
 ## Discussion
 
@@ -61,4 +61,4 @@ Functional data analysis provides a basis for ensuring that important data are n
 
 [Standing Vertical Jump](http://people.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/VerticalJumping.htm)
 
-![Alt Text](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/jump.gif)
+![Jumping](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/jump.gif)

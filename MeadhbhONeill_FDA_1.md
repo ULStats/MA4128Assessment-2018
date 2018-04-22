@@ -43,13 +43,13 @@ The goals of FDA are essentially equivalent to those of any other branch of stat
 The heights of 10 girls were measured at a set of 31 ages in the Berkeley Growth Study (Tuddenham and Snyder, 1954). There are four measurements while the child is one year old, annual measurements from two to eight years, followed by biannual measurements. As a result, the ages are not equally spaced. Although each record involves only discrete values, these values result in a smooth variation in height. The data consists of a sample of 10 *functional* observations creating a height *function*.
 
 The plot below depicts the heights of 10 girls measured at 31 ages. The circles indicate the unequally spaced ages of measurement.
-![Plot1](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/plot1.PNG)
+![Plot1](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/plot1.PNG)
 
 
 ### Plotting Pairs of Derivatives: Phase-Plane Plots
 Here the accelerations or second derivatives are plotted against their velocities or first derivatives. Each curve begins with strong positive velocity and negative acceleration in infancy. The middle of the pubertal growth spurt for each girl corresponds to the point where her velocity is maximised after early childhood. The circles denote the position of each girl at age 11.7, the average midpubertal age. The pubertal growth loop for each girl is entered usually after a cusp or small loop. The acceleration is positive for a while as the velocity increases until the acceleration drops again to zero. The large negative swing terminates near the origin where both velocity and acceleration vanish at the beginning of adulthood. There are several interesting features in this plot. Variability is greatest in early childhood. Why does the pubertal growth spurt show up as a loop? What information does the size of the loop convey? Obviously there must be a lot of information in how velocity and acceleration are linked together in human growth.
 
-![Plot2](https://github.com/oneill-m/MA4128/blob/master/ProjectFolder/plot2.png)
+![Plot2](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/plot2.png)
 
 #### *_References_*:
 

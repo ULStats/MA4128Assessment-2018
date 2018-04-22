@@ -51,3 +51,6 @@ Put another way, if portfolio X generates a 10% return with a 1.25 Sharpe ratio 
 The higher the Sharpe ratio is, the more return the investor is getting per unit of risk. The lower the Sharpe ratio is, the more risk the investor is shouldering to earn additional returns. Thus, the Sharpe ratio ultimately "levels the playing field" among portfolios by indicating which are shouldering excessive risk.
 
 ## Conclusion
+
+#References
+References go here

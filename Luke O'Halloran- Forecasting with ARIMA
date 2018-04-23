@@ -1,10 +1,11 @@
 Forecasting with ARIMA in R.
+===================
 
 
 
 
-## Option Basics
-##Objectives
+
+## Objectives
 The reader can expect to learn how to:
 
 *Plot, examine, and prepare series for modeling
@@ -14,7 +15,7 @@ The reader can expect to learn how to:
 *Forecast the series
 
 
-
+## Method
 1.Examine your data
 *Plot the data and examine its patterns and irregularities
 *Clean up any outliers or missing values if needed

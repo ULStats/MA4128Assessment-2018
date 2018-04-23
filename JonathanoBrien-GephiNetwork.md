@@ -23,7 +23,8 @@ Gephi is a Network visualization and analysis platform used when working with di
 * It works well with large networks (neibourboud groups, companys)
 * great help features
 
-###### Useful Urls for Gephi support
-[Gephi Homepage](https://gephi.org/)
+###### How to install Gephi
+* [Gephi Homepage](https://gephi.org/)
+* [gephi-0.9.3-SNAPSHOT-windows.exe](gephi-0.9.3-SNAPSHOT-windows.exe) (Windows)
 
 ***Jonathan O'Brien* **

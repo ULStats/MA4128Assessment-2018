@@ -11,8 +11,7 @@ This is accomplished by simply making the appropriate call with `ccall` syntax, 
 The code to be called must be part of a shared library.
 Most of the libraries in C and Fortran ship as compiled libraries already, but if you are compiling the code yourself you will need to use the `-shared` and the `fPIC` options.
 
-Shared libraries and functions are referenced by a tuple of the form (`:function`, "`library`") or ("`function`", "`library`") where `function` is the C-exported function name.
-`library` refers to the shared library name.
+Shared libraries and functions are referenced by a tuple of the form (`:function`, "`library`") or ("`function`", "`library`") where `function` is the C-exported function name, and `library` refers to the shared library name.
 A function may be used alone in the place of a tuple.
 This form may be used to call C library functions, functions in the Julia runtime, or functions in an application linked to Julia.
 

@@ -8,7 +8,7 @@ It was developed by Stanislav Kovalevsky and it offers four main functionalities
 
 ##Get market data.
 To begin we will need to download daily or intraday data. The below code downloads daily prices (Open, High, Low, Close) for SPY from 1st Jan 2017 to 1st June 2017. 
-
+````
  Generic parameters
 library(QuantTools) 
 from = '2016-01-01'
@@ -16,14 +16,15 @@ to = '2016-06-01'
 symbol = 'SPY' 
  Request data
 get_iqfeed_data(symbol, from, to) 
-
+````
 ##Store/Retrieve Market Data
 The package makes it easy to store and manage data easily. First you need to setup storage parameters, the parameters are just simply the date and symbol you want to store. The package allows you to add more symbols and dates if there not in storage already. 
 It also allows you to store data between specific dates.
 
 
 ##Plot time series data.
-The command plot_ts allows you to plot the data which is downloaded and stored as a time series. It can exclude weekends, holidays and overnight gaps. below is some code where a time series is plotted of the first 1oo price observations.
+The command plot_ts allows you to plot the data which is downloaded and stored as a time series. It can exclude weekends, holidays and overnight gaps. below is some code where a time series is plotted of the first 100 price observations.
+ ````
  Retrieve previously stored data
 spy = get_iqfeed_data(symbol = 'SPY',
 from = '2017-06-01',  to = '2017-06-02',  period = 'tick',  local = TRUE)
@@ -31,7 +32,16 @@ from = '2017-06-01',  to = '2017-06-02',  period = 'tick',  local = TRUE)
 spy_price = spy[,.(time,price)][1:100] 
  Plot
 plot_ts(spy_price)
- 
+ ````
+[plot of time series](http://www.thertrader.com/wp-content/uploads/2017/06/Rplot.png)
 
 
-No statistical analysis can guarantee performance in real trading. It is very important to model your trading idea(simulation/plan) close to real market. You cannot neglect trading commissions, latency, look-ahead bias, blind market data usage etc. Of course no past performance will guarantee future performance but such mistakes or neglects made in simulation model can and will ruin your trading account sooner you could expect. It is a lot of hard work to validate market data, accurately check every trade you made in simulation, make sure you found optimal parameters for your strategy with minimal over-fitting. By saving time on this you could concentrate more on generating trading ideas. These are the ideas that support your account increase. With QuantTools it became easier than ever to code trading algorithms, filter and organize market data, visualize your data flow on multiple levels of detail. Forget about using multiple software, slow and inefficient calculations, messed up code, import/export routines, etc. QuantTools is here to save you time and money and at most will help you to become successful algorithmic trader and earn you money! QuantTools is well tested and documented. Then you Look through the examples available, it is only your imagination that will limit you from building and testing any trading strategy. All the plots are crystal clear and fully customizable so no data will be hidden from the trained eye. No irrelevant information like overnight and weekend time gaps is plotted. QuantTools is fast, solid, intuitive, detail oriented, powerful and modern. Go to Get Started section for an installation guide and overview of cool QuantTools features.
+### Backtesting
+The final part of this package is its ability to backtest. You can write your own trading strategy in C++ and transfer it into R.
+This gives you the advantage to backtest on histerical data and it will give you a report on how the strategy performed and then you can carry out import analysis to check if the strategy needs improvemnt.
+
+
+###Conclusssion
+
+No statistical analysis can guarantee performance in real trading. It is very important to model your trading idea(simulation/plan) close to real market.  Of course no past performance will guarantee future performance but such mistakes or neglects made in simulation model can and will ruin your trading account sooner you could expect. With QuantTools it became easier than ever to code trading algorithms, filter and organize market data, visualize your data flow on multiple levels of detail.
+There is a slight disadvantage as the IQ feed does not deliver real time data to R, which is essential to day trading. If that was ironed out it would be an end to end solution for traders.

@@ -45,7 +45,7 @@ Our standard estimated survival curve, also known as the empirical survivor curv
 Theoretically speaking, the survivor curve is a decreasing function, with a probability of 1 beginning at t = 0 (i.e having a certain probability of survival at the first time period).
 It is a decreasing step function and naturally at time point t= infinity there is exactly a 0% chance of survival.
 
-![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Rightcensoring.png)
+![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Survivalfunction.png)
 
 Because survival analysis and credit scoring go hand in hand, let’s start with a brief discussion of credit scoring. In a
 broad sense, credit scoring is the application of statistical techniques to determine if credit should be granted to a borrower. It

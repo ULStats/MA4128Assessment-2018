@@ -21,3 +21,14 @@ Almost every team/individual or organisation (depending on the sport) has one or
 
 The aim of having such data is, presumably, to aid decision making at a management level or perhaps to highlight areas for improvement at a player level. Even though such performance data are typically not-so-big, it is no less important to model the data appropriately. Thus, visualising and modelling such data in an appropriate statistical manner is the key to making good data-driven decisions.
 
+## **Future of Sports Analytics**
+
+As data and computing power continue to grow, the possibilities for the use of analytics are also rapidly growing and changing. As such it is not possible for managers and executives, even those with an interest in and a basic understanding of statistics and models, to be fully aware of the many different ways in which analytics might help their team gain a competitive advantage.
+
+In terms of training new individuals about different aspects of sports analytics, it is envisaged that the topic will become more available to students in the form of college courses and degrees. Sports are something that will always be in use all over the world, and thus, the area of sports analytics has the potential to grow exponentially. 
+
+Benjamin Alamar states that;
+
+> “Sports analytics will continue to evolve as a field. The pace of this evolution and adoption, however, will depend largely on how quickly leaders in sports become convinced that significant investments into analytics (data, models, information systems, and skilled personnel) will deliver a true competitive advantage.” 
+
+

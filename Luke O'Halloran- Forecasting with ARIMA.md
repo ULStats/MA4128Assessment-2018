@@ -34,7 +34,7 @@ The reader can expect to learn how to:
 * Check residuals, which should haven no patterns and be normally distributed
 * If there are visible patterns or bias, plot ACF/PACF. Are any additional order parameters needed?
 * Refit model if needed. Compare model errors and fit criteria such as AIC or BIC.
-*C alculate forecast using the chosen model
+* C alculate forecast using the chosen model
 
 
 

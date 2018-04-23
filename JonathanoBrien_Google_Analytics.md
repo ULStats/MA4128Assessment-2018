@@ -38,3 +38,6 @@ This Java script is collecting the visitors data and storing it in the clound wh
 * Adblockerd can stop the visitors data from being collected. 
 * Its bassed of the use of cookies whick can be deleted.
 * Sampling is used to generate the reports. 
+
+## Dimentions  
+Here is a list of all the [dimentions](https://developers.google.com/analytics/devguides/reporting/core/dimsmets) that are used. There are also custom dimentions that cam be set by the operator. 

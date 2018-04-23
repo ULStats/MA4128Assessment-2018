@@ -46,14 +46,28 @@ Theoretically speaking, the survivor curve is a decreasing function, with a prob
 It is a decreasing step function and naturally at time point t= infinity there is exactly a 0% chance of survival.
 
 ![AltText](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Survivalfunction.png)
+*)CREDIT SCORING
+Survival analysis and credit scoring go hand in hand, let’s start with a brief discussion of credit scoring. 
+In a broad sense, credit scoring is the application of statistical techniques to determine if credit should be granted to a borrower. 
+It involves collecting information on a set of accounts reflecting satisfactory (good) payment status for a particular period of
+time (called the observation window) and following their payment performance, say, for a period of one year. 
+At the beginning of the observation window, we may know a great deal about the account — its time on books, how many times it went 30, 60, or 90 days delinquent, its credit limit, etc. 
+We then apply a regression technique that yields a predicted value that will hopefully distinguish between accounts that will either pay or not pay in the year that follows. 
+The choice of the 1-year window is optional depending on the application of the score. 
+What is important to know is that the score does not attempt to describe ‘when’ the event will occur within the performance window. 
+It only describes the likelihood of the event occurring during that 1-year block of time.
+To address the timing issue, a more exacting approach is needed — Survival Analysis.
 
-Because survival analysis and credit scoring go hand in hand, let’s start with a brief discussion of credit scoring. In a
-broad sense, credit scoring is the application of statistical techniques to determine if credit should be granted to a borrower. It
-involves collecting information on a set of accounts reflecting satisfactory (good) payment status for a particular period of
-time (called the observation window) and following their payment performance, say, for a period of one year. At the beginning
-of the observation window, we may know a great deal about the account — its time on books, how many times it went 30, 60, or
-90 days delinquent, its credit limit, etc. We then apply a regression technique that yields a predicted value that will hopefully
-distinguish between accounts that will either pay or not pay in the year that follows. The choice of the 1-year window is optional
-depending on the application of the score. What is important to know is that the score does not attempt to describe ‘when’ the
-event will occur within the performance window. It only describes the likelihood of the event occurring during that 1-year block
-of time. To address the timing issue, a more exacting approach is needed — Survival Analysis.
+Let’s take a fictitious example in Residential Mortgage for illustrative purposes. 
+Say you conduct a study gathering information on 15 year fixed rate mortgages that are in good standing in January 1995.
+You then track their monthly performance over a five-year period ending January 2000. 
+In a credit scoring application, you would gather information available in January 1995 on each mortgage, and then determine ‘if’ there
+was a default anytime during the five years.
+However, in building a Survival model, you also record the timing of the default from the point of origin. 
+In this case, because the point of origin is January 1995 we record the number of months until default since January 1995. 
+The reference to the point of origin is essential in interpreting the survival probabilities.
+Our event in this case will be defaulting a mortgage and an example will go as follows:
+
+An illustration by example is as follows: If one event occurs at time t(1) when 10 subjects are in the risk set, then the conditional survival probability at that time is (9/10) or (0.90) . From each of these conditional time probabilities, the probability of surviving beyond a given time is calculated by multiplying all of the conditional probabilities less than or equal to that time together.  For example, if there is one event at t(1) and another eventat t(2) with 10 and 8 subjects in the risk set respectively, then the conditional probabilityof surviving to(1) is 0.90(9/10). The conditional probability of surviving to t(2) is 0.875(7/8) and the probability of survivng beyond t(2) is (0.9*0.875 = 0.7875)
+Conversely, the probability of failing at, or before a given time is one minus the survival probability at that time.  
+Evidently, in the example, the probability of failing at or before time t(2) is  0.2125(1 - 7875)

@@ -25,6 +25,6 @@ Gephi is a Network visualization and analysis platform used when working with di
 
 ###### How to install Gephi
 * [Gephi Homepage](https://gephi.org/)
-* [gephi-0.9.3-SNAPSHOT-windows.exe](gephi-0.9.3-SNAPSHOT-windows.exe) (Windows)
+* [Download Gephi 0.9.2 for Windows](https://github.com/gephi/gephi/releases/download/v0.9.2/gephi-0.9.2-windows.exe)
 
 ***Jonathan O'Brien* **

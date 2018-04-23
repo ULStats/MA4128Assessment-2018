@@ -11,11 +11,13 @@ The features of quantmod are presented in three sections, downloading data, char
 ## Downloading Data
 
 Once the quantmod package is installed and library is loaded, 
-run the following command to get the data of apple stock into R
+run the following command to get the data of apple stock into R.
+
 ``
 console.getSymbols(‘AAPL’)
 ``
-To see the starting point of the data, type the following command 
+To see the starting point of the data, type the following command.
+
 ``
 head(AAPL)
 ``
@@ -58,6 +60,7 @@ Quantmod provides functions to explore features of the data frame.
 If we  want to explore whether the data extracted has open price, volume etc it can be easily done here.
 There are also functions like getting the returns by day/month, Highest point and an open-high-low-closed chart.
 The code for this is below.
+
 ``AAPL ['2007'] #Fetches all Apple’s 2007 OHLC
 AAPL ['2008::'] # Apple data, from 2008 onward
 dailyReturn(AAPL) # Returns by day

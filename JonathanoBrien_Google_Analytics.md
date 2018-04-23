@@ -9,6 +9,7 @@ Google Analytics was previously known as Urchin before Google bought the company
 
 ## How it works
 Google Analytics is implemented with "page tags", in this case, called the Google Analytics Tracking Code, which is a snippet of JavaScript code that the website owner adds to every page of the website. The tracking code runs in the client browser when the client browses the page (if JavaScript is enabled in the browser) and collects visitor data and sends it to a Google data collection server as part of a request for a web beacon. Here is a sample of the java code that is used on the Bank of Ireland [Homepage](https://www.bankofireland.com/)
+```
 <!-- Modified Analytics tracking code with Optimize plugin -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,3 +24,4 @@ Google Analytics is implemented with "page tags", in this case, called the Googl
 </script>    <title>
       Bank of Ireland - For small steps, for big steps, for life    </title>
     		</head>
+```

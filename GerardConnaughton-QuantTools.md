@@ -31,9 +31,7 @@ from = '2017-06-01',  to = '2017-06-02',  period = 'tick',  local = TRUE)
 spy_price = spy[,.(time,price)][1:100] 
  Plot
 plot_ts(spy_price)
-
-![Image of Time series]
-(https://octodex.github.com/images/yaktocat.png)
+ 
 
 
 No statistical analysis can guarantee performance in real trading. It is very important to model your trading idea(simulation/plan) close to real market. You cannot neglect trading commissions, latency, look-ahead bias, blind market data usage etc. Of course no past performance will guarantee future performance but such mistakes or neglects made in simulation model can and will ruin your trading account sooner you could expect. It is a lot of hard work to validate market data, accurately check every trade you made in simulation, make sure you found optimal parameters for your strategy with minimal over-fitting. By saving time on this you could concentrate more on generating trading ideas. These are the ideas that support your account increase. With QuantTools it became easier than ever to code trading algorithms, filter and organize market data, visualize your data flow on multiple levels of detail. Forget about using multiple software, slow and inefficient calculations, messed up code, import/export routines, etc. QuantTools is here to save you time and money and at most will help you to become successful algorithmic trader and earn you money! QuantTools is well tested and documented. Then you Look through the examples available, it is only your imagination that will limit you from building and testing any trading strategy. All the plots are crystal clear and fully customizable so no data will be hidden from the trained eye. No irrelevant information like overnight and weekend time gaps is plotted. QuantTools is fast, solid, intuitive, detail oriented, powerful and modern. Go to Get Started section for an installation guide and overview of cool QuantTools features.

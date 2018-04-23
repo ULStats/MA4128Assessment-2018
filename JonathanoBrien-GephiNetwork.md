@@ -26,5 +26,22 @@ Gephi is a Network visualization and analysis platform used when working with di
 ###### How to install Gephi
 * [Gephi Homepage](https://gephi.org/)
 * [Download Gephi 0.9.2 for Windows](https://github.com/gephi/gephi/releases/download/v0.9.2/gephi-0.9.2-windows.exe)
+* [Download Gephi 0.9.2 for Linux](https://github.com/gephi/gephi/releases/download/v0.9.2/gephi-0.9.2-linux.tar.gz)
+* [Download Gephi 0.9.2 for Mac OS X](https://github.com/gephi/gephi/releases/download/v0.9.2/gephi-0.9.2-macos.dmg)
+* [Download Gephi 0.9.2 sources](https://github.com/gephi/gephi/releases/download/v0.9.2/gephi-0.9.2-sources.tar.gz)
+* [Download Older Versions](https://github.com/gephi/gephi/releases)
+
+###### Requirments
+
+* Java JDF 7 or 8 with preferably [Oracle Java JDK](https://java.com/en/)
+* [Apache Maven](http://maven.apache.org/) version 3.2.2 or later. 
+
+###### Code for Gephi
+
+* Fork the repository and clone
+```
+git clone git@github.com:username/gephi.git
+```
+
 
 ***Jonathan O'Brien* **

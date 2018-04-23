@@ -28,13 +28,13 @@ Google Analytics is implemented with "page tags", in this case, called the Googl
 This Java script is collecting the visitors data and storing it in the clound where it can be accessed by the Data Analytics team using Google Analytics and Google Bigquery. 
 
 ## Pros/Cons
-######pros
+###### pros
 * The data is collected live. 
 * Can be used to track visitors across device. 
 * Can be used to track visitors on apps and webpages. 
 * Very little coding ability is needed as the application as dashboards and funnels can be set up and tracked live. 
 
-######Cons
+###### Cons
 * Adblockerd can stop the visitors data from being collected. 
 * Its bassed of the use of cookies whick can be deleted.
 * Sampling is used to generate the reports. 

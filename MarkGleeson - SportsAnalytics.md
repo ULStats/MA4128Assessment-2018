@@ -13,9 +13,9 @@ Sports all over the world have developed hugely over the past years. Training me
 
 The rise of this began when the Oakland A’s baseball team used data and statistics to completely turn around their ball club in the early 2000s. It also brought the concept of sports analytics into the limelight. The squad was built completely from statistics and personal views or beliefs were dismissed. Perceived ‘weaker’ players were drafted into the team based on their stats from previous seasons. This change is depicted in the world-famous film – Moneyball. The image below depicts one of the statistic sheets based on one player for the Oakland A's.
 
+![moneyball](https://user-images.githubusercontent.com/35773704/39136659-aa221458-4713-11e8-87ca-d4a6e1e3bff9.png)
 
-
-##**Use**
+## **Use**
 
 Almost every team/individual or organisation (depending on the sport) has one or many persons working solely on the gathering stats and integrating these into useful material. Originally, this was associated with professional backgrounds but today, it is fully in operation with amateur teams also.  Performance statistics, such as number of kicks, number of tackles etc, are collected on every training session and match. These data are inherently multivariate, as an individual’s performance stats may be related to each other and are often structured in terms of time and space.
 

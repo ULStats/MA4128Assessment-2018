@@ -3,7 +3,7 @@
 ***Sean O'Neill***     ***13155245***
 ---------------------------------
 ## Introduction
-
+In mathematics, power iteration (also known as the power method) is an eigenvalue algorithm: given a diagonalizable matrix {\displaystyle A} A, the algorithm will produce a number {\displaystyle \lambda } \lambda , which is the greatest (in absolute value) eigenvalue of {\displaystyle A} A, and a nonzero vector {\displaystyle v} v, the corresponding eigenvector of {\displaystyle \lambda } \lambda , such that {\displaystyle Av=\lambda v} {\displaystyle Av=\lambda v}. The algorithm is also known as the Von Mises iteration.
 
 
 ## Context

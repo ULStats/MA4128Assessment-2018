@@ -34,7 +34,7 @@ chartSeries(AAPL, TA=NULL) # this should produce the following chart.
 
 As you can see we can see the time on the x-axis and prcie on the y-axis. The TA =NULL means that there is no technical analysis done to the graph
 There are commands to carry out the technical anysis which breaks down the data into bar charts, histograms. 
-Below is some of the cod ethat was used.
+Below is some of the code that was used.
 ``
 Apple_closeprice = Cl(AAPL) # We assign the closing price to a new variable called Apple_closeprice.
 plot(Apple_closeprice) # Plotting the close price

@@ -16,21 +16,21 @@ The reader can expect to learn how to:
 
 
 ## Method
-## 1.Examine your data
+#### 1.Examine your data
 * Plot the data and examine its patterns and irregularities
 * Clean up any outliers or missing values if needed
 * tsclean() is a convenient method for outlier removal and inputing missing values
 * Take a logarithm of a series to help stabilize a strong growth trend
-## 2.Decompose your data
+#### 2.Decompose your data
 * Does the series appear to have trends or seasonality?
 * Use decompose() or stl() to examine and possibly remove components of the series
-## 3.Stationarity
+#### 3.Stationarity
 * Is the series stationary?
 * Use adf.test(), ACF, PACF plots to determine order of differencing needed
-## 4.Autocorrelations and choosing model order
+#### 4.Autocorrelations and choosing model order
 * Choose order of the ARIMA by examining ACF and PACF plots
-## 5.Fit an ARIMA model
-## 6.Evaluate and iterate
+#### 5.Fit an ARIMA model
+#### 6.Evaluate and iterate
 * Check residuals, which should haven no patterns and be normally distributed
 * If there are visible patterns or bias, plot ACF/PACF. Are any additional order parameters needed?
 * Refit model if needed. Compare model errors and fit criteria such as AIC or BIC.

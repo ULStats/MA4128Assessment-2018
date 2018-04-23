@@ -3,5 +3,5 @@
 ***Sean O'Neill***     ***13155245***
 ---------------------------------
 ## Introduction
-$$\lambda$$
+$\lambda$
 

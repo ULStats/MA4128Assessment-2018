@@ -22,5 +22,6 @@ Gephi is a Network visualization and analysis platform used when working with di
 * It works well with large networks (neibourboud groups, companys)
 * great help features
 
-
+###### Useful Urls for Gephi support
+https://gephi.org/
 ***Jonathan O'Brien* **

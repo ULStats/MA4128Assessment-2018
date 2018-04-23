@@ -42,6 +42,14 @@ Gephi is a Network visualization and analysis platform used when working with di
 ```
 git clone git@github.com:username/gephi.git
 ```
-
+* Run the following command or [open the project in Netbeans](https://github.com/gephi/gephi/wiki/How-to-build-Gephi)
+```
+mvm clean install
+```
+* Once built, one can test running Gephi
+```
+  cd modules/application
+  mvn nbm:cluster-app nbm:run-platform
+```
 
 ***Jonathan O'Brien* **

@@ -2,6 +2,8 @@ __Forecasting with R__
 ===================================
 ***by Colin Boland - 12032875***
 
+![Image of Time Seires]
+(http://www.kovcomp.co.uk/support/XL-Tut/images/hw1.gif)
 
 ## What is a forecasting model in Time Series?
 
@@ -14,8 +16,11 @@ Forecasting involves predicting values for a variable using its historical data 
 ## What is Autoregressive Integrated Moving Average (ARIMA)?
 ARIMA stands for Autoregressive Integrated Moving Average. ARIMA is also known as Box-Jenkins approach. Box and Jenkins claimed that non-stationary data can be made stationary by differencing the series, Yt. The general model for Yt is written as,
 
-![\Large Yt =ϕ1Yt−1 +ϕ2Yt−2…ϕpYt−p +ϵt + θ1ϵt−1+ θ2ϵt−2 +…θqϵt−q]
-
+$$
+\begin{equation}
+Y_t =\phi_1Y_{t−1} +\phi_2Y_{t−2}…\phi_pY_{t−p} +\eps_t + \theta_1\eps_{t−1}+ \theta_2\eps_{t−2} +…\theta_q\eps_{t−q}]
+\end{equation}
+$$
 
 Where, Yt is the differenced time series value, ϕ and θ are unknown parameters and ϵ are independent identically distributed error terms with zero mean. Here, Yt is expressed in terms of its past values and the current and past values of error terms.
 

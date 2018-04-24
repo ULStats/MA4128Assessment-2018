@@ -23,6 +23,8 @@ You can learn more about your customers in a variety of ways, and a mix of resea
 
 Talking to them and running a survey will be the best way of hearing about them in their own words, although that does come with biases. Reduce this by complementing that research with sales data, CRM data, and speaking to customer-facing employees. Once you have identified these groups, social data can elaborate your understanding by providing a more holistic view of the groups.
 
+![Alt Text](http://amadeusblog.com/wp-content/uploads/2016/04/Predictive-Analytics-Blog.png)
+
 ### Segment these groups
 * Measurable: Your analysis should identify the size of a market segment so that you can decide to what extent efforts should be focused on the segment
 * Distinguishable: Observable differences that are clearly defined must exist in order to characterize segments
@@ -47,6 +49,8 @@ Take your data, your segmentation criteria, some educated guesswork, and develop
 ### Discover their needs
 The next step in customer analysis is to get a good idea of what the customer’s needs are. By understanding their needs, several departments can gear their output towards answering these questions, rather than taking an “If you build it, they will come” approach.
 
+![Alt Text](https://cdn.sketchbubble.com/media/catalog/product/cache/1/image/720x540/c96a280f94e22e3ee3823dd0a1a87606/c/u/customer-needs-slide5.png)
+
 ### How does your brand meet the needs of the customer?
 Once you’ve done your research and outlined your different customer groups and their needs, you should connect the dots to your brand and identify how you meet those needs. This section of customer analysis should just be a matter of discussing and brainstorming with internal partners.
 
@@ -55,3 +59,12 @@ Solution based answers should come out of this process. Rather than saying, “w
 Solving the problems that customers face on a daily basis will resonate with them much better than shouting about a shiny new feature. Focus on how you can make their lives easier and more enjoyable.
 
 This will obviously be reflected in marketing, but these insights can help sales and product development as well, tightening your focus to better match your customer’s needs.
+
+
+## Example of Customer Analytics
+![Alt Text](http://amadeusblog.com/wp-content/uploads/2016/04/BlogPost.png)
+
+In the example above we see that Athletico Madrid are after reaching the Champions League Final. The final is set to be played in Milan. An airline company for example Aer Lingus has a number of flights running from Liverpool to Milan with free seats. In an attempt to entice Liverpool fans into travelling to the match the airline offer a package deal. This deal included the seats that would have been empty and a hotel room. The idea of this is to try and get individuals who would not normally go to the match to now travel as they think it is a good deal.
+
+## Conclusion
+After my studying of the topic of customer analysis I have learned that it is an essential part or marketing in day to day business. The concept of customer analysis is to set about the marketing of the product/service by analysing what the customer wants and changing the marketing plan to suit the interests of the customer. By giving customers what they want companies are able to improve profit margins. For this reason it is important that customer analysis is carried out by all companies. 

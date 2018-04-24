@@ -68,3 +68,12 @@ In the example above we see that Athletico Madrid are after reaching the Champio
 
 ## Conclusion
 After my studying of the topic of customer analysis I have learned that it is an essential part or marketing in day to day business. The concept of customer analysis is to set about the marketing of the product/service by analysing what the customer wants and changing the marketing plan to suit the interests of the customer. By giving customers what they want companies are able to improve profit margins. For this reason it is important that customer analysis is carried out by all companies. 
+
+
+### Reference Links 
+https://www.brandwatch.com/blog/how-to-write-customer-analysis/
+
+https://www.brandwatch.com/blog/how-to-write-customer-analysis/
+
+http://www.amadeus.com/blog/07/04/5-examples-predictive-analytics-travel-industry/
+

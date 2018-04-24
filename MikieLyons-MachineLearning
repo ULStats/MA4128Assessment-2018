@@ -1,1 +1,68 @@
-Dgagharh
+**Machine Learning**
+
+Mikie Lyons
+
+Machine learning is a field of computer science that uses statistical techniques to give computer systems the ability to "learn"
+with data, without being explicitly programmed.
+The name machine learning was coined in 1959 by Arthur Samuel. Evolved from the study of pattern recognition and computational
+learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn
+from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven
+predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks
+where designing and programming explicit algorithms with good performance is difficult or infeasible
+
+Examples Include:
+email filtering, detection of network intruders or malicious insiders working towards a data breach, optical character recognition
+(OCR), learning to rank, and computer vision.
+
+Machine learning is closely related to (and often overlaps with) computational statistics, which also focuses on prediction-making
+through the use of computers. It has strong ties to mathematical optimization, which delivers methods, theory and application domains
+to the field. Machine learning is sometimes conflated with data mining, where the latter subfield focuses more on exploratory data
+analysis and is known as unsupervised learning.
+Machine learning can also be unsupervised and be used to learn and establish baseline behavioral profiles for various entities and then
+used to find meaningful anomalies.
+
+
+History:
+
+Arthur Samuel, an American pioneer in the field of computer gaming and artificial intelligence, coined the term "Machine Learning" in
+1959 while at IBM. As a scientific endeavour, machine learning grew out of the quest for artificial intelligence. Already in the
+early days of AI as an academic discipline, some researchers were interested in having machines learn from data. They attempted to
+approach the problem with various symbolic methods, as well as what were then termed "neural networks"; these were mostly perceptrons
+and other models that were later found to be reinventions of the generalized linear models of statistics. Probabilistic reasoning
+was also employed, especially in automated medical diagnosis.
+
+Machine learning, reorganized as a separate field, started to flourish in the 1990s. The field changed its goal from achieving
+artificial intelligence to tackling solvable problems of a practical nature. It shifted focus away from the symbolic approaches it
+had inherited from AI, and toward methods and models borrowed from statistics and probability theory. It also benefited from the
+increasing availability of digitized information, and the ability to distribute it via the Internet.
+
+
+Relation to Statistics:
+
+Machine learning and statistics are closely related fields. According to Michael I. Jordan, the ideas of machine learning, from
+methodological principles to theoretical tools, have had a long pre-history in statistics. He also suggested the term data
+science as a placeholder to call the overall field.
+Leo Breiman distinguished two statistical modelling paradigms: data model and algorithmic model, wherein "algorithmic model" means more
+or less the machine learning algorithms like Random forest.
+Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning.
+
+
+Overview:
+Machine learning tasks:
+
+Machine learning tasks are typically classified into two broad categories, depending on whether there is a learning "signal" or "feedback"
+available to a learning system:
+
+> Supervised learning: The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to
+learn a general rule that maps inputs to outputs. As special cases, the input signal can be only partially available, or restricted to
+special feedback: 
+>> Semi-supervised learning: the computer is given only an incomplete training signal: a training set with some (often many) of the target
+outputs missing.
+>> Active learning: the computer can only obtain training labels for a limited set of instances (based on a budget), and also has to
+optimize its choice of objects to acquire labels for. When used interactively, these can be presented to the user for labeling.
+>> Reinforcement learning: training data (in form of rewards and punishments) is given only as feedback to the program's actions in a
+dynamic environment, such as driving a vehicle or playing a game against an opponent.
+
+>  Unsupervised learning: No labels are given to the learning algorithm, leaving it on its own to find structure in its input.
+Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end (feature learning).
+

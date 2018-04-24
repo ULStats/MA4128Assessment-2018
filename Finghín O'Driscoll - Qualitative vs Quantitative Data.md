@@ -29,4 +29,4 @@ You can use quantitative analytics to understand how customers use your product 
 You can find out where most of your website traffic is coming from by using quantitative analytics. Through Google Analytics, you can figure out where the organic search requests come from and which specific media channels are bringing in the most people.
 ### 3) Conversion funnel
 Use quantitative analytics when you’re trying to identify where customers abandon your conversion funnel. You can use this data to create a strategy to improve certain steps of the funnel so you can increase the overall conversion rate. l
- 
+![Quantative](https://image.slidesharecdn.com/quantitative-data-a-basic-introduction-1198133206856240-3/95/quantitative-data-a-basic-introduction-7-728.jpg?cb=1198104407)

@@ -13,6 +13,8 @@ Here's a quick look at the difference between qualitative and quantitative data.
 
 Remember, if we're measuring a quantity, we're making a statement about quantitative data. If we're describing qualities, we're making a statement about qualitative data. Keep your L's and N's together and it shouldn't be too tough to keep straight.
 ## Cases for Qualitative Analytics
+Qualitative researchers use a variety of methods to develop deep understandings of how people perceive their social realities and in consequence, how they act within the social world. For example, diary accounts, open-ended questionnaires, documents, participant observation, and ethnography. 
+
 So when would you use qualitative analytics? While there are many examples when you would, here are three use cases: 
 ### 1) Finding out why a customer decided to do business with you
 Understanding what prompted a customer to choose your business over a competitor’s will help you pinpoint what your competitive advantage is and how to sell your product or service. Qualitative analytics can come in handy in this case: ask questions like ‘Why did you sign up?’ and ‘Why did you visit this page?' in order to collect data that will help you. Make sure you word the question so it’s open-ended and can generate more authentic responses from customers.
@@ -22,6 +24,7 @@ Sometimes you think you know what value your product or service gives to custome
 The language your customers use is really golden. When you’re looking for best ways to write your pay-per-click (PPC) ad copy, you’ll want to first understand how customers write about your product or service. You can use your customer’s own words in your ad copy! 
 ![Qualative](http://slideplayer.com/8188131/25/images/4/Qualitative+Data+Collection.jpg)
 ## Cases for Quantitative Analytics
+Quantitative research gathers data in a numerical form which can be put into categories, or in rank order, or measured in units of measurement.  This type of data can be used to construct graphs and tables of raw data.
 So when would you use quantitative analytics?
 ### 1) Understanding how customers are using the product
 You can use quantitative analytics to understand how customers use your product or service. This will give you data points that back up what value you think you give to customers based on what features they use most often.  You can find out not just who the habitual users are, but how often they use certain features and which features they use. 

@@ -54,7 +54,7 @@ Useful for testing and validating already constructed theories.
 Rapid analysis: Sophisticated software removes much of the need for prolonged data analysis, especially with large volumes of data involved (Antonius, 2003).
    Replication: Quantitative data is based on measured values and can be checked by others because numerical data is less open to ambiguities of interpretation. Hypotheses can also be tested because of the used of statistical analysis (Antonius, 2003). 
 
-## When would you use quantative analytics?
+## When would you use quantitative analytics?
 ### 1) Understanding how customers are using the product
 You can use quantitative analytics to understand how customers use your product or service. This will give you data points that back up what value you think you give to customers based on what features they use most often.  You can find out not just who the habitual users are, but how often they use certain features and which features they use. 
 ### 2) Basic traffic reporting

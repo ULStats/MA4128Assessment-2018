@@ -1,12 +1,16 @@
 # __Forecasting with R__  :airplane:
-===================================
+
 ***by Colin Boland - 12032875***
 
 ![Aero](https://github.com/ULStats/MA4128Assessment-2018/blob/master/air.jpg)
 
+# Introduction
+
+Many phenomena in our day-to-day lives, such as the movement of airline traffic, are measured in intervals over a period of time. Time series analysis methods are extremely useful for analyzing these special data types. 
+
 # What is a forecasting model in Time Series?
 
-Forecasting involves predicting values for a variable using its historical data points or it can also involve predicting the change in one variable given the change in the value of another variable. Forecasting approaches are primarily categorized into qualitative forecasting and quantitative forecasting. Time series forecasting falls under the category of quantitative forecasting wherein statistical principals and concepts are applied to a given historical data of a variable to forecast the future values of the same variable. Some time series forecasting techniques used include:
+Forecasting involves predicting values for a variable using its historical data points or it can also involve predicting the change in one variable given the change in the value of another variable. The process could be completed Forecasting approaches are primarily categorized into qualitative forecasting and quantitative forecasting. Time series forecasting falls under the category of quantitative forecasting wherein statistical principals and concepts are applied to a given historical data of a variable to forecast the future values of the same variable. Some time series forecasting techniques used include:
   - Autoregressive Models (AR)
   - Moving Average Models (MA)
   - Seasonal Regression Models

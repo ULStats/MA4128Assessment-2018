@@ -37,11 +37,14 @@ The language your customers use is really golden. When you’re looking for best
 
 ## Cases for Quantitative Analytics
 Quantitative research gathers data in a numerical form which can be put into categories, or in rank order, or measured in units of measurement.  This type of data can be used to construct graphs and tables of raw data.
-## When would you use quantitative analytics?
+![Quantative](https://image.slidesharecdn.com/quantitative-data-a-basic-introduction-1198133206856240-3/95/quantitative-data-a-basic-introduction-7-728.jpg?cb=1198104407)
+## Data Analysis
+Statistics help us turn quantitative data into useful information to help with decision making. We can use statistics to summarise our data, describing patterns, relationships,	and connections. Statistics can be descriptive or inferential. Descriptive statistics help us to summarise our data whereas inferential statistics are used to identify statistically significant differences between groups of data (such as intervention and control groups in a		randomised control study).
+
 ### 1) Understanding how customers are using the product
 You can use quantitative analytics to understand how customers use your product or service. This will give you data points that back up what value you think you give to customers based on what features they use most often.  You can find out not just who the habitual users are, but how often they use certain features and which features they use. 
 ### 2) Basic traffic reporting
 You can find out where most of your website traffic is coming from by using quantitative analytics. Through Google Analytics, you can figure out where the organic search requests come from and which specific media channels are bringing in the most people.
 ### 3) Conversion funnel
 Use quantitative analytics when you’re trying to identify where customers abandon your conversion funnel. You can use this data to create a strategy to improve certain steps of the funnel so you can increase the overall conversion rate. l
-![Quantative](https://image.slidesharecdn.com/quantitative-data-a-basic-introduction-1198133206856240-3/95/quantitative-data-a-basic-introduction-7-728.jpg?cb=1198104407)
+

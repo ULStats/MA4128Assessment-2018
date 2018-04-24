@@ -60,3 +60,4 @@ Sharpe ratios can also be calculated using Visual Basic for Applications (VBA) f
 
 ## Conclusion
 The Sharpe ratio was used as an early tool use to examine the performance of an investment by adjusting it for its risk. The Sharpe ration is used as a quick tool for investors to check whether or not it is worth their while investing in a stock. There are more comprehensive formulas that give a better estimate, however the Sharpe ratio is still used today to for a quick valuation.
+

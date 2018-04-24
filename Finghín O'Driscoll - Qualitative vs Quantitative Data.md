@@ -40,6 +40,18 @@ Quantitative research gathers data in a numerical form which can be put into cat
 ![Quantative](https://image.slidesharecdn.com/quantitative-data-a-basic-introduction-1198133206856240-3/95/quantitative-data-a-basic-introduction-7-728.jpg?cb=1198104407)
 ## Data Analysis
 Statistics help us turn quantitative data into useful information to help with decision making. We can use statistics to summarise our data, describing patterns, relationships,	and connections. Statistics can be descriptive or inferential. Descriptive statistics help us to summarise our data whereas inferential statistics are used to identify statistically significant differences between groups of data (such as intervention and control groups in a		randomised control study).
+## Key Features
+* Quantitative researchers try to control extraneous variables by conducting their studies in the lab.
+* The research aims for objectivity (i.e., without bias), and is separated from the data.  
+* The design of the study is determined before it begins. 
+* For the quantitative researcher reality is objective and exist separately to the researcher, and is capable of being seen by anyone.    * Research is used to test a theory and ultimately support or reject it. 
+
+## Limitations
+Context: Quantitative experiments do not take place in natural settings. In addition, they do not allow participants to explain their choices or the meaning of the questions may have for those participants (Carr, 1994).Researcher expertise: Poor knowledge of the application of statistical analysis may negatively affect analysis and subsequent interpretation (Black, 1999).Variability of data quantity: Large sample sizes are needed for more accurate analysis. Small scale quantitative studies may be less reliable because of the low quantity of data (Denscombe, 2010). This also affects the ability to generalize study findings to wider populations.Confirmation bias: The researcher might miss observing phenomena because of focus on theory or hypothesis testing rather than on the theory of hypothesis generation. Scientific objectivity: Quantitative data can be interpreted with statistical analysis, and since statistics are based on the principles of mathematics, the quantitative approach is viewed as scientifically objective, and rational (Carr, 1994; Denscombe, 2010). 
+Useful for testing and validating already constructed theories.
+Rapid analysis: Sophisticated software removes much of the need for prolonged data analysis, especially with large volumes of data involved (Antonius, 2003).
+   Replication: Quantitative data is based on measured values and can be checked by others because numerical data is less open to ambiguities of interpretation. Hypotheses can also be tested because of the used of statistical analysis (Antonius, 2003). 
+
 
 ### 1) Understanding how customers are using the product
 You can use quantitative analytics to understand how customers use your product or service. This will give you data points that back up what value you think you give to customers based on what features they use most often.  You can find out not just who the habitual users are, but how often they use certain features and which features they use. 

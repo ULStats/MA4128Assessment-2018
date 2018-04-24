@@ -1,3 +1,4 @@
+![Tax](https://gjrassets-gordonjamesrealt.netdna-ssl.com/wp-content/uploads/2014/10/D.C.-area-landlords-must-pay-local-taxes-fees.jpg)
 # Tax analysis and revenue forecasting
 
 * Introduction

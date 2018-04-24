@@ -12,7 +12,7 @@ Deep learning architectures such as deep neural networks, deep belief networks a
 including computer vision, speech recognition, natural language processing, audio recognition, social network filtering, machine
 translation, bioinformatics and drug design, where they have produced results comparable to and in some cases superior to human experts.
 
-https://en.wikipedia.org/wiki/Deep_learning#/media/File:Kernel_Machine.svg
+![Deep Learning](https://en.wikipedia.org/wiki/Deep_learning#/media/File:Kernel_Machine.svg)
 
 * History
 The term Deep Learning was introduced to the machine learning community by Rina Dechter in 1986, and to Artificial Neural Networks by

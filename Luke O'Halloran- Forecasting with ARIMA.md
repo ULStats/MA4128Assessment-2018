@@ -37,7 +37,7 @@ The reader can expect to learn how to:
 * Calculate forecast using the chosen model
 
 ##R Code
-####Load data set.
+#### Load data set.
 ```
 install.packages("TSA")
 library(TSA)
@@ -51,7 +51,7 @@ xnew<- ts(airline$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..1
 plot(xnew)
 plot(xold, ylab="Miles Flown")
 ```
-
+##### Decompose the data and Seasonally differencing.
 ```
 ####Decompose data
 decom <- decompose(xnew) 
@@ -62,12 +62,12 @@ seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
 acf(seasondiff, lag.max = 40)
 ```
-
+#### Test Stationarity
 ```
 #dickey fuller
 adf.test(seasondiff)
 ```
-
+#### Diffrence the data.
 ```
 #diff
 diffseasondiff <- diff(seasondiff)
@@ -75,12 +75,15 @@ adf.test(diffseasondiff)
 plot(diffseasondiff, ylab= "Logged Stationary Series")
 ```
 
+#### Picking model using acf, pacf and eacf.
 ```
 #acf, pacf and eacf
 acf(diffseasondiff, main= "acf", lag.max = 50)
 pacf(diffseasondiff, main= "pacf", lag.max = 50)
 eacf(diffseasondiff)
 ```
+
+#### Model fitting using residuals
 ```
 model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
 model
@@ -123,6 +126,7 @@ abline(h=0.05, lty=2)
 dev.new(width=7, height=7)
 tsdiag(model)
 ```
+#### Forecasting the selected model.
 ```
 forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
 lines(xoldlog, col="blue") 

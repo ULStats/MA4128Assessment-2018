@@ -37,39 +37,41 @@ The reader can expect to learn how to:
 * Calculate forecast using the chosen model
 
 ##R Code
-```#install.packages("TSA")
+####Load data set.
+```install.packages("TSA")
 library(TSA)
 setwd("/Users/lukeohalloran/Desktop/TimeSeries")
-airline <- read.csv("us-airlines-monthly-aircraft-mil.csv",header = T)
-airline1 <- read.csv("us-airlines-monthly-aircraft-mil-orig.csv",header = T)
+airline <- read.csv("us-airlines-monthly-aircraft-mil.csv",header = T)```
 plot(airline1)
 #original data
 xold<- ts(airline1$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..1970, freq=12, start = c(1963,1), end = c(1970,12))
 #1 year removed
 xnew<- ts(airline$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..1970, freq=12, start = c(1963,1), end = c(1969,12))
 plot(xnew)
-plot(xold, ylab="Miles Flown")
-decom <- decompose(xnew) 
+plot(xold, ylab="Miles Flown")```
+
+####Decompose data
+```decom <- decompose(xnew) 
 BC <-BoxCox.ar(xnew, lambda=seq(-2,2,0.1) ) 
 #season diff
 xlog <- log(xnew)
 seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
-acf(seasondiff, lag.max = 40)
+acf(seasondiff, lag.max = 40)```
 
-#dickey fuller
-adf.test(seasondiff)
+```#dickey fuller
+adf.test(seasondiff)```
 
-#diff
+```#diff
 diffseasondiff <- diff(seasondiff)
 adf.test(diffseasondiff)
-plot(diffseasondiff, ylab= "Logged Stationary Series")
+plot(diffseasondiff, ylab= "Logged Stationary Series")```
 
-#acf, pacf and eacf
+```#acf, pacf and eacf
 acf(diffseasondiff, main= "acf", lag.max = 50)
 pacf(diffseasondiff, main= "pacf", lag.max = 50)
-eacf(diffseasondiff)
-model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
+eacf(diffseasondiff)```
+```model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
 model
 
 resid <- rstandard(model)
@@ -108,8 +110,8 @@ abline(h=0.05, lty=2)
 
 
 dev.new(width=7, height=7)
-tsdiag(model)
-forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
+tsdiag(model)```
+```forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
 lines(xoldlog, col="blue")  ```
 
 

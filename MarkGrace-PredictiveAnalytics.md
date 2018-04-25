@@ -8,7 +8,8 @@ __Predictive Analytics__
 ## Definition
 Predictive analytics is a form of advanced analytics that uses both new and historical data to forecast activity, behavior and trends. It involves applying statistical analysis techniques, analytical queries and automated machine learning algorithms to data sets to create predictive models that place a numerical value -- or score -- on the likelihood of a particular event happening.
 
-![outline pa](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/outline pa.png)
+https://github.com/ULStats/MA4128Assessment-2018/blob/master/DataEngineering/outline%20pa.png?raw=true
+
 
 Predictive analytics software applications use variables that can be measured and analyzed to predict the likely behavior of individuals, machinery or other entities. For example, an insurance company is likely to take into account potential driving safety variables, such as age, gender, location, type of vehicle and driving record, when pricing and issuing auto insurance policies. 
 

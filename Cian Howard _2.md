@@ -1,9 +1,5 @@
-
-# title
 CFA EXAMS
-======================================================
-SAS Industry
-===========
+======================================
 ***Cian Howard 13140132***
 
 It’s notoriously difficult – only one candidate in every five signing up will complete the programme. It’s not cheap – it will set you back

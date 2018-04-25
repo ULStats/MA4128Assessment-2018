@@ -57,7 +57,7 @@ There are 4 methods of imputation used by MICE in R.
 ### Implementing MICE
 To run the MICE programme in R the following code can be used.
 ```
- imputed_Data <- mice(NewMMSE, m=5, maxit = 50, method = 'pmm', seed = 500)
+Imputed_Weight <- mice(WeightImp, m=5, maxit = 50,method= "pmm",meth= meth,pred= pred, seed= 250695)
 ```
 This runs the multiple imputations m=5 times, with a maximum number of iterations = 50, and since MMSE is a numeric variable, predictive mean matching is used as the method.
 

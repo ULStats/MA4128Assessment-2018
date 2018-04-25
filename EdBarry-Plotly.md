@@ -26,7 +26,7 @@ Before dash, apps like these would require an entire team of engineers and desig
 2. Direct Control: Dash provides a simple interface for tying UI controls, like sliders, dropdowns, and graphs, with your Python data analysis code.
 3. Completely Customizable: Every aesthetic element of a Dash app is customizable. Dash apps are built and published in the Web, so the full power of CSS is available.
 * Plotly.js is an open source JavaScript library for creating graphs and dashboards. This is used to create sophisticated, interactive charts in JavaScript for finance, engineering, and the sciences. Every major company in Science, Engineering, and Finance is moving their software to the Web. Plotly provides the Web data visualization technology supporting this trend.
-* Plotly Enterprise an on-premises installation of Plotly.
+* Plotly Enterprise an on-premises installation of Plotly. i love willy . 
 
 
 ### Feedback

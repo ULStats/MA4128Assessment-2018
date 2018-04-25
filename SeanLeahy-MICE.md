@@ -53,30 +53,6 @@ There are 4 methods of imputation used by MICE in R.
 * polyreg(Bayesian polytomous regression) – For Factor Variables (>= 2 levels)
 * Proportional odds model (ordered, >= 2 levels)
 
-## MICE Algorithm:
-The manner in which the mice algorithm works is quite complex. One must be careful when running it such that the values imputed are statistically correct. To allow for more accurate imputation the method of chained equations was developed. Instead of imputing all of the values at once, the mice package imputes values separately for each variable. Univariate imputations are done in parallel and then pooled to generate a single imputed dataset.
-It is an assumption of the MICE algorithm that the multivariate distribution of Y^j can be completely specified by θ, which is a vector of unknown parameters. The MICE algorithm obtains the posterior distribution of θ by sampling iteratively from conditional distributions of the form 
-```math
-P(Y_1 |Y_(-1),θ_1)
-.
-.
-. 
-P(Y_p |Y_(-p),θ_p)
-``` 
-Where Y_(-p) are the predictor variables for the given imputed data. The parameters θ_1,…,θ_p are unique to each of the individual conditional densities. Drawing from the observed marginal densities, the t^th iteration of chained equations draws:
-```math
-θ_1^((t))~ P(θ_1 |Y_1^obs,Y_2^((t-1) ),…,Y_p^((t-1))
-
-Y_1^((t))~ P(Y_1 |Y_1^obs,Y_2^((t-1) ),…,Y_p^((t-1) ),θ_1^((t))
-.
-.
-. 
-θ_p^((t))~ P(θ_p |Y_p^obs,Y_1^((t-1) ),…,Y_(p-1)^((t))
-
-Y_p^((t))~ P(Y_p |Y_p^obs,Y_1^((t-1) ),…,Y_p^((t) ),θ_p^((t))
-```
-Where Y_j^((t))is the j^th  value imputed at iteration t. 
-
 
 ### Implementing MICE
 To run the MICE programme in R the following code can be used.
@@ -93,7 +69,7 @@ completeSet <- complete(imputed_Data,1)
 The above code creates a new data frame in which the imputed values from the 1st imputation are combined with the original values.
 
 ### Visualizing Imputed Data
-Using the stripplot function a visual representation of the imputed data can be seen. The values which have been imputed are in red while the original data is in blue. 
+Using the stripplot() function a visual representation of the imputed data can be seen. The values which have been imputed are in red while the original data is in blue. 
 ![Imputed Data](https://github.com/ULStats/MA4128Assessment-2018/blob/53377f54eb17eb7e8cbbbb0d5cfcd96c773faa39/Weight%20Imputations.png?raw=true)
 
 ### Analysis of Imputed Data

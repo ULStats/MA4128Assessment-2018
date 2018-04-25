@@ -14,3 +14,20 @@ where ***I*** is the identity matrix, and set the next approximation of the eige
 To compute more than one eigenvalue, the algorithm can be combined with a deflation technique.
 
 Note that for very small problems it is beneficial to replace the matrix inverse with the adjugate, which will yield the same iteration because it is equal to the inverse up to an irrelevant scale (the inverse of the determinant, specifically). The adjugate is easier to compute explicitly than the inverse (though the inverse is easier to apply to a vector for problems that aren't small), and is more numerically sound because it remains well defined as the eigenvalue converges.
+
+## Octave Implementation
+function x = rayleigh(A, epsilon, mu, x)
+  x = x / norm(x);
+  % the backslash operator in Octave solves a linear system
+  y = (A - mu * eye(rows(A))) \ x; 
+  lambda = y' * x;
+  mu = mu + 1 / lambda
+  err = norm(y - lambda * x) / norm(y)
+
+  while err > epsilon
+    x = y / norm(y);
+    y = (A - mu * eye(rows(A))) \ x;
+    lambda = y' * x;
+    mu = mu + 1 / lambda
+    err = norm(y - lambda * x) / norm(y)
+  end

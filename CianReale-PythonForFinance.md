@@ -1,6 +1,5 @@
 Python for Finance
-===============================
-![alt text](https://raw.githubusercontent.com/DragonflyStats/MA4128Assessment/master/images/python_for_finance.png)
+![Biological Neuron versus Artificial Neural Network](https://i2.wp.com/www.pythonforfinance.net/wp-content/uploads/2016/03/python-logo-master.png?resize=1180%2C645)
  ## What is Python?
  Python is an object oriented, high-level programming language, It is a simple, but very powerful language. It is heavily used in
  scientific computing, as well as many other fields including game development. Python is easy to learn and its simple syntax makes it

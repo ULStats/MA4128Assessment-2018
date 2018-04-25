@@ -13,17 +13,17 @@ quantmod makes modelling easier by removing the repetitive workflow issues surro
 
 **Q**
 
-The most common practise of quantmod can broken inton one of two things. One is to retrieve the data and once the data is retrieved you can begin to analyse the data and finally visualise the data through charts. To get data from quantmod you use "getsSymbol()". For example to retrieve apple data you would use getSymbol("AAPL") using Apple's trading name. Multiple symblos can be acquired my inserting a semicolon after each data, e.g, getSymbol("AAPL;MSFT"). That would produce the data for apple and microsoft. As a default it uses yahoo to retrieve data but you can direct it the local or other sources if needed.
+The most common practise of quantmod can broken inton one of two things. One is to retrieve the data and once the data is retrieved you can begin to analyse the data and finally visualise the data through charts. To get data from quantmod you use "getsSymbol()". For example to retrieve apple data you would use ``getSymbol("AAPL")`` using Apple's trading name. Multiple symblos can be acquired my inserting a semicolon after each data, e.g, ``getSymbol("AAPL;MSFT")``. That would produce the data for apple and microsoft. As a default it uses yahoo to retrieve data but you can direct it the local or other sources if needed.
 
 For specific dates you can input parameters such as to and from dates. For example,
-getSymbol("AAPL", from"2015-01-01", to"2017-29-05") would pull up data from the first of january 2015 to the 29th of may 2017. The dates are in american form.
+``getSymbol("AAPL", from"2015-01-01", to"2017-29-05")`` would pull up data from the first of january 2015 to the 29th of may 2017. The dates are in american form.
 
 You can use this data and other packages to things like priciple component analysis or see how the change in Apple for example impacts the change in microsof or other related industries.
 
 Once we have our data things get more interesting. We can use the chartSeries command to produce to display data. 
-chartSeries("APPL") would produce a simple chart showing the volume of money being traded and the a time series plot showing the price of the stock. This is where to quantmod package is powerful. Through simple commands we can produce a visualisation of the stock. We can also add our own custom indicators. For example we can add moving averages to the data. The most commmon would be the addMACD() command which illustrates the moving average convergence divergence.
+ ``chartSeries("APPL")`` would produce a simple chart showing the volume of money being traded and the a time series plot showing the price of the stock. This is where to quantmod package is powerful. Through simple commands we can produce a visualisation of the stock. We can also add our own custom indicators. For example we can add moving averages to the data. The most commmon would be the ``addMACD()`` command which illustrates the moving average convergence divergence.
 
-Other indicators are the bollinger bands which is coded using addBBands().
+Other indicators are the bollinger bands which is coded using ``addBBands()``.
 
 
 

@@ -2,7 +2,7 @@
 Blockchain offers all parties involved in a business network a secure and synchronized record of transactions. The block chain ledger records every sequence of transactions from beginning to end, whether its hundreds of steps in a supply chain or single online payments and as each transaction occur its put into a block. 
 Each block is connected to the one before and after. Groups of transactions are blocked together and a fingerprint of each block is added to the next this creating an irreversible chain.
  
-![Figure 1: Example of Blockchain (Blockgeeks, 2018)](https://www.google.ie/search?q=blockchain+uses&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQpo-gjtbaAhWGLsAKHXTKBi0Q_AUICigB&biw=1366&bih=637#imgrc=OtM_Cp-qltMNoM:)
+
 
 **Block chain uses:**
 In mining of Diamonds
@@ -15,15 +15,15 @@ As Hacker Noon said:
 The use of Blockchain and all three components can be very appealing to Governments. Firstly, there’s the ownership right in relation to the “cryptographic” key possession, generation, replacement, or loss. The Government can also have an interest in who can act as part of a Blockchain network. They also hold an interest in Blockchain protocols as they authorize transactions, as governments often regulate transaction authorization through different regimes(e.g. stock market regulators authorize the format of market exchange trades). For this reason, they are around the Government and all regulatory compliance is seen as a business opportunity by many Blockchain developers.
 
 **Advantages of Blockchain:**
-1)  Works as a shared form of record keeping
--	This ensures no on person or organisation holds ownership of the system.
-2)	Everyone involved in the supply chain process is permissioned to have a copy of every record or piece of data.
-3)	No transaction can be added to the chain without consensus across the participants.
-4)	Tamper resistant and highly secure
--	Thus eliminating risk of fraud and error.
-5)	Blockchain data is of a high quality.
-6)	Blockchain does not have a centre point therefore can avoid terrible hacker attacks.
-7)	Blockchain can reduce transaction times to minutes rather than days
+1.  Works as a shared form of record keeping
+* Item 1a This ensures no on person or organisation holds ownership of the system.
+2.	Everyone involved in the supply chain process is permissioned to have a copy of every record or piece of data.
+3.	No transaction can be added to the chain without consensus across the participants.
+4.	Tamper resistant and highly secure
+* Item 4aThus eliminating risk of fraud and error.
+5.	Blockchain data is of a high quality.
+6.	Blockchain does not have a centre point therefore can avoid terrible hacker attacks.
+7.	Blockchain can reduce transaction times to minutes rather than days
 
 **Disadvantages of Blockchain**
 1)	Introductory Technology

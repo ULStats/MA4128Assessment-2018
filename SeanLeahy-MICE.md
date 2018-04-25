@@ -119,6 +119,7 @@ eldermet$Setting -0.26 0.19 -1.36 157.62     0.18  -0.64  0.12    0 0.13   0.12
 eldermet$MMSE     0.01 0.04  0.14  93.36     0.89  -0.08  0.09    0 0.19   0.17
 eldermet$GDT     -0.06 0.18 -0.31   5.13     0.77  -0.51  0.40   60 0.88   0.84
 ```
+This is a pooled result, as the regression coefficients are averaged over the 5 imputations. This is helpful fro data scientists/ statisticians as it is possible to get a more complete analysis of the dataset, since there are no missing values.
 
 https://cran.r-project.org/web/packages/mice/README.html
 www.stefvanbuuren.nl/mi/mi.html

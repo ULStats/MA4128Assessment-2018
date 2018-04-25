@@ -39,6 +39,9 @@ However, one important aspect with regards to sentiment analysis is its ability,
 6. Lead generation
 7. Sales Revenue
 
+** R packages **
+
+
 
 
 **References**

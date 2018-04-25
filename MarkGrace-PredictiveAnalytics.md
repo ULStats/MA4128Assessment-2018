@@ -8,7 +8,7 @@ __Predictive Analytics__
 ## Definition
 Predictive analytics is a form of advanced analytics that uses both new and historical data to forecast activity, behavior and trends. It involves applying statistical analysis techniques, analytical queries and automated machine learning algorithms to data sets to create predictive models that place a numerical value -- or score -- on the likelihood of a particular event happening.
 
-https://github.com/ULStats/MA4128Assessment-2018/blob/master/DataEngineering/outline%20pa.png?raw=true
+![outline](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/outline.png)
 
 
 Predictive analytics software applications use variables that can be measured and analyzed to predict the likely behavior of individuals, machinery or other entities. For example, an insurance company is likely to take into account potential driving safety variables, such as age, gender, location, type of vehicle and driving record, when pricing and issuing auto insurance policies. 
@@ -55,6 +55,6 @@ A wide range of tools is used in predictive modeling and analytics. IBM, Microso
 
 In addition, open source software plays a big role in the predictive analytics market. The open source R analytics language is commonly used in predictive analytics applications, as are the Python and Scala programming languages. Several open source predictive analytics and machine learning platforms are also available, including a library of algorithms built into the Spark processing engine.
 
-![analytics tools](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/analytics tools.png)
+![analytics](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/analytics.png)
 
 Analytics teams can use the base open source editions of R and other analytics languages or pay for the commercial versions offered by vendors such as Microsoft. The commercial tools can be expensive, but they come with technical support from the vendor, while users of pure open source releases must troubleshoot on their own or seek help through open source community support sites.

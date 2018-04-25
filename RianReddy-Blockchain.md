@@ -1,8 +1,9 @@
 **Blockchain – Rian Reddy 14145146**
 Blockchain offers all parties involved in a business network a secure and synchronized record of transactions. The block chain ledger records every sequence of transactions from beginning to end, whether its hundreds of steps in a supply chain or single online payments and as each transaction occur its put into a block. 
 Each block is connected to the one before and after. Groups of transactions are blocked together and a fingerprint of each block is added to the next this creating an irreversible chain.
- 
+ ![image](https://user-images.githubusercontent.com/35773710/39269880-095b62ee-48cc-11e8-9aa0-896909df4e90.png)
 
+Figure 1: Example of Blockchain (Blockgeeks, 2018)
 
 **Block chain uses:**
 In mining of Diamonds
@@ -26,11 +27,11 @@ Item 4aThus eliminating risk of fraud and error.
 7.	Blockchain can reduce transaction times to minutes rather than days
 
 **Disadvantages of Blockchain**
-1)	Introductory Technology
+1.	Introductory Technology
 -	Resolving teething issues such as the speed of transactions and verification process.
-2)	Integration concerns for other company’s
+2.	Integration concerns for other company’s
 -	To change a company’s system over to Blockchain it generally requires a complete replacement of existing systems.
-3)	Cost
+3.	Cost
 -	While Blockchain offers very high savings in transaction costs, the initial capital costs could be a deterrent.
 
 **References:**

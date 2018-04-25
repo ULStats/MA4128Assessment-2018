@@ -72,6 +72,7 @@ The reference to the point of origin is essential in interpreting the survival p
 Our event in this case will be defaulting a mortgage and an example will go as follows:
 
 __4) Survival analysis using finance example:__
+
 An illustration by example is as follows: If one event occurs at time t(1) when 10 subjects are in the risk set, then the conditional default probability at that time is (9/10) or (0.90) . From each of these conditional time probabilities, the probability of surviving (not defaulting in financial case) beyond a given time is calculated by multiplying all of the conditional probabilities less than or equal to that time together.  For example, if there is one event at t(1) and another event at t(2) with 10 and 8 subjects in the 'risk set' (risk of default) respectively, then the conditional probability of 'surviving'  t(1) is 0.90(9/10). The conditional probability of surviving to t(2) is 0.875(7/8) and the probability of survivng beyond t(2) is (0.9*0.875 = 0.7875)
 Conversely, the probability of defaulting at, or before a given time is one minus the survival probability at that time.  
 Evidently, in the example, the probability of failing at or before time t(2) is  0.2125(1 - 7875).

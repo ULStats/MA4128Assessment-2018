@@ -14,4 +14,23 @@ Python for Finance
 7. ___Indentation aware___: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
 8. ___Garbage collecting___: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
 
+## History
+Python was first released in 1991
 
+In the late 1980s, Van Rossum began work on Python at the National Research Institute for Mathematics and Computer Science in the Netherland. In an interview with Bill Venners, Van Rossum explained how he had worked on a team building a language called ABC in the early 1980s. He claims that this expeience had a major role to play in the inception and realization of Python. The first version of Python was released in 1991.The following can be considered milestones in the development of Python:
+
+1. Python 0.9.0 released in **1991** (first release)
+
+2. Python 1.0 released in **1994**
+ 
+3. Python 2.0 released in **2000**
+
+4. Python 2.6 released in **2008**
+
+5. Python 2.7 released in **2010**
+
+6. Python 3.0 released in **2008**
+
+7. Python 3.3 released in **2010**
+
+8. Python 3.4 released in **2014**

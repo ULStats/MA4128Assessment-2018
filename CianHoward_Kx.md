@@ -13,20 +13,20 @@ Kx is a suite of enterprise-level products centered around kdb+, the world’s f
 What are the Key Features of Kx Technology? 
 The world’s fastest time-series column-store database. Streaming, real-time and historical data in one platform. Kx runs on Linux, Windows, Solaris, and MacOS,commodity hardware, cloud, edge devices/appliances.
 
-Why is Kx so Fast?
+**Why is Kx so Fast?**
 Performance is key to the underlying design of Kx, and the database has a number of important characteristics that contribute to its speed. Kx automatically distributes database operations across CPU cores, exploits vector instructions from Intel and ARM chipsets.
 Database tables are first class objects in q programming language, a wide variety of data types for compact storage and supports software and hardware compression.
 
-Some Kx Performance Snippets;
-Streaming – Process and analyse 4.5 million bulk events per second per core.
-Scan – Search in-memory tables at 4 billion records per second per core.
-Batch – Ingest data at 10 million records per second per core.
-Store – Accumulate 10 trillion data points (3 PB,A petabyte (PB) is 1,000 terabytes (TB) or 1,000,000 gigabytes (GB)) of NYSE data.
-Usage – Trusted by 17 of the world’s top 20 investment banks.
-Volume – Daily volumes of 1.6 TB of streaming data per day.
-Scale – From Raspberry Pi, edge devices to 20,000 cores on AWS Cloud.
-Performance – Top performing time-series database according to STAC Research.
-Latency – Sub-millisecond latency for streaming event processing.
+**Some Kx Performance Snippets;**
+⋅⋅*Streaming – Process and analyse 4.5 million bulk events per second per core.
+⋅⋅*Scan – Search in-memory tables at 4 billion records per second per core.
+⋅⋅*Batch – Ingest data at 10 million records per second per core.
+⋅⋅*Store – Accumulate 10 trillion data points (3 PB,A petabyte (PB) is 1,000 terabytes (TB) or 1,000,000 gigabytes (GB)) of NYSE data.
+⋅⋅*Usage – Trusted by 17 of the world’s top 20 investment banks.
+⋅⋅*Volume – Daily volumes of 1.6 TB of streaming data per day.
+⋅⋅*Scale – From Raspberry Pi, edge devices to 20,000 cores on AWS Cloud.
+⋅⋅*Performance – Top performing time-series database according to STAC Research.
+⋅⋅*Latency – Sub-millisecond latency for streaming event processing.
 
 One feature that really sets Kx apart is its ability to combine streaming, in-memory and historical data in one simple and unified platform; there is no requirement to acquire disparate components to build a hybrid solution.
 
@@ -36,6 +36,4 @@ The diagram below illustrates the Kx suite of technology, all built on the core 
 
 ![alt text](https://kx.com/media/2018/03/whyKxnewdiagram.jpg)
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 
-[[https://kx.com/media/2018/03/whyKxnewdiagram.jpg]]

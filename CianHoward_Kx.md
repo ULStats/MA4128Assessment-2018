@@ -35,3 +35,5 @@ For many of today’s businesses, the promise of big data analytics is the abili
 The diagram below illustrates the Kx suite of technology, all built on the core kdb+ engine. Included are standard programing language interfaces, SOA interoperability, complex event processors, and an adapter framework used for ingesting data from external data sources.
 
 [[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+
+[[https://kx.com/media/2018/03/whyKxnewdiagram.jpg]]

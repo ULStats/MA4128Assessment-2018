@@ -59,19 +59,26 @@ seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
 acf(seasondiff, lag.max = 40)```
 
-```#dickey fuller
-adf.test(seasondiff)```
+```
+#dickey fuller
+adf.test(seasondiff)
+```
 
-```#diff
+```
+#diff
 diffseasondiff <- diff(seasondiff)
 adf.test(diffseasondiff)
-plot(diffseasondiff, ylab= "Logged Stationary Series")```
+plot(diffseasondiff, ylab= "Logged Stationary Series")
+```
 
-```#acf, pacf and eacf
+```
+#acf, pacf and eacf
 acf(diffseasondiff, main= "acf", lag.max = 50)
 pacf(diffseasondiff, main= "pacf", lag.max = 50)
-eacf(diffseasondiff)```
-```model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
+eacf(diffseasondiff)
+```
+```
+model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
 model
 
 resid <- rstandard(model)
@@ -110,9 +117,12 @@ abline(h=0.05, lty=2)
 
 
 dev.new(width=7, height=7)
-tsdiag(model)```
-```forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
-lines(xoldlog, col="blue")  ```
+tsdiag(model)
+```
+```
+forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
+lines(xoldlog, col="blue") 
+```
 
 
 ***Luke O'Halloran***

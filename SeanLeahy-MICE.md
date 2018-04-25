@@ -51,7 +51,7 @@ The following code then produced the images below whis atre a visual representat
                   labels=names(NewWeight), cex.axis=.7,
                   gap=3, ylab=c("Missing data","Pattern"))
 ```
- ![MMSE Missin Data](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/be3644704928b4947e2cbc3ab063c33c9a8803e6/MMSE%20Missing%20Data.png) 
+ ![MMSE Missin Data](https://github.com/ULStats/MA4128Assessment-2018/blob/3ebd7f88c0acc3019a0723b0876b02eb258c847b/Weight%20Missing%20Data.png?raw=true) 
 
 ## Methods of Imputation:
 There are 4 methods of imputation used by MICE in R.

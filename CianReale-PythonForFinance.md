@@ -32,3 +32,15 @@ Guido Van Rossum is the creator of Python. In the late 1980s, Van Rossum began w
 7. Python 3.3 released in **2010**
 
 8. Python 3.4 released in **2014**
+
+### Technology in Finance
+Now that we have some rough ideas of what Python is all about, it makes sense to step back a bit and to briefly contemplate the role of technology in finance. This will put us in a position to better judge the role Python already plays and, even more importantly, will probably play in the financial industry of the future.
+
+In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics). However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries. Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive advantages as well as disadvantages.
+
+**Aspects of Technology in Finance:**
+- Costs for technology in the finance industry
+- Technology as an enabler for new business and innovation
+- Technology and talent as barriers to entry in the finance industry
+- Increasing speeds, frequencies, and data volumes
+- The rise of real-time analytics

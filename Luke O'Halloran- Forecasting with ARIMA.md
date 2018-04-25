@@ -38,7 +38,8 @@ The reader can expect to learn how to:
 
 ##R Code
 ####Load data set.
-```install.packages("TSA")
+```
+install.packages("TSA")
 library(TSA)
 setwd("/Users/lukeohalloran/Desktop/TimeSeries")
 airline <- read.csv("us-airlines-monthly-aircraft-mil.csv",header = T)
@@ -48,10 +49,12 @@ xold<- ts(airline1$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..
 #1 year removed
 xnew<- ts(airline$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..1970, freq=12, start = c(1963,1), end = c(1969,12))
 plot(xnew)
-plot(xold, ylab="Miles Flown")```
+plot(xold, ylab="Miles Flown")
+```
 
+```
 ####Decompose data
-```decom <- decompose(xnew) 
+decom <- decompose(xnew) 
 BC <-BoxCox.ar(xnew, lambda=seq(-2,2,0.1) ) 
 #season diff
 xlog <- log(xnew)

@@ -1,5 +1,5 @@
 Python for Finance
-![Biological Neuron versus Artificial Neural Network](https://i2.wp.com/www.pythonforfinance.net/wp-content/uploads/2016/03/python-logo-master.png?resize=1180%2C645)
+![Python](https://i2.wp.com/www.pythonforfinance.net/wp-content/uploads/2016/03/python-logo-master.png?resize=1180%2C645)
  ## What is Python?
  Python is an object oriented, high-level programming language, It is a simple, but very powerful language. It is heavily used in
  scientific computing, as well as many other fields including game development. Python is easy to learn and its simple syntax makes it
@@ -56,5 +56,5 @@ Python is commonly used in solving problems related to the following areas:
 - Market-based valuation
 - Dynamic option hedging
 Python and NumPy can be used to implement fast Monte Carlo algorithms. It is in cases such as these that the value of Pyhton's speed can be recognized. According to Mevedev _et al_ (2009); "a Matlab code implementing the code of Longstaff & Schwartz (2001) takes dozens of minutes to compute a single option price." This same action would take Pythons precisely two seconds. 
-![Biological Neuron versus Artificial Neural Network](https://raw.githubusercontent.com/balzer82/Pandas-Stoxx-Europe-600/master/Monte-Carlo-Simulation-TSLA.png)
+![Example of Monte Carlo simulation](https://raw.githubusercontent.com/balzer82/Pandas-Stoxx-Europe-600/master/Monte-Carlo-Simulation-TSLA.png)
 

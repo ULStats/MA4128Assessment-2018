@@ -1,5 +1,6 @@
 Kxb Data the worlds fastest time series database.
 =====================================================================================
+***Cian Howard 13140132***  
 Kx Systems, a subsidiary of First Derivatives plc (FD), announces that Citadel, a global investment firm, has expanded its use of Kx technology to help support its investment research process.
 
 Kx is a global technology provider with 20 years of experience working with some of the world’s largest finance, technology, retail, pharma, manufacturing and energy institutions. Kx technology, incorporating the kdb+ time-series database, is a leader in high-performance, in-memory computing, streaming analytics and operational intelligence. Kx delivers the best possible performance and flexibility for high-volume, data-intensive analytics and applications across multiple industries. The Group operates from 14 offices across Europe, North America and Asia Pacific, including its headquarters in Newry, and employs more than 2,000 people worldwide.

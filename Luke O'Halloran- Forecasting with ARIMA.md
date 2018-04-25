@@ -36,8 +36,9 @@ The reader can expect to learn how to:
 * Refit model if needed. Compare model errors and fit criteria such as AIC or BIC.
 * Calculate forecast using the chosen model
 
-##R Code
-#### Load data set.
+## Example 
+* The data used in this example is U.S. airlines: monthly aircraft miles flown (Millions) 1963 -1970.
+#### Load data set in R.
 ```
 install.packages("TSA")
 library(TSA)

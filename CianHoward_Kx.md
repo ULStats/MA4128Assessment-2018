@@ -26,7 +26,7 @@ Database tables are first class objects in q programming language, a wide variet
   ⋅⋅*Volume – Daily volumes of 1.6 TB of streaming data per day.  
   ⋅⋅*Scale – From Raspberry Pi, edge devices to 20,000 cores on AWS Cloud.  
   ⋅⋅*Performance – Top performing time-series database according to STAC Research.  
-  ⋅⋅*Latency – Sub-millisecond latency for streaming event processing.  
+  ⋅⋅Latency – Sub-millisecond latency for streaming event processing.  
 
 One feature that really sets Kx apart is its ability to combine streaming, in-memory and historical data in one simple and unified platform; there is no requirement to acquire disparate components to build a hybrid solution.
 

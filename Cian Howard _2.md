@@ -27,11 +27,16 @@ To enroll in the CFA Program and register for your first Level I exam, you must 
 
 However entry into the course is no grantee of completition designed as a self-study course, the CFA programme, which consists of three levels covering topics such as ethics, financial accounting and reporting, equity investments and derivatives, is estimated to take 1,000 hours of study to complete.
 
+
+
+
 **Opportunity cost**  
 There is an opportunity cost associated with taking a year or two out of paid employment to complete an MBA. A CFA, on the other hand, can give you the prestige of a qualification but at a much lower cost and allow you to remain in your day job.
-And the difficulty – and specific nature perhaps – of a CFA makes it more exclusive: about a million people globally claim to hold an MBA, compared with a little over 100,000 CFA holders.However, for all its relative strengths, it’s unlikely that, as the Financial Times recently proclaimed, the CFA will rival the broad reach of the MBA anytime soon.
+And the difficulty – and specific nature perhaps – of a CFA makes it more exclusive: about a million people globally claim to hold an MBA, compared with a little over 100,000 CFA holders.However, for all its relative strengths, it’s unlikely that, as the Financial Times recently proclaimed, the CFA will rival the broad reach of the MBA anytime soon.  
 
-So while being costly for a non-essential professional exam, it may prove being worthwhile to undertake as given the increase in job competition amoung graduates, this exam may prove the difference between a career and disappiontment. And while it is not currently required for jobs this may one day change and become as recognised as the chartered accounting exams.
+
+**Conclusion**  
+So while being costly for a non-essential professional exam, it may prove being worthwhile to undertake as given the increase in job competition amoung graduates, this exam may prove the difference between a career and disappiontment. And while it is not currently required for jobs this may one day change and become as recognised as the chartered accounting exams. I also found that while on placement that many companies will actually offer to cover the cost of the exam and also allow study leave as they will recieve a more qualified employee, this shows there is an obvious trust in the qualification if companies are willing to undertake such risks.
 
 
 

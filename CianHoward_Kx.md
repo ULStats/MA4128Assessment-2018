@@ -1,3 +1,9 @@
-Kx Data 
-=============
-dddddddd
+Kxb Data the worlds fastest time series database.
+=====================================================================================
+Kx Systems, a subsidiary of First Derivatives plc (FD), announces that Citadel, a global investment firm, has expanded its use of Kx technology to help support its investment research process.
+
+Kx is a global technology provider with 20 years of experience working with some of the world’s largest finance, technology, retail, pharma, manufacturing and energy institutions. Kx technology, incorporating the kdb+ time-series database, is a leader in high-performance, in-memory computing, streaming analytics and operational intelligence. Kx delivers the best possible performance and flexibility for high-volume, data-intensive analytics and applications across multiple industries. The Group operates from 14 offices across Europe, North America and Asia Pacific, including its headquarters in Newry, and employs more than 2,000 people worldwide.
+
+Kx’s time-series database kdb+ is widely used in the financial services industry for trading and risk management platforms. Its unique ability to optimize both in-memory and on-disk memory resources is one reason it sets industry records for speed, performance and stability when performing complex analytics on extremely large-scale datasets. These attributes are increasingly being recognized across a range of markets requiring fast analytics on Big Data, such as manufacturing and retail which face similarly demanding data challenges.
+
+Kx Systems was founded to address one of the most basic problems in high-performance computing: the inability of traditional relational database technology to keep up with the explosive escalation of data volumes. Ever since, the company’s singular goal has been to provide its customers with the most efficient and flexible tools for ultra-high-speed processing of real-time, streaming and historical data.

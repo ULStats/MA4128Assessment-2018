@@ -3,11 +3,14 @@ Artificial Neural Networks
 
 Darren Kelly 14163535
 
+Overview
+==============
 An artificial neural network is a computational model based on the structure and functions of biological neural networks. Artificial 
 neural networks are considered datsa modelling tools where the complex relationships between inputs and outputs are modellled or pattern 
 are found.Information that goes through the network aﬀects the structure of the artiﬁcial neural network because a neural network 
 changes (or learns) based on the input and output.
 
+![ANN_image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/ANN_Image.jpg)
 
 Functionality
 ================

@@ -23,3 +23,19 @@ A variation of principal components analysis is applied in neuroscience to ident
 Principal component analysis produces variables that are linear combinations of the original variables. The new variables have the property that the variables are all orthogonal. The PCA transformation can be helpful as a pre-processing step before clustering. PCA is a variance-focused approach seeking to reproduce the total variable variance, in which components reflect both common and unique variance of the variable. PCA is generally preferred for purposes of data reduction (i.e., translating variable space into optimal factor space) but not when the goal is to detect the latent construct or factors.
 
 Factor analysis is like principal component analysis, in that factor analysis also involves linear combinations of variables. However it is also different to PCA. Different from PCA, factor analysis is a correlation-focused approach hoping to reproduce the inter-correlations among variables, in which the factors "represent the common variance of variables, excluding unique variance". In terms of the correlation matrix, this corresponds with focusing on explaining the off-diagonal terms, while PCA focuses on explaining the terms that sit on the diagonal. However, as a side result, when trying to reproduce the on-diagonal terms, PCA also tends to fit relatively well the off-diagonal correlations. Results given by PCA and factor analysis are very similar in most situations, but this is not always the case, and there are some problems where the results are significantly different. Factor analysis is used when the research purpose is detecting data structure (i.e., latent constructs or factors) or causal modeling.
+
+#### Usage in R
+PCA can be used in R using the prcomp() command. Here is an example of PCA used on the iris dataset.
+```
+# Load data
+data(iris)
+head(iris, 3)
+# log transform 
+log.ir <- log(iris[, 1:4])
+ir.species <- iris[, 5]
+# apply PCA - scale. = TRUE is highly 
+# advisable, but default is FALSE. 
+ir.pca <- prcomp(log.ir,
+                 center = TRUE,
+                 scale. = TRUE) 
+```

@@ -27,3 +27,11 @@ Volume – Daily volumes of 1.6 TB of streaming data per day.
 Scale – From Raspberry Pi, edge devices to 20,000 cores on AWS Cloud.
 Performance – Top performing time-series database according to STAC Research.
 Latency – Sub-millisecond latency for streaming event processing.
+
+One feature that really sets Kx apart is its ability to combine streaming, in-memory and historical data in one simple and unified platform; there is no requirement to acquire disparate components to build a hybrid solution.
+
+For many of today’s businesses, the promise of big data analytics is the ability to use both streaming and the vast amounts of historical data effectively. This includes data that will accumulate over future years, as well as data a business may already have warehoused but have never been able to use. The means by which a database uses data storage, both in-memory and on-disk, can make a tremendous difference in the speed and cost of analytics it can produce.
+
+The diagram below illustrates the Kx suite of technology, all built on the core kdb+ engine. Included are standard programing language interfaces, SOA interoperability, complex event processors, and an adapter framework used for ingesting data from external data sources.
+
+

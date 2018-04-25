@@ -95,6 +95,8 @@ From this the descriptive statistics can be seen.
 
 ### Visualizing Imputed Data
 Using the stripplot function a visual representation of the imputed data can be seen. 
+![Imputed Data](https://github.com/ULStats/MA4128Assessment-2018/blob/53377f54eb17eb7e8cbbbb0d5cfcd96c773faa39/Weight%20Imputations.png?raw=true)
+
 
 
 

@@ -94,11 +94,31 @@ The above code creates a new data frame in which the imputed values from the 1st
 From this the descriptive statistics can be seen.
 
 ### Visualizing Imputed Data
-Using the stripplot function a visual representation of the imputed data can be seen. 
+Using the stripplot function a visual representation of the imputed data can be seen. The values which have been imputed are in red while the original data is in blue. 
 ![Imputed Data](https://github.com/ULStats/MA4128Assessment-2018/blob/53377f54eb17eb7e8cbbbb0d5cfcd96c773faa39/Weight%20Imputations.png?raw=true)
 
-
-
+### Analysis of Imputed Data
+After the data has been immputed analysis can then be performed. Using the with() and pool() function models can be applied to the imputed data.
+Using the following code the Imputations were performed, and a linear model was applied to the imputed data.
+```
+Imputed_Weight <- mice(WeightImp, m=5, maxit = 50,method= "pmm",meth= meth,pred= pred, seed= 250695)
+fit <- with(Imputed_Weight, lm(WeightT6 ~ Weight + WeightT3 
+                       + eldermet$Age +eldermet$Setting 
+                       + eldermet$MMSE+ eldermet$GDT  ))
+round(summary(pool(fit)),2)
+```
+The regression model can then be seen in the following output.
+```
+> round(summary(pool(fit)),2)
+                   est   se     t     df Pr(>|t|)  lo 95 hi 95 nmis  fmi lambda
+(Intercept)      -4.95 2.93 -1.69  68.46     0.10 -10.80  0.89   NA 0.23   0.21
+Weight            0.33 0.12  2.62   4.97     0.05   0.01  0.65    1 0.89   0.86
+WeightT3          0.68 0.12  5.43   5.11     0.00   0.36  0.99  198 0.88   0.85
+eldermet$Age      0.06 0.03  2.02  48.78     0.05   0.00  0.12    0 0.29   0.26
+eldermet$Setting -0.26 0.19 -1.36 157.62     0.18  -0.64  0.12    0 0.13   0.12
+eldermet$MMSE     0.01 0.04  0.14  93.36     0.89  -0.08  0.09    0 0.19   0.17
+eldermet$GDT     -0.06 0.18 -0.31   5.13     0.77  -0.51  0.40   60 0.88   0.84
+```
 
 https://cran.r-project.org/web/packages/mice/README.html
 www.stefvanbuuren.nl/mi/mi.html

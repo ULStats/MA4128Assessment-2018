@@ -68,7 +68,6 @@ However more technical reasons for choosing are:
 *   SQl also lowers barriers to adopting analytical models and enables faster development if intelligent application with rapid iteration. 
 *   However, most importantly, SQL enables anyone to participate in the modelling process. 
 
-<img src="https://msdnshared.blob.core.windows.net/media/2016/10/Why-SQL-Server-2016-for-machine-learning-model-management1.png" width="500">
 
 
 

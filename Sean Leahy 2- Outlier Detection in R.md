@@ -8,6 +8,6 @@ reasons, including experimental error or even random variation. Outliers in stat
 effect on the analysis.
 
 ### Application
-One major reson outlier identification is important is when testing fornormality of data. Tests for normality in data may falsely reject 
-normality due to the presence of outliers. For this reason it is firstly important to graphically visualize the data to see if by inspection
+One major reson outlier identification is important is when testing for normality of data. Tests  may falsely reject 
+normality due to the presence of outliers in a sample. For this reason it is firstly important to graphically visualize the data to see if by inspection
 any outliers can be identified.

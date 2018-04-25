@@ -93,6 +93,9 @@ completeSet <- complete(imputed_Data,1)
 The above code creates a new data frame in which the imputed values from the 1st imputation are combined with the original values.
 From this the descriptive statistics can be seen.
 
+### Visualizing Imputed Data
+Using the stripplot function a visual representation of the imputed data can be seen. 
+
 
 
 https://cran.r-project.org/web/packages/mice/README.html

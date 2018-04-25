@@ -34,7 +34,7 @@ Guido Van Rossum is the creator of Python. In the late 1980s, Van Rossum began w
 8. Python 3.4 released in **2014**
 
 ### Technology in Finance
-Now that we have some rough ideas of what Python is all about, it makes sense to step back a bit and to briefly contemplate the role of technology in finance. This will put us in a position to better judge the role Python already plays and, even more importantly, will probably play in the financial industry of the future.
+It is important to consider the role of technology in finance and how it has increased drastically in the last number of decades. This will put us in a position to better judge the role Python already plays and, even more importantly, will probably play in the financial industry of the future.
 
 In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics). However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries. Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive advantages as well as disadvantages.
 
@@ -44,3 +44,17 @@ In a sense, technology per se is nothing special to financial institutions (as c
 - Technology and talent as barriers to entry in the finance industry
 - Increasing speeds, frequencies, and data volumes
 - The rise of real-time analytics
+
+## Python's Role
+Python is commonly used in solving problems related to the following areas:
+- Numerical methods for the market-based valuation of options. 
+- The analysis of derivatives
+- Basic option models
+- Fourier-based option pricing
+- Monte Carlo simulation
+- Model calibration
+- Market-based valuation
+- Dynamic option hedging
+Python and NumPy can be used to implement fast Monte Carlo algorithms. It is in cases such as these that the value of Pyhton's speed can be recognized. According to Mevedev _et al_ (2009); "a Matlab code implementing the code of Longstaff & Schwartz (2001) takes dozens of minutes to compute a single option price." This same action would take Pythons precisely two seconds. 
+![Biological Neuron versus Artificial Neural Network](https://raw.githubusercontent.com/balzer82/Pandas-Stoxx-Europe-600/master/Monte-Carlo-Simulation-TSLA.png)
+

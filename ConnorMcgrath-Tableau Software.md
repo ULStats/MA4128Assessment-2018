@@ -18,7 +18,7 @@ Tableau offers *six* main poducts:
 
 Tableau has currently has 29,000 accounts both personal and professional related, showing the extent of its impact. And it also has tens of thousands public accounts which allows them to share data in their blogs and websites.
 Tableau Software has recieved much recognition and many accolades over the years. It has won awards including *"Best Overall in Data Visualization"* by DM Review, *"Best of 2005 for Data Analysis"* by PC Magazine and *"2008 Best Business Intelligence Solution"* by the Software & Information Industry Association.
-###Tableau Functions
+### Tableau Functions
 
 **Hold Large Amounts of Data**: Tableau can hold large amounts of data, whether it’s structured or unstructured, petabytes or terabytes, millions or billions of rows, you can turn big data into big ideas. One can connect directly to local and cloud data sources, or import data for fast in-memory performance. Tableau aim to help people make sense of big data with easy-to-understand visuals and interactive web dashboards.
 

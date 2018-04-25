@@ -60,7 +60,8 @@ BC <-BoxCox.ar(xnew, lambda=seq(-2,2,0.1) )
 xlog <- log(xnew)
 seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
-acf(seasondiff, lag.max = 40)```
+acf(seasondiff, lag.max = 40)
+```
 
 ```
 #dickey fuller

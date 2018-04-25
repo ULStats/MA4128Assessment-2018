@@ -115,6 +115,8 @@ Which gives us the table
 
 #### *_References_*:
 [Brief History of SQL](https://www.webucator.com/tutorial/learn-sql/relational-database-basics/brief-history-of-sql-reading.cfm)
+
 [UNIONs and JOINs](https://www.essentialsql.com/what-is-the-difference-between-a-join-and-a-union/)
+
 [SQL Syntax](https://www.w3schools.com/sql/)
 

@@ -1,3 +1,5 @@
+
+![s](https://www.abbreviations.com/images/187806_RQI.png)
 ## Introduction
 Automatic milking is the milking of dairy animals, especially of dairy cattle, without human labour. Automatic milking systems (AMS), also called voluntary milking systems (VMS), were developed in the late 20th century. They have been commercially available since the early 1990s. The core of such systems that allows complete automation of the milking process is a type of agricultural robot. Automated milking is therefore also called robotic milking.Common systems rely on the use of computers and special herd management software.
 ## Algorithm

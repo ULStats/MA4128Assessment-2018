@@ -4,6 +4,7 @@ Survival analysis in Finanace
 ===================================
 **Jack Hogan**
 *14171716*
+
 __1) Background__:
 
 Survival analysis can be described as a collection of statistical procedures for data analysis:  for which the outcome variable of interest is time until an event occurs.The first use of survival analysis and duration models comes from medical research.

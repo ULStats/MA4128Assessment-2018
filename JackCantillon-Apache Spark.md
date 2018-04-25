@@ -57,7 +57,7 @@ val countsByAge = df.groupBy("age").count() // Counts people by age
 ```
 #### Spark MLlib
 
-Apache Spark also bundles libraries for applying machine learning and graph analysis techniques to data at scale. Spark MLlib includes a framework for creating machine learning pipelines, allowing for straight foward use of feature extraction, selections, and transformations on any structured dataset. MLlib comes with distributed implementations of clustering and classification algorithms including k-means clustering and random forests that can be swapped in and out of custom pipelines with ease. Models can be trained by data scientists in Apache Spark using R or Python, saved using MLLib, and then imported into a Java-based or Scala-based pipeline for production use.
+Apache Spark also bundles libraries for applying machine learning and graph analysis techniques to data at scale. ***Spark MLlib*** includes a framework for creating machine learning pipelines, allowing for straight foward use of feature extraction, selections, and transformations on any structured dataset. MLlib comes with distributed implementations of clustering and classification algorithms including k-means clustering and random forests that can be swapped in and out of custom pipelines with ease. Models can be trained by data scientists in Apache Spark using R or Python, saved using MLLib, and then imported into a Java-based or Scala-based pipeline for production use.
 
  Many common machine learning and statistical algorithms have been implemented and are shipped with MLlib which simplifies large scale machine learning pipelines, including:
  - dimensionality reduction techniques such as singular value decomposition (SVD), and principal component analysis (PCA)
@@ -82,4 +82,8 @@ VaR is typically used by firms and regulators in the financial industry to gauge
 
 #### History
 
-Matei Zaharia was the original creater of Apache Spark at University of California's AMPLab in 2009. It open sourced under a BSD licence in 2010. The project was donated to Apache Software Foundation in 2013 and switched its licence to Apache 2.0 in Febuary 2014. In November 2014 Spark became a Top-Level Apache project. Databricks, another company founded by Zaharia, set a new world record for large scale sorting using Spark. By 2015 Spark had over 1,000 contributers which made it one of Apache Software Foundations most active projects and one of the most popular open source big data projects. 
+Matei Zaharia was the original creater of Apache Spark at University of California's AMPLab in 2009. It open sourced under a BSD licence in 2010. The project was donated to Apache Software Foundation in 2013 and switched its licence to Apache 2.0 in Febuary 2014. 
+In November 2014 Spark became a Top-Level Apache project. Databricks, another company founded by Zaharia, set a new world record for large scale sorting using Spark. By 2015 Spark had over 1,000 contributers which made it one of Apache Software Foundations most active projects and one of the most popular open source big data projects. 
+
+#### References
+* 

@@ -16,11 +16,11 @@ The use of Blockchain and all three components can be very appealing to Governme
 
 **Advantages of Blockchain:**
 1.  Works as a shared form of record keeping
-* Item 1a This ensures no on person or organisation holds ownership of the system.
+This ensures no on person or organisation holds ownership of the system.
 2.	Everyone involved in the supply chain process is permissioned to have a copy of every record or piece of data.
 3.	No transaction can be added to the chain without consensus across the participants.
 4.	Tamper resistant and highly secure
-* Item 4aThus eliminating risk of fraud and error.
+Item 4aThus eliminating risk of fraud and error.
 5.	Blockchain data is of a high quality.
 6.	Blockchain does not have a centre point therefore can avoid terrible hacker attacks.
 7.	Blockchain can reduce transaction times to minutes rather than days

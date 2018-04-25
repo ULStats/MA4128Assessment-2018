@@ -1,0 +1,20 @@
+__Predictive Analytics__
+===========================
+***Mark Grace**    14148404*
+
+![start](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/start.jpg)
+
+
+## Definition
+Predictive analytics is a form of advanced analytics that uses both new and historical data to forecast activity, behavior and trends. It involves applying statistical analysis techniques, analytical queries and automated machine learning algorithms to data sets to create predictive models that place a numerical value -- or score -- on the likelihood of a particular event happening.
+
+![outline pa](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/outline pa.png)
+
+Predictive analytics software applications use variables that can be measured and analyzed to predict the likely behavior of individuals, machinery or other entities. For example, an insurance company is likely to take into account potential driving safety variables, such as age, gender, location, type of vehicle and driving record, when pricing and issuing auto insurance policies. 
+
+Multiple variables are combined into a predictive model capable of assessing future probabilities with an acceptable level of reliability. The software relies heavily on advanced algorithms and methodologies, such as logistic regression models, time series analysis and decision trees. 
+
+Predictive analytics has grown in prominence alongside the emergence of big data systems. As enterprises have amassed larger and broader pools of data in Hadoop clusters and other big data platforms, they have created increased data mining opportunities to gain predictive insights. Heightened development and commercialization of machine learning tools by IT vendors has also helped expand predictive analytics capabilities.
+
+![methodologies](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/methodologies.png)
+

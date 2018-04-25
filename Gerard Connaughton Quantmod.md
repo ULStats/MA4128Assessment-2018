@@ -1,11 +1,12 @@
-Geard Connaughton
+***Gerard Connaughton***
+
 ### Quantmod.
-The Quantmod package for R is designed to assist the quantitative trader in the development, testing, 
+* The Quantmod package for R is designed to assist the quantitative trader in the development, testing, 
 and deployment of statistically based trading models.
-Quantmod is a rapid prototyping environment, where quant traders can quickly and cleanly explore and build trading models.
-It makes modelling easier by removing the repetitive workflow issues surrounding data management, modelling interfaces,
+* Quantmod is a rapid prototyping environment, where quant traders can quickly and cleanly explore and build trading models.
+* It makes modelling easier by removing the repetitive workflow issues surrounding data management, modelling interfaces,
 and performance analysis. 
-It offers charting facilities that is not available elsewhere in R
+* It offers charting facilities that is not available elsewhere in R
 The features of quantmod are presented in three sections, downloading data, charting, technical indicators and other functions
 
 ### Downloading Data
@@ -71,6 +72,6 @@ has.Vo(AAPL) # Checks whether the data object has volume
 seriesHi(AAPL) # To check the highest point of price.
 
 ```
-### Conclusssion
-The R program which is quite similiar to Quantools which I discussed in my other topics in the way it handles the data, but quantmod can explore more technical points and figures and give a broader understanding of the mathematics behind the trading patterns.
-This program would be key to devloping a trading strategy and key points where to enter and exit the market, but it fails to handle testing of them models in historical data and creating a report of performances.
+### Conclusion
+* The R program which is quite similiar to ***Quantools*** which I discussed in my other topics in the way it handles the data, but ***quantmod*** can explore more technical points and figures and give a broader understanding of the mathematics behind the trading patterns.
+* This program would be key to devloping a trading strategy and key points where to enter and exit the market, but it fails to handle testing of them models in historical data and creating a report of performances.

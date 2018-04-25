@@ -41,7 +41,7 @@ The reader can expect to learn how to:
 ```install.packages("TSA")
 library(TSA)
 setwd("/Users/lukeohalloran/Desktop/TimeSeries")
-airline <- read.csv("us-airlines-monthly-aircraft-mil.csv",header = T)```
+airline <- read.csv("us-airlines-monthly-aircraft-mil.csv",header = T)
 plot(airline1)
 #original data
 xold<- ts(airline1$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..1970, freq=12, start = c(1963,1), end = c(1970,12))

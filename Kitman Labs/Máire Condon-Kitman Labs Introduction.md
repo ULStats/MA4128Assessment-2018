@@ -97,3 +97,6 @@ res$ind$contrib
 
 dimdesc(res)
 ```
+
+## References
+* References

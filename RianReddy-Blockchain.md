@@ -2,6 +2,7 @@
 
 Blockchain offers all parties involved in a business network a secure and synchronized record of transactions. The block chain ledger records every sequence of transactions from beginning to end, whether its hundreds of steps in a supply chain or single online payments and as each transaction occur its put into a block. 
 Each block is connected to the one before and after. Groups of transactions are blocked together and a fingerprint of each block is added to the next this creating an irreversible chain.
+
  ![image](https://user-images.githubusercontent.com/35773710/39269880-095b62ee-48cc-11e8-9aa0-896909df4e90.png)
 
 Figure 1: Example of Blockchain (Blockgeeks, 2018)

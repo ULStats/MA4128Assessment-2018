@@ -56,6 +56,10 @@ If the ACF cuts off after a certain lag and the PACF decays, we use a AR model
 If both decay we use an ARMA model. 
 An extended ACF (EACF) and an ARMA subsets model can be also used to suggest values for p and q 
 
+![ACF Example](https://github.com/ULStats/MA4128Assessment-2018/blob/master/ACF.picture.SD.JPG)
+
+The above ACF does not cut out as it has all values reamain outside the 95% level. This ACF will decay if the graph showed larger values.
+
 ## Model Fitting
 
 Once a few different values for p and q have been suggested, the models can be fitted to the series.
@@ -98,7 +102,7 @@ The black dashed line represents the actual time series. The blue line represent
 
 
 
-Example of code used 
+## Example of code used 
 
 #######Entering Data into R###########
 

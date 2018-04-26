@@ -1,5 +1,5 @@
-# __Forecasting with R__  :airplane:
-
+Forecasting with R :airplane:
+==================
 ***by Colin Boland - 12032875***
 
 ![Aero](https://github.com/ULStats/MA4128Assessment-2018/blob/master/air.jpg)

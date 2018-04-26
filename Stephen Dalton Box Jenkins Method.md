@@ -18,7 +18,7 @@ The Box Jenkins Approach can be broken into three stages
 3) Checking 
 
 
-* Model Identification
+## Model Identification
 
 The Box Jenkins approach assumes stationarity. Stationarity means that the probability rules governing
 the process do not depend on time, i.e., they do not depend on t.
@@ -45,7 +45,7 @@ stationarity. As the Box Jenkins approach is commonly used to model seasonal tim
 trend must also be eliminated. Once the series has been transformed/differenced/seasonally differenced or a combination 
 of these tools to become stationary, the process may move forward.
 
-ARIMA models
+**ARIMA models
 
 Now that the level of differencing or (d) is known, it is now the objective to find both the p and q terms in the ARIMA model.
 
@@ -55,7 +55,7 @@ If the ACF cuts off after a certain lag and the PACF decays, we use a AR model
 If both decay we use an ARMA model. 
 An extended ACF (EACF) and an ARMA subsets model can be also used to suggest values for p and q 
 
-* Model Fitting
+## Model Fitting
 
 Once a few different values for p and q have been suggested, the models can be fitted to the series.
 Assuming all suggested models have been differenced the same number of times a value to distinguish 

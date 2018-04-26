@@ -8,9 +8,10 @@ In time series analysis the Box-Jenkins approach applies Autoregressive moving a
 or Autoregressive Integrated Moving Average (ARIMA) Models to find a model of best fit to a Time Series.
 It is commonly used to model and forecast hydrological patterns, weather patterns among other time series.
 The Box Jenkins ARIMA (p,d,q) model is made up of three seperate models.
-(AR) Autoregressive model: specifies that the output variable depends linearly on its own previous values (p)
-(I)  Accounts for level of differencing                                                                   (d)
-(MA) Moving Average: specifies that the output variable depends on its own previous error terms           (q)
+
+* (AR) Autoregressive model: Specifies that the output variable depends linearly on its own previous values. Represented by: p
+* (I)  Integrated: Accounts for level of differencing.                                                       Represented by: d
+* (MA) Moving Average: Specifies that the output variable depends on its own previous error terms.           Represented by: q
 
 The Box Jenkins Approach can be broken into three stages 
 1) Model Identification
@@ -26,12 +27,12 @@ Non-Stationarity can usually be detected visually simply by looking at the time 
 
 There is two main reasons that a time series may be non stationary.
 1) Non Constant Variance.
+
+   Non Constant Variance can usually be handled by performing a Box Cox transformation   This involves applying a function to the time      series such a log transformation.
+   
 2) Presence of a trend
 
-1) Non Constant Variance can usually be handled by performing a Box Cox transformation
-   This involves applying a function to the time series such a log transformation.
-   
-2) The presence of a trend can be eliminated by choosing the order of differencing applied to the series.
+   The presence of a trend can be eliminated by choosing the order of differencing applied to the series.
 
 An Augmented Dicky Fuller (ADF) Test can be used to test for stationarity. 
 
@@ -45,7 +46,7 @@ stationarity. As the Box Jenkins approach is commonly used to model seasonal tim
 trend must also be eliminated. Once the series has been transformed/differenced/seasonally differenced or a combination 
 of these tools to become stationary, the process may move forward.
 
-*ARIMA models
+* ARIMA models
 
 Now that the level of differencing or (d) is known, it is now the objective to find both the p and q terms in the ARIMA model.
 
@@ -70,7 +71,7 @@ A QQ plot can show whether the variance of the residuals is constant
 Other tests such as a ACF test on residuals can test if residuals are correlated with eachother or are white noise (random).
 The Ljung Box tests at the 95% level whether these residuals are white noise.
 
-*Overfitting
+* Overfitting
 
 One of the main assumptions of the Box Jenkins approach is that it obeys the law of Parsimony. That is finding the
 simplest model with the most explanatory power.
@@ -163,7 +164,7 @@ data(RiverTS90)
 months <- season(RiverTS90)
 
 modelseason <- lm(RiverTS90 ~ 0 + months)  
-# effect for each month
+effect for each month
 summary(modelseason)
 
 Riv <- diff(RiverTS90,lag=12)

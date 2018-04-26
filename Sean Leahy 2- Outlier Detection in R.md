@@ -22,4 +22,6 @@ IQR= Q3 – Q1.
 Outliers are then any values greater than Q3 + 1.5xIQR, or any values less than Q1 -1.5xIQR. Once outliers were identified they were taken into consideration while analyzing the data.
 So from  the graph produced above it can be seen that there is one statistical outlier in the 8 cylinder category. 
 
-### 
+### Effect of Outliers on Linear Models
+Taking the cars dataset, and adding what would be considered outlier values for speed & distance, and ruinning a simple linear regression model was usesd to predict distance with speed. The first graph shows the regression line plotted with 5 outliers in the data. 
+

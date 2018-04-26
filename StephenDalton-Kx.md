@@ -1,6 +1,6 @@
 Kx/QB (First Derivatives)
 ==============================
-Stephen-Dalton 
+***Stephen Dalton***
 
 First Derivatives (FD) is a leading provider of products and consulting services to some of the world’s largest finance, technology and energy institutions. FD is the developer of the world-leading database technology kdb+.
 

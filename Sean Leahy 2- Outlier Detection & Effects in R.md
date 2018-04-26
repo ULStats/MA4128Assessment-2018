@@ -44,4 +44,9 @@ Largest |rstudent|:
                rstudent unadjusted p-value Bonferonni p
 Toyota Corolla 2.634327           0.013579      0.43453
 ```
-Here the outlier test is being run on a linear regression model for the mtcars dataset. From this output it can be interpreted that there are no outliers in the model as the Bonferonni p-value is not low enough to reject the null.
+Here the outlier test is being run on a linear regression model for the mtcars dataset. From this output it can be interpreted that there are no outliers in the model as the Bonferonni p-value is not low enough to reject the null. 
+
+## Conclusions
+Once outliers have been identified they must be dealt with. When using descriptive statistics to describe the central tendency of the data, median and IQR should be used as opposed to mean and standard deviation as outliers will not have an effect on the former. 
+For a regression model, if a closer fit for data is desired, removing outliers from the model will allow for a better fitting model.
+

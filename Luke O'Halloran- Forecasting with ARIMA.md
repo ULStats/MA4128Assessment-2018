@@ -110,54 +110,33 @@ The steps in analysing the residuals are as follows:
 * Constant variance can be checked by plotting the fitted values, against the residuals. From this plot we would expect a random scatter of points with no obvious pattern.
 * A time plot of the residuals should contain no trend (e.g., linear, quadratic, seasonal) if we have adequately modelled the series. If any trends are observed, then we should go back to our model selection step.
 * There should be no significant autocorrelations in the ACF for the residuals if these are white noise.
-![arima](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/arima(0%2C1%2C2).png)
-###### Results
-*  AIC is -171.9
-* As you can see from the figures \ref{fig:hist4} and \ref{fig:qq4}, the histogram is slightly skewed and the points in the QQ-plot follow the line except for at either end of the line.
-* The Shapiro Wilks test give a p-value of 4.251e-06. I cannot accept the null hypothesis that the model is normally distributed.
-* The resulting p-values are all above 0.05 which supports the hypothesis that the residuals are white noise. Note that the runs test of independence `(runs(resid))` leads to a p-value of 0.137 which also supports the hypothesis that the residuals are white noise.
+
 ```
 model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
 model
-
 resid <- rstandard(model)
 fit <- fitted(model)
-
 dev.new(width=8, height=4)
-
 hist(resid, main="Histogram of Residuals", xlab="Residuals")
 qqnorm(resid, main="Normal Q-Q Plot of Residuals"); qqline(resid);
 shapiro.test(resid)
 
 plot(as.vector(fit), as.vector(resid), main="Fitted Versus Residuals",
      xlab="Fitted Values", ylab="Residuals" )
-
 plot(resid, main="Residuals", ylab="Residuals", type="o")
-
 acf(resid, main="ACF of Residuals")
-
-LB.test(model, lag=5)
-LB.test(model, lag=10)
-LB.test(model, lag=15)
-
 runs(resid)
-
-LBpvals <- rep(NA, 15)
-
-for(i in 5:15){
-  LBpvals[i] <- LB.test(model, lag=i)$p.value
-}
-
-LBpvals
-
-plot(LBpvals, ylim=c(0,1), main="P-Values from Ljung-Box Test",
-     ylab="P-Values", xlab="Lag")
-abline(h=0.05, lty=2)
-
-
 dev.new(width=7, height=7)
 tsdiag(model)
 ```
+![arima](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/arima(0%2C1%2C2).png)
+![norm](https://github.com/ULStats/MA4128Assessment-2018/blob/cbfad2097e7aba114d8b343930788705dfae5c06/git1.png)
+![tsdiag](https://github.com/ULStats/MA4128Assessment-2018/blob/cbfad2097e7aba114d8b343930788705dfae5c06/github1.png)
+###### Results
+*  AIC is -171.9, which was the best AIC of models tested.
+* As you can see from the figures \ref{fig:hist4} and \ref{fig:qq4}, the histogram is slightly skewed and the points in the QQ-plot follow the line except for at either end of the line.
+* The Shapiro Wilks test give a p-value of 4.251e-06. I cannot accept the null hypothesis that the model is normally distributed.
+* The resulting p-values are all above 0.05 which supports the hypothesis that the residuals are white noise. Note that the runs test of independence `(runs(resid))` leads to a p-value of 0.137 which also supports the hypothesis that the residuals are white noise.
 #### Forecasting the selected model.
 The final step of the project is to forecast the next 12 observations and compare it to the actual data, since the data set used throughout testing was only 87.5% of the actual series. Comparing the predicted values to the actual values we observe the model seems to be a good fit. 
 ```

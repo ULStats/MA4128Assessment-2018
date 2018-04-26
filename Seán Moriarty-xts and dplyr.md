@@ -52,6 +52,7 @@ all_equal(df1, df2)
 # But you can request dplyr convert similar types
 all_equal(df1, df2, convert = TRUE)
 ```
+## Results of Code
 ```
 > all_equal(mtcars, scramble(mtcars))
 [1] TRUE
@@ -71,4 +72,5 @@ all_equal(df1, df2, convert = TRUE)
 ```
 ## References
 *https://cran.r-project.org/web/packages/xts/xts.pdf
+
 *https://cran.r-project.org/web/packages/dplyr/dplyr.pdf

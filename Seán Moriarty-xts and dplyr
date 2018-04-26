@@ -1,4 +1,5 @@
 ### xts
+==============
 ## Description
 This function is used internally in the subsetting mechanism of `xts`. The function is unexported,
 though documented for use with `xts` subsetting.

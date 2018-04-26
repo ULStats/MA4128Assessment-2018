@@ -75,16 +75,17 @@ The augmented Dickey-Fuller (ADF) test is a formal statistical test for stationa
 ```
 #dickey fuller
 adf.test(seasondiff)
-```
-#### Diffrence the data.
-```
-#diff
+#difference the data
 diffseasondiff <- diff(seasondiff)
 adf.test(diffseasondiff)
 plot(diffseasondiff, ylab= "Logged Stationary Series")
 ```
 
 #### Picking model using acf, pacf and eacf.
+Now that we know our series is stationary we can select a model to forecast our series. First we will use the Autocorrelation Function (ACF) to see if an AR(p) model or a MA(q) would be adequate. 
+The Extended Autocorrelation Function (EACF) method can tentatively identify the orders of a stationary or non-stationary ARMA process based on iterated least squares estimates of the autoregressive parameters. 
+The eacf suggests using ARIMA(0,2). This supports the MA(2) model selected using the acf.
+Looking at the acf, it decays suggesting an AR model. The pacf suggests  AR(2) or maybe an AR(4). Looking at the Acf also suggests trying an MA(2).
 ```
 #acf, pacf and eacf
 acf(diffseasondiff, main= "acf", lag.max = 50)
@@ -93,6 +94,17 @@ eacf(diffseasondiff)
 ```
 
 #### Model fitting using residuals
+The steps in analysing the residuals are as follows:
+* Normality can be checked using a histogram, Q-Q plot and the Shapiro-Wilk test.
+* Constant variance can be checked by plotting the fitted values, against the residuals. From this plot we would expect a random scatter of points with no obvious pattern.
+* A time plot of the residuals should contain no trend (e.g., linear, quadratic, seasonal) if we have adequately modelled the series. If any trends are observed, then we should go back to our model selection step.
+* There should be no significant autocorrelations in the ACF for the residuals if these are white noise.
+
+###### Results
+*  AIC is -171.9
+* As you can see from the figures \ref{fig:hist4} and \ref{fig:qq4}, the histogram is slightly skewed and the points in the QQ-plot follow the line except for at either end of the line.
+* The Shapiro Wilks test give a p-value of 4.251e-06. I cannot accept the null hypothesis that the model is normally distributed.
+* The resulting p-values are all above 0.05 which supports the hypothesis that the residuals are white noise. Note that the runs test of independence (runs(resid)) leads to a p-value of 0.137 which also supports the hypothesis that the residuals are white noise.
 ```
 model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
 model
@@ -136,6 +148,7 @@ dev.new(width=7, height=7)
 tsdiag(model)
 ```
 #### Forecasting the selected model.
+The final step of the project is to forecast the next 12 observations and compare it to the actual data, since the data set used throughout testing was only 87.5% of the actual series. Comparing the predicted values to the actual values we observe the model seems to be a good fit. 
 ```
 forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
 lines(xoldlog, col="blue") 

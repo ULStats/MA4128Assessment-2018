@@ -48,12 +48,12 @@ e.g "addExpiry(type = "options", lty = "dotted")".
 
 + addROC - Add Rate Of Change to Chart
 
-+addSMI Add Stochastic Momentum Indicator to Chart where an SMI indicator will be draw in a new window on the current chart.
++ addSMI Add Stochastic Momentum Indicator to Chart where an SMI indicator will be draw in a new window on the current chart.
 
 
 
 
 #### References
 * https://www.quantmod.com/
-*http://www.r-chart.com/2010/06/analyze-gold-demand-and-investments.html
-*https://cran.r-project.org/web/packages/quantmod/quantmod.pdf
+* http://www.r-chart.com/2010/06/analyze-gold-demand-and-investments.html
+* https://cran.r-project.org/web/packages/quantmod/quantmod.pdf

@@ -23,5 +23,13 @@ Outliers are then any values greater than Q3 + 1.5xIQR, or any values less than 
 So from  the graph produced above it can be seen that there is one statistical outlier in the 8 cylinder category. 
 
 ### Effect of Outliers on Linear Models
-Taking the cars dataset, and adding what would be considered outlier values for speed & distance, and ruinning a simple linear regression model was usesd to predict distance with speed. The first graph shows the regression line plotted with 5 outliers in the data. 
+Taking the cars dataset, and adding what would be considered outlier values for speed & distance, and ruinning a simple linear regression model was usesd to predict distance with speed. The first graph shows the regression line plotted with 5 outliers introduced to the data. 
+![Regression with Outliers](https://github.com/ULStats/MA4128Assessment-2018/blob/6d319022c180840057308c7f2c7563a07e5c8f10/Regression%20with%20outliers.png?raw=true)
+The regression line has a much higher slope ase the model is accounting for the values which are outliers.
+Now looking at the regression line with the outlier values removed.
+![Regression Without Outliers](https://github.com/ULStats/MA4128Assessment-2018/blob/6d319022c180840057308c7f2c7563a07e5c8f10/Regression%20without%20outliers.png?raw=true)
+It is clear from this that the second regression line is a far better fit for the data, and will more accurately be able to estimate values. These outliers are know as Influential outliers, since their presence in the regression model significantly effects the results.
+
+#### Formal Tests For Outliers
+In R there is a command outlierTest() which can be used to identify outliers in a regression model. 
 

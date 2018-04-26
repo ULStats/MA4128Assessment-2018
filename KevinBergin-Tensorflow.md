@@ -34,9 +34,27 @@ plt.plot(X, y_hat);
 
 ### **Conclusion**
 Overall Tesorflow allows you to do computations on most devices. It is widely popular in many companies who use it in deartments such as production. It has become so popular because it is dependable, well documented and powerful. Before TensorFlow there were plenty of ML libraries that offered great functionality for a handful of methods and were reasonably well documented— but there never was one catch all library that was nearly limitless in potential and continuously supported. 
+reference https://www.tensorflow.org/
 
+#  ** Forecasting package in R for time series analysis **
+### **What is Time Series  **
+A time series is a collection of observations of well-defined data items obtained through repeated measurements over time. For example, measuring the value of retail sales each month of the year would comprise a time series. 
+### **Forecast package **
+Forecast package is written by Rob J Hyndman and is available from CRAN.The package contains Methods and tools for displaying and analyzing univariate time series forecasts including exponential smoothing via state space models and automatic ARIMA modelling. It is loaded into R using the following commands:
+install.packages("forecast")
+library(forecast)
+Once the model has been generated the accuracy of the model can tested using accuracy(). The Accuracy function returns MASE value which can be used to measure the accuracy of the model. The best model is choosen from a range of metrics such as the 
+MAE (measures the difference between two continuous variables. If the absolute value of the equation is not taken the average error
+becomes the mean bias error and is used to measure model bias. )
+RMSE ( calculates the measure of the differences between predicted values and observed values. Where r-squared is a relative measure of fit, the RMSE is an absolute measure of fit.)
+MAPE (The mean absolute percentage error (MAPE) is a measure of the size of the error in percentage terms.)
+The package is used for fitting different models such as ARIMA models and using the ACF and PACF to determine the type of models used. 
+![alt text](https://www.google.ie/search?q=forecast+using+arima+model&rlz=1C1GCEB_enIE794IE794&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjBoZWw_NfaAhXrA8AKHaP3AZoQ_AUICygC&biw=1440&bih=794#imgrc=RR5Flu71wmwtEM:)
+The package also contains a residuals function that can be used to check the residuals and validity of the model. the tsdiag function gives a plot of the acf of the residuals, a plot of the residuals and a plot of the ljung box statistics and a normal qq-plot of the residuals.
+![alt text](https://www.google.ie/search?q=tsdiag&rlz=1C1GCEB_enIE794IE794&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjT6J7__NfaAhXMCMAKHQJNDK4Q_AUICygC&biw=1440&bih=794#imgrc=tIA8jht2gYsT8M:)
 
-
+### **Conclusion**
+The Forecasting package created by Rob J Hyndman has made forecasting in R alot more versitile with the functions such as the Arima function and accuracy function helping to fit the model and assess the accuracy of the forecast making it easier to compare different models against each other. The package also contains ACF and PACF function which help in determining if the series is white noise, the type of model to use and also in checking the validity of the model. 
 
 
 

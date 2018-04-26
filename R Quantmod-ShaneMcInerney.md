@@ -1,6 +1,7 @@
 Quantmod R Package
 ===============
-* Shane McInerney
+**Shane McInerney**
+
 The quantmod package for R is designed to assist the quantitative trader in the development, testing, and deployment of statistically based trading models.
 
 **What quantmod is**
@@ -11,7 +12,7 @@ A replacement for anything statistical. It has no 'new' modelling routines or an
 
 quantmod makes modelling easier by removing the repetitive workflow issues surrounding data management, modelling interfaces, and performance analysis.
 
-**Q**
+**Quantmod Basics**
 
 The most common practise of quantmod can broken inton one of two things. One is to retrieve the data and once the data is retrieved you can begin to analyse the data and finally visualise the data through charts. To get data from quantmod you use _getsSymbol()_. For example to retrieve apple data you would use _getSymbol("AAPL")_ using Apple's trading name. Multiple symblos can be acquired my inserting a semicolon after each data, e.g, _getSymbol("AAPL;MSFT")_. That would produce the data for apple and microsoft. As a default it uses yahoo to retrieve data but you can direct it the local or other sources if needed.
 
@@ -27,12 +28,17 @@ Other indicators are the bollinger bands which is coded using _addBBands()_. Her
 
 ![alt text](http://2.bp.blogspot.com/_FsLa1cMTCWU/TCXXjHy-DTI/AAAAAAAAAKI/xj06hvWk3I0/s1600/APPL.png)
 
-If we focus on old there is vast amount of information to be seen.
+**Example of quantmod using Gold**
+If we focus on gold there is vast amount of information to be seen.
+
 ![alt text](http://4.bp.blogspot.com/_FsLa1cMTCWU/TCqNgpWRTII/AAAAAAAAAMg/9iDMWtTCgAw/s1600/gold_xau.png)
+
 Using the command _chartSeries(GLD)_ produces the image above. This index consists of stocks and so the chart can be handled like any other quantmod stock chart. 
 
 Exchange Traded Funds like GLD and IAU (IAU reflects the performance of the price of gold) invest in gold and seek to track the price of gold.  One question I had was whether the IAU and GLD ETFs performed the same. 
+
 ![alt text](http://3.bp.blogspot.com/_FsLa1cMTCWU/TCqNF9eP15I/AAAAAAAAAMY/a6v6NXM0esY/s400/gld_iau.png)
+
 This image is from the code _chartSeries(GLD - IAU)_
 Other than occasional outliers - they do seem to track the same.  You can also directly query the price of gold using the getMetals function.  There is a limit on how much data can be obtained using this method - so you will need to specify a date range or an error will occur.
 _getMetals('gold', from='2010-01-01')_
@@ -41,7 +47,7 @@ However, there is a wealth of information that does not fit simply into the stoc
 
 This can all be done using R package _Quantmod_.
 
-
+**Other Commands**
 Here are more examples of commands that can be used;
 + addExpiry - Add Contract Expiration Bars to Chart and apply options or futures expiration vertical bars to current chart.
 e.g "addExpiry(type = "options", lty = "dotted")".

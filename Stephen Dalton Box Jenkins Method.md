@@ -1,6 +1,6 @@
 Box Jenkins Approach
 =======================
-*** Stephen Dalton (14161567)***
+***Stephen Dalton (14161567)***
 
 ## Introduction
 
@@ -45,7 +45,7 @@ stationarity. As the Box Jenkins approach is commonly used to model seasonal tim
 trend must also be eliminated. Once the series has been transformed/differenced/seasonally differenced or a combination 
 of these tools to become stationary, the process may move forward.
 
-**ARIMA models
+*ARIMA models
 
 Now that the level of differencing or (d) is known, it is now the objective to find both the p and q terms in the ARIMA model.
 
@@ -70,7 +70,7 @@ A QQ plot can show whether the variance of the residuals is constant
 Other tests such as a ACF test on residuals can test if residuals are correlated with eachother or are white noise (random).
 The Ljung Box tests at the 95% level whether these residuals are white noise.
 
-Overfitting
+*Overfitting
 
 One of the main assumptions of the Box Jenkins approach is that it obeys the law of Parsimony. That is finding the
 simplest model with the most explanatory power.
@@ -78,7 +78,7 @@ simplest model with the most explanatory power.
 As a result the model must be tested for overfitting. Does a model have as much explanatory power as the original
 model but using less parameters.
 
-* Prediction
+## Prediction
 
 Once a final model has been chosen, the final stage is to use the model to predict future values of the time series. 
 

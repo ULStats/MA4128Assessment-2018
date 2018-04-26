@@ -1,6 +1,6 @@
 Quantmod R Package
 ===============
-###Shane McInerney
+### Shane McInerney
 
 The quantmod package for R is designed to assist the quantitative trader in the development, testing, and deployment of statistically based trading models.
 
@@ -12,7 +12,7 @@ A replacement for anything statistical. It has no 'new' modelling routines or an
 
 quantmod makes modelling easier by removing the repetitive workflow issues surrounding data management, modelling interfaces, and performance analysis.
 
-##Quantmod Basics
+## Quantmod Basics
 
 The most common practise of quantmod can broken inton one of two things. One is to retrieve the data and once the data is retrieved you can begin to analyse the data and finally visualise the data through charts. To get data from quantmod you use _getsSymbol()_. For example to retrieve apple data you would use _getSymbol("AAPL")_ using Apple's trading name. Multiple symblos can be acquired my inserting a semicolon after each data, e.g, _getSymbol("AAPL;MSFT")_. That would produce the data for apple and microsoft. As a default it uses yahoo to retrieve data but you can direct it the local or other sources if needed.
 
@@ -28,7 +28,7 @@ Other indicators are the bollinger bands which is coded using _addBBands()_. Her
 
 ![alt text](http://2.bp.blogspot.com/_FsLa1cMTCWU/TCXXjHy-DTI/AAAAAAAAAKI/xj06hvWk3I0/s1600/APPL.png)
 
-##Example of quantmod using Gold
+## Example of quantmod using Gold
 
 If we focus on gold there is vast amount of information to be seen.
 
@@ -48,7 +48,7 @@ However, there is a wealth of information that does not fit simply into the stoc
 
 This can all be done using R package _Quantmod_.
 
-##Other Commands
+## Other Commands
 Here are more examples of commands that can be used;
 + addExpiry - Add Contract Expiration Bars to Chart and apply options or futures expiration vertical bars to current chart.
 e.g "addExpiry(type = "options", lty = "dotted")".

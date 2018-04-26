@@ -39,5 +39,5 @@ And the difficulty – and specific nature perhaps – of a CFA makes it more ex
 So while being costly for a non-essential professional exam, it may prove being worthwhile to undertake as given the increase in job competition amoung graduates, this exam may prove the difference between a career and disappiontment. And while it is not currently required for jobs this may one day change and become as recognised as the chartered accounting exams. I also found that while on placement that many companies will actually offer to cover the cost of the exam and also allow study leave as they will recieve a more qualified employee, this shows there is an obvious trust in the qualification if companies are willing to undertake such risks.
 
 
-***References***
+***References***  
 [1] https://www.irishtimes.com/business/a-thousand-hours-of-study-needed-to-join-elite-group-of-cfa-graduates-1.1878128

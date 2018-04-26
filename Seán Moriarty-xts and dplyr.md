@@ -37,7 +37,7 @@ It has three main goals:
 Rcpp)
 * Use the same interface to work with data no matter where it’s stored, whether in a data frame,
 a data table or database
-##Example
+## Example
 ```
 scramble <- function(x) x[sample(nrow(x)), sample(ncol(x))]
 # By default, ordering of rows and columns ignored
@@ -52,3 +52,22 @@ all_equal(df1, df2)
 # But you can request dplyr convert similar types
 all_equal(df1, df2, convert = TRUE)
 ```
+> all_equal(mtcars, scramble(mtcars))
+[1] TRUE
+> all_equal(mtcars, scramble(mtcars), ignore_col_order = FALSE)
+[1] "Same column names, but different order"
+> all_equal(mtcars, scramble(mtcars), ignore_row_order = FALSE)
+[1] "Same row values, but different order"
+> df1 <- data.frame(x = "a")
+> df2 <- data.frame(x = factor("a"))
+> all_equal(df1, df2)
+[1] TRUE
+> # But you can request dplyr convert similar types
+> all_equal(df1, df2, convert = TRUE)
+[1] TRUE
+> all_equal(df1, df2, convert = TRUE)
+[1] TRUE
+
+## References
+*https://cran.r-project.org/web/packages/xts/xts.pdf
+*https://cran.r-project.org/web/packages/dplyr/dplyr.pdf

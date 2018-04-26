@@ -106,7 +106,7 @@ The steps in analysing the residuals are as follows:
 *  AIC is -171.9
 * As you can see from the figures \ref{fig:hist4} and \ref{fig:qq4}, the histogram is slightly skewed and the points in the QQ-plot follow the line except for at either end of the line.
 * The Shapiro Wilks test give a p-value of 4.251e-06. I cannot accept the null hypothesis that the model is normally distributed.
-* The resulting p-values are all above 0.05 which supports the hypothesis that the residuals are white noise. Note that the runs test of independence (runs(resid)) leads to a p-value of 0.137 which also supports the hypothesis that the residuals are white noise.
+* The resulting p-values are all above 0.05 which supports the hypothesis that the residuals are white noise. Note that the runs test of independence `(runs(resid))` leads to a p-value of 0.137 which also supports the hypothesis that the residuals are white noise.
 ```
 model <- arima(xlog, order=c(0,1,2), seasonal = list(order=c(0,1,1), period=12))
 model

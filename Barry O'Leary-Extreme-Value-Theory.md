@@ -31,6 +31,10 @@ Applications of extreme value theory include predicting the probability distribu
 
 ![](http://4.bp.blogspot.com/-YAhPu5BmA4E/T-u0SlrUlkI/AAAAAAAAAYQ/gSM5cbxGmpE/s1600/Usain+Bolt+Running.jpg)
 
+*** R Packages ***
+
+
+
 ***History***
 
 The field of extreme value theory was pioneered by Leonard Tippett (1902–1985). Tippett was employed by the British Cotton Industry Research Association, where he worked to make cotton thread stronger. In his studies, he realized that the strength of a thread was controlled by the strength of its weakest fibres. With the help of R. A. Fisher, Tippet obtained three asymptotic limits describing the distributions of extremes assuming independent variables. Emil Julius Gumbel codified this theory in his 1958 book Statistics of Extremes, including the Gumbel distributions that bear his name. These results can be extended to allowing for slight correlations between variables, but the classical theory does not extend to strong correlations of the order of the variance. One universality class of particular interest is that of log-correlated fields, where the correlations decay logarithmically with the distance.

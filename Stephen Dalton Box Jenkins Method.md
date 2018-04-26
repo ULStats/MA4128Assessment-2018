@@ -86,7 +86,10 @@ Once a final model has been chosen, the final stage is to use the model to predi
 
 
 ![Forecast](
-https://github.com/ULStats/MA4128Assessment-2018/blob/master/River%20discharge%20Forescating.%20SD.JPG).md
+https://github.com/ULStats/MA4128Assessment-2018/blob/master/River%20discharge%20Forescating.%20SD.JPG).
+
+This graph shows the predictive capabilities of the the Seasonal ARIMA Box Jenkins approach to modelling time series.
+The black dashed line represents the actual time series. The blue line represents the predicted time series and the red lines reprersent the 95% confidence interval.
 
 
 

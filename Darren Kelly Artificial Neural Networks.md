@@ -3,7 +3,7 @@ Artificial Neural Networks
 
 Darren Kelly 14163535
 
-Overview
+##Overview
 ==============
 An artificial neural network is a computational model based on the structure and functions of biological neural networks. Artificial 
 neural networks are considered datsa modelling tools where the complex relationships between inputs and outputs are modellled or pattern 
@@ -12,7 +12,7 @@ changes (or learns) based on the input and output.
 
 ![ANN_image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/ANN_Image.jpg)
 
-Functionality
+##Functionality
 ================
 Artiﬁcial neural networks is just an attempt to make computers, model the brain. Neural networks mimic a collection of neurons. Just 
 as they do in the brain these simulated neurons take inputs and give outputs through their connections. The connections between neurons 
@@ -24,7 +24,7 @@ can obtain the output we want for speciﬁc inputs. There are algorithms which c
 in order to obtain the desired output from the network. The process of adjusting the weights is called learning or training. The 
 training begins with random weights, and the goal is to adjust them so that the error will be minimal.
 
-Applications
+##Applications
 ================
 Neural networks have been used in a wide variety of areas. Military applications include automatic target recognition, control of
 ﬂying aircraft, engine combustion optimization, and fault detection in complex engineering systems. Voice recognition can be achieved by 

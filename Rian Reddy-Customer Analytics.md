@@ -11,9 +11,12 @@ With that in mind, the productive system is considered from its beginning at the
 Customer analytics plays an important role in the prediction of customer behaviour. 
 The companies that continue to gain market share attribute their success to understanding the customer. 
 
+![image](https://user-images.githubusercontent.com/35773710/39329635-d97e777a-4996-11e8-813b-3333e9223300.png)
 
+*Figure 1: (Bosshart, 2018)*
 
 ## Uses
+
 **Retail**
 Retail started increasing use of customer analytics in decisions ranging from product, promotion, and price and distribution management. Retails most obvious use of customer analytics today is the use of promotions/offers and also personal communications such as subscribing to emails etc.  Prioritizing product development efforts, designing distribution strategies and determining product pricing are additional areas that retail uses customer analytics. Other key success in retail and customer analytics includes preference¸ lifestyle, loyalty data, behaviour, and predictive behaviour data. Predicting customer behaviour is vital to retail and starting to sell a certain clothing brand once it takes off might be too late to gather the majority of the market.
 

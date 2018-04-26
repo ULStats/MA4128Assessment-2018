@@ -72,7 +72,7 @@ seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
 acf(seasondiff, lag.max = 40)
 ```
-
+![Boxcox](https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/Boxcox.png)
 #### Test Stationarity
 Fitting an ARIMA model requires the series to be stationary. A series is said to be stationary when its mean, variance, and autocovariance are time invariant.
 The augmented Dickey-Fuller (ADF) test is a formal statistical test for stationarity. The null hypothesis assumes that the series is non-stationary. The ADF procedure tests whether the change in Y can be explained by a lagged value and a linear trend. If contribution of the lagged value to the change in Y is non-significant and there is a presence of a trend component, the series is non-stationary and null hypothesis will not be rejected.

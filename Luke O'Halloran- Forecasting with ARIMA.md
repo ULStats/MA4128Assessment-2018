@@ -159,5 +159,5 @@ lines(xoldlog, col="blue")
 ```
 ![forecast](https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/forecast.pdf)
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/forecast.pdf" width="200" height="400" />
+<img src="https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/forecast.pdf" data-canonical-src="https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/forecast.pdf" width="200" height="400" />
 ***Luke O'Halloran***

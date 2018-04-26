@@ -34,6 +34,56 @@ will incur extra costs in unwinding the position resulting in a less favorable p
 The simplest risk measure in common use is volatility, usually modeled quantitatively with a univariate standard deviation on a portfolio. See `sd.Volatility` or Standard Deviation is an appropriate risk measure when the distribution of returns is normal or resembles a random walk, and may be annualised using `sd.annualized`, or the equivalent function `sd.multiperiod` for scaling to an arbitrary number of periods. Many assets, including hedge funds, commodities, options, and even most common stocks over a sufficiently long period, do not follow a normal distribution. For such common but non-normally distributed assets, a more sophisticated approach than standard deviation/volatility is required to adequately model the risk.
 
 One of the most commonly used and cited measures of the risk/reward tradeoff of an investment or portfolio is the `SharpeRatio`, which measures return over standard deviation. If you are comparing multiple assets using Sharpe, you should use `SharpeRatio.annualized`. One of the newer statistical methods developed for analyzing the risk of financial instruments is `Omega`. Omega analytically constructs a cumulative distribution function, in a manner similar to `chart.QQPlot`, but then extracts additional information from the location and slope of the derived function at the point indicated by the risk quantile that the researcher is interested in. Omega seeks to combine a large amount of data about the shape, magnitude, and slope of the distribution into one method. The academic literature is still exploring the best manner to use Omega in a risk measurement and control process, or in portfolio construction.
+## Example
+```
+data(edhec)
+# EWMA estimation
+# 'as.mat = F' would speed up calculations in higher dimensions
+sigma <- M2.ewma(edhec, 0.94)
+m3 <- M3.ewma(edhec, 0.94)
+m4 <- M4.ewma(edhec, 0.94)
+# compute equal-weighted portfolio modified ES
+mu <- colMeans(edhec)
+p <- length(mu)
+ES(p = 0.95, portfolio_method = "component", weights = rep(1 / p, p), mu = mu,
+sigma = sigma, m3 = m3, m4 = m4)
+# compare to sample method
+sigma <- cov(edhec)
+m3 <- M3.MM(edhec)
+m4 <- M4.MM(edhec)
+ES(p = 0.95, portfolio_method = "component", weights = rep(1 / p, p), mu = mu,
+sigma = sigma, m3 = m3, m4 = m4)
+plot(edhec)
+```
+## Results
+```
+$MES
+[1] 0.03593744
+
+$contribution
+ [1]  0.0079979527 -0.0023398485  0.0040806253  0.0079165121  0.0007909966
+ [6]  0.0039465684  0.0048861335  0.0008662255  0.0041314124  0.0012537442
+[11]  0.0039907892 -0.0058159612  0.0042322857
+
+$pct_contrib_MES
+ [1]  0.22255212 -0.06510894  0.11354804  0.22028595  0.02201038  0.10981775
+ [7]  0.13596222  0.02410371  0.11496124  0.03488686  0.11104825 -0.16183573
+[13]  0.11776816
+
+$MES
+[1] 0.03241585
+
+$contribution
+ [1]  0.0074750513 -0.0028125166  0.0039422674  0.0069376579  0.0008077760
+ [6]  0.0037114666  0.0043125937  0.0007173036  0.0036152960  0.0013693293
+[11]  0.0037650911 -0.0048178690  0.0033924063
+
+$pct_contrib_MES
+ [1]  0.23059863 -0.08676361  0.12161541  0.21402052  0.02491917  0.11449542
+ [7]  0.13303965  0.02212817  0.11152864  0.04224258  0.11614968 -0.14862694
+[13]  0.10465269
+```
+![Plot2](https://github.com/ULStats/MA4128Assessment-2018/blob/master/plot2.png)
 
 ## References
 https://cran.r-project.org/web/packages/PerformanceAnalytics/PerformanceAnalytics.pdf

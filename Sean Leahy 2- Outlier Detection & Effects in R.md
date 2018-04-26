@@ -1,4 +1,4 @@
-# Outlier Detection in R
+# Outlier Detection & Effects in R
 14175266
 *Seán Leahy*
 

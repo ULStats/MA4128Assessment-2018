@@ -64,13 +64,15 @@ These components are as follows:
 ```
 ####Decompose data
 decom <- decompose(xnew) 
+### Box-Cox 
 BC <-BoxCox.ar(xnew, lambda=seq(-2,2,0.1) ) 
-#season diff
+#seasonally differencing
 xlog <- log(xnew)
 seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
 acf(seasondiff, lag.max = 40)
 ```
+
 #### Test Stationarity
 Fitting an ARIMA model requires the series to be stationary. A series is said to be stationary when its mean, variance, and autocovariance are time invariant.
 The augmented Dickey-Fuller (ADF) test is a formal statistical test for stationarity. The null hypothesis assumes that the series is non-stationary. The ADF procedure tests whether the change in Y can be explained by a lagged value and a linear trend. If contribution of the lagged value to the change in Y is non-significant and there is a presence of a trend component, the series is non-stationary and null hypothesis will not be rejected.

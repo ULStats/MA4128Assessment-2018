@@ -14,6 +14,8 @@ Predictive analytics is an area of statistics that deals with extracting informa
 
 Predictive analytics is often defined as predicting at a more detailed level of granularity, i.e., generating predictive scores (probabilities) for each individual organizational element. This distinguishes it from forecasting. For example, "Predictive analytics—Technology that learns from experience (data) to predict the future behavior of individuals in order to drive better decisions." In future industrial systems, the value of predictive analytics will be to predict and prevent potential issues to achieve near-zero break-down and further be integrated into prescriptive analytics for decision optimization. Furthermore, the converted data can be used for closed-loop product life cycle improvement which is the vision of the Industrial Internet Consortium.
 
+![](http://www.iotsworldcongress.com/wp-content/uploads/2016/03/IIC_logo_pic.png)
+
 ***Application***
 
 Predictive analytics is used in

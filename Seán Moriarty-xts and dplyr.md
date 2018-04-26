@@ -32,10 +32,10 @@ dplyr provides a flexible grammar of data manipulation. It’s the next iteratio
 tools for working with data frames (hence the d in the name).
 Details
 It has three main goals:
-• Identify the most important data manipulation verbs and make them easy to use from R.
-• Provide blazing fast performance for in-memory data by writing key pieces in C++ (using
+* Identify the most important data manipulation verbs and make them easy to use from R.
+* Provide blazing fast performance for in-memory data by writing key pieces in C++ (using
 Rcpp)
-• Use the same interface to work with data no matter where it’s stored, whether in a data frame,
+* Use the same interface to work with data no matter where it’s stored, whether in a data frame,
 a data table or database
 ##Example
 ```

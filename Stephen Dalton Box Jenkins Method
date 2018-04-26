@@ -2,8 +2,7 @@ Box Jenkins Approach
 =======================
 *** Stephen Dalton (14161567)***
 
-
-*** Introduction
+## Introduction
 
 In time series analysis the Box-Jenkins approach applies Autoregressive moving average (ARMA) models,
 or Autoregressive Integrated Moving Average (ARIMA) Models to find a model of best fit to a Time Series.

@@ -52,7 +52,7 @@ xnew<- ts(airline$U.S..airlines..monthly.aircraft.miles.flown..Millions..1963..1
 plot(xnew)
 plot(xold, ylab="Miles Flown")
 ```
-![seasoned](https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/seasoned.pdf)
+![seasoned](https://github.com/ULStats/MA4128Assessment-2018/blob/459b650293497d01cfd708d096d244aced8e08a7/us-airlines-monthly-aircraft.png)
 
 ##### Decompose the data and Seasonally differencing.
 Decomposing a time series means separating it into it’s constituent components. 

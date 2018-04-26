@@ -25,15 +25,7 @@ riskfree=0,short=TRUE,lowestWeight=-1,highestWeight=1){
 # Load up the package
 library(TSA)
 ```
-#Initialize all the variables we will be using. returnMatrix is 
-#initailized as a vector,with length equal to one of the input 
-#ticker vectors (dependent on the start and end dates).
-#Sharpe is set to 0. The weights vector is set equal in 
-#length to the number of tickers. The portfolio is set to 
-#NULL. A 'constraint' variable is created to pass on the 
-#short parameter to the portfolio.optim function. And vectors 
-#are created with the low and high weight restrictions, which
-#are then passed to the portfolio.optim function as well. ##
+Initialize all the variables we will be using. returnMatrix is initailized as a vector,with length equal to one of the input ticker vectors (dependent on the start and end dates). Sharpe is set to 0. The weights vector is set equal in length to the number of tickers. The portfolio is set to NULL. A 'constraint' variable is created to pass on the short parameter to the portfolio.optim function. And vectors are created with the low and high weight restrictions, which are then passed to the portfolio.optim function as well. 
 
 
 ```
@@ -47,9 +39,7 @@ lowVec=rep(lowestWeight,length(tickers))
 hiVec=rep(highestWeight,length(tickers))
 ```
 
-#This is a for-loop which cycles through the tickers, calculates 
-#their return, and stores the returns in a matrix, adding 
-#the return vector for each ticker to the matrix
+This is a for-loop which cycles through the tickers, calculates their return, and stores the returns in a matrix, adding the return vector for each ticker to the matrix
 
 ```
    for(i in 1:length(tickers)){

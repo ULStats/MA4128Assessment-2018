@@ -24,12 +24,24 @@ So from  the graph produced above it can be seen that there is one statistical o
 
 ### Effect of Outliers on Linear Models
 Taking the cars dataset, and adding what would be considered outlier values for speed & distance, and ruinning a simple linear regression model was usesd to predict distance with speed. The first graph shows the regression line plotted with 5 outliers introduced to the data. 
+
 ![Regression with Outliers](https://github.com/ULStats/MA4128Assessment-2018/blob/6d319022c180840057308c7f2c7563a07e5c8f10/Regression%20with%20outliers.png?raw=true)
+
 The regression line has a much higher slope ase the model is accounting for the values which are outliers.
 Now looking at the regression line with the outlier values removed.
+
 ![Regression Without Outliers](https://github.com/ULStats/MA4128Assessment-2018/blob/6d319022c180840057308c7f2c7563a07e5c8f10/Regression%20without%20outliers.png?raw=true)
+
 It is clear from this that the second regression line is a far better fit for the data, and will more accurately be able to estimate values. These outliers are know as Influential outliers, since their presence in the regression model significantly effects the results.
 
 #### Formal Tests For Outliers
-In R there is a command outlierTest() which can be used to identify outliers in a regression model. 
-
+In R there is a command outlierTest() which can be used to identify outliers in a regression model. The outlierTest works as a hypothesis test, with null hypothesis being there are no outliers.
+```
+> mod1 <- lm(mpg ~ cyl + hp, data=mtcars )
+> outlierTest(mod1)
+No Studentized residuals with Bonferonni p < 0.05
+Largest |rstudent|:
+               rstudent unadjusted p-value Bonferonni p
+Toyota Corolla 2.634327           0.013579      0.43453
+```
+Here the outlier test is being run on a linear regression model for the mtcars dataset. From this output it can be interpreted that there are no outliers in the model as the Bonferonni p-value is not low enough to reject the null.

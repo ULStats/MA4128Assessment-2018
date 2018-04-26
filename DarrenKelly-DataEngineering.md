@@ -2,6 +2,8 @@ Data Engineering
 ==================
 Darren Kelly 14163535
 
+![Aero](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Technology-Wallpaper-6.jpg)
+
 Overview
 ==================
 Data engineering is a practice across of a number of disciplines which includes engineering computing systems, computer software, or taking information through the analysis of data. This following essay will briefly go through what data engineers do.

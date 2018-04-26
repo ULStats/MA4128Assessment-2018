@@ -14,7 +14,8 @@ due to a bug/feature in the R implementation of `asPOSIXct` and `mktime0` at the
 limits the precision of ranges prior to 1970 to 1 minute granularity with the current xts workaround.
 Recurring times over multiple days may be specified using the T notation. 
 ##Example
-`# Not run:
+```
+# Not run:
 library(xts)
 data(sample_matrix)
 sample.xts <- as.xts(sample_matrix)
@@ -22,7 +23,8 @@ events <- xts(letters[1:3],
 as.Date(c("2007-01-12", "2007-04-22", "2007-06-13")))
 plot(sample.xts[,4])
 addEventLines(events, srt=90, pos=2)
-# End(Not run)`
+# End(Not run)
+```
 
 ### dplyr
 ## Description
@@ -36,7 +38,8 @@ Rcpp)
 • Use the same interface to work with data no matter where it’s stored, whether in a data frame,
 a data table or database
 ##Example
-`scramble <- function(x) x[sample(nrow(x)), sample(ncol(x))]
+```
+scramble <- function(x) x[sample(nrow(x)), sample(ncol(x))]
 # By default, ordering of rows and columns ignored
 all_equal(mtcars, scramble(mtcars))
 # But those can be overriden if desired
@@ -47,4 +50,5 @@ df1 <- data.frame(x = "a")
 df2 <- data.frame(x = factor("a"))
 all_equal(df1, df2)
 # But you can request dplyr convert similar types
-all_equal(df1, df2, convert = TRUE)`
+all_equal(df1, df2, convert = TRUE)
+```

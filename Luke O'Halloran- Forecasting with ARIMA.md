@@ -153,6 +153,7 @@ The final step of the project is to forecast the next 12 observations and compar
 forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
 lines(xoldlog, col="blue") 
 ```
+![forecast](https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/forecast.pdf)
 
 
 ***Luke O'Halloran***

@@ -58,3 +58,6 @@ In addition, open source software plays a big role in the predictive analytics m
 ![analytics](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/analytics.png)
 
 Analytics teams can use the base open source editions of R and other analytics languages or pay for the commercial versions offered by vendors such as Microsoft. The commercial tools can be expensive, but they come with technical support from the vendor, while users of pure open source releases must troubleshoot on their own or seek help through open source community support sites.
+
+
+## Use of R Code

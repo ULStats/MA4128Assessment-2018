@@ -10,7 +10,7 @@ Many phenomena in our day-to-day lives, such as the movement of airline traffic,
 
 # What is a forecasting model in Time Series?
 
-Forecasting involves predicting values for a variable using its historical data points or it can also involve predicting the change in one variable given the change in the value of another variable. The process could be completed Forecasting approaches are primarily categorized into qualitative forecasting and quantitative forecasting. Time series forecasting falls under the category of quantitative forecasting wherein statistical principals and concepts are applied to a given historical data of a variable to forecast the future values of the same variable. Some time series forecasting techniques used include:
+Forecasting involves predicting values for a variable using its historical data points or it can also involve predicting the change in one variable given the change in the value of another variable. Forecasting approaches are primarily categorized into qualitative forecasting and quantitative forecasting. Time series forecasting falls under the category of quantitative forecasting wherein statistical principals and concepts are applied to a given historical data of a variable to forecast the future values of the same variable. Some time series forecasting techniques used include:
   - Autoregressive Models (AR)
   - Moving Average Models (MA)
   - Seasonal Regression Models
@@ -42,7 +42,7 @@ We apply the appropriate differencing order (d) to make a time series stationary
 
 ### Step 2: Identification of p and q
 
-In this step, we identify the appropriate order of Autoregressive (AR) and Moving average (MA) processes by using the Autocorrelation function (ACF) and Partial Autocorrelation function (PACF).  Please refer to our blog, “Starting out with Time Series” for an explanation of ACF and PACF functions.
+In this step, we identify the appropriate order of Autoregressive (AR) and Moving average (MA) processes by using the Autocorrelation function (ACF) and Partial Autocorrelation function (PACF).  
 
 #### Identifying the p order of AR model
 

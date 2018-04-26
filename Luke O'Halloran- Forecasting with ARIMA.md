@@ -38,6 +38,8 @@ The reader can expect to learn how to:
 
 ## Example 
 * The data used in this example is U.S. airlines: monthly aircraft miles flown (Millions) 1963 -1970.
+* We will remove one year of the original series. Preform our analysis on the reduced data, then forecast using the selected model. 
+* We will then compare our forecast to the actual data.
 #### Load data set in R.
 ```
 install.packages("TSA")
@@ -60,7 +62,7 @@ These components are as follows:
 * Seasonal: Patterns that repeat with a fixed period of time. We see this in our data with a seasonality of 1 year.
 * Trend: The underlying trend. We see this in our series as the number of miles flown grows each year.
 * Random: This is the residuals of the original time series after the seasonal and trend series are removed.
-
+The Box-Cox tells us if we should log transform our series. In this exampla the Box-Cox supports logging the data.
 ```
 ####Decompose data
 decom <- decompose(xnew) 
@@ -88,6 +90,9 @@ plot(diffseasondiff, ylab= "Logged Stationary Series")
 ![adf1](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logadf1.png)
 ![adf2](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logadf2.png)
 ![stationary](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logstationary.png)
+
+* We now have a stationary series after seasonally differencing to remove the seasonal trend. 
+* And diffrencing to remove the upward trend.
 
 #### Picking model using acf, pacf and eacf.
 Now that we know our series is stationary we can select a model to forecast our series. First we will use the Autocorrelation Function (ACF) to see if an AR(p) model or a MA(q) would be adequate. 

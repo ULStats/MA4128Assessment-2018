@@ -1,9 +1,9 @@
 Box Jenkins Approach
 =======================
-***Stephen Dalton (14161567)***
+*** Stephen Dalton (14161567)***
 
 
-Introduction
+*** Introduction
 
 In time series analysis the Box-Jenkins approach applies Autoregressive moving average (ARMA) models,
 or Autoregressive Integrated Moving Average (ARIMA) Models to find a model of best fit to a Time Series.
@@ -19,7 +19,7 @@ The Box Jenkins Approach can be broken into three stages
 3) Checking 
 
 
-Model Identification
+* Model Identification
 
 The Box Jenkins approach assumes stationarity. Stationarity means that the probability rules governing
 the process do not depend on time, i.e., they do not depend on t.
@@ -56,7 +56,7 @@ If the ACF cuts off after a certain lag and the PACF decays, we use a AR model
 If both decay we use an ARMA model. 
 An extended ACF (EACF) and an ARMA subsets model can be also used to suggest values for p and q 
 
-Model Fitting
+* Model Fitting
 
 Once a few different values for p and q have been suggested, the models can be fitted to the series.
 Assuming all suggested models have been differenced the same number of times a value to distinguish 
@@ -79,7 +79,7 @@ simplest model with the most explanatory power.
 As a result the model must be tested for overfitting. Does a model have as much explanatory power as the original
 model but using less parameters.
 
-Prediction
+* Prediction
 
 Once a final model has been chosen, the final stage is to use the model to predict future values of the time series. 
 

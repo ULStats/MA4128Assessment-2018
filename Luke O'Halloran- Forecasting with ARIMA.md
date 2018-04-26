@@ -72,6 +72,7 @@ seasondiff<-diff(xlog,lag=12,diff=1)
 plot(diff(xlog))
 acf(seasondiff, lag.max = 40)
 ```
+![decom](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/decom.png)
 ![Boxcox](https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/Boxcox.png)
 #### Test Stationarity
 Fitting an ARIMA model requires the series to be stationary. A series is said to be stationary when its mean, variance, and autocovariance are time invariant.
@@ -84,6 +85,9 @@ diffseasondiff <- diff(seasondiff)
 adf.test(diffseasondiff)
 plot(diffseasondiff, ylab= "Logged Stationary Series")
 ```
+![adf1](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logadf1.png)
+![adf2](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logadf2.png)
+![stationary](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logstationary.png)
 
 #### Picking model using acf, pacf and eacf.
 Now that we know our series is stationary we can select a model to forecast our series. First we will use the Autocorrelation Function (ACF) to see if an AR(p) model or a MA(q) would be adequate. 
@@ -96,6 +100,9 @@ acf(diffseasondiff, main= "acf", lag.max = 50)
 pacf(diffseasondiff, main= "pacf", lag.max = 50)
 eacf(diffseasondiff)
 ```
+![acf](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logacf.png)
+![pacf](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logpacf.png)
+![eacf](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/logeacf.png)
 
 #### Model fitting using residuals
 The steps in analysing the residuals are as follows:
@@ -103,7 +110,7 @@ The steps in analysing the residuals are as follows:
 * Constant variance can be checked by plotting the fitted values, against the residuals. From this plot we would expect a random scatter of points with no obvious pattern.
 * A time plot of the residuals should contain no trend (e.g., linear, quadratic, seasonal) if we have adequately modelled the series. If any trends are observed, then we should go back to our model selection step.
 * There should be no significant autocorrelations in the ACF for the residuals if these are white noise.
-
+![arima](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/arima(0%2C1%2C2).png)
 ###### Results
 *  AIC is -171.9
 * As you can see from the figures \ref{fig:hist4} and \ref{fig:qq4}, the histogram is slightly skewed and the points in the QQ-plot follow the line except for at either end of the line.
@@ -157,6 +164,6 @@ The final step of the project is to forecast the next 12 observations and compar
 forecast <- plot(model,n.ahead=12,type="l", col='red', ylab = "Miles Flown")              
 lines(xoldlog, col="blue") 
 ```
-![forecast](https://github.com/ULStats/MA4128Assessment-2018/blob/21e4df50e8aa259f8d993aefdd0fa4b90df8fcde/forecast.pdf)
+![forecast](https://github.com/ULStats/MA4128Assessment-2018/blob/e9ce5acbbf424b1dadc2d04c1e93dc6393f792fb/forecast.png)
 
 ***Luke O'Halloran***

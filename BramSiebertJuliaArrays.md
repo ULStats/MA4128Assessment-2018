@@ -1,3 +1,5 @@
+  # Bram Siebert 17179246
+![Alt text](https://www.wilmott.com/wp-content/uploads/2017/02/jcl-logo-e1487133902152.png)
   ## Multi-Dimensional arrays with Julia
   
   Like most scientific computing languages, Julia has an array implementation. An array is a collection of objects stored in a multi-dimensional grid (think of a matrix in linear algebra). Although an array may contrain objects of any type, they usually contain floats or integers. Julia, unlike matlab, passes function arguments by reference. Pass by reference means that the assignment operator points to the memory where the object is stored as opposed to the object itself. Therefore, it is important to make copies of parent arrays should we want to work on an array while keeping the original. 

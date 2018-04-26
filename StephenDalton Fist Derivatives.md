@@ -24,7 +24,7 @@ FD’s distinct competitive advantage derives from its unique combination of kno
 We are widely renowned for the quality of our service and our product portfolio and for our pragmatic and commercial approach. Our growth is the direct result of the importance we attach to our clients, understanding their businesses and building and maintaining strong relationships.
 
 ## Ireland
-The firm has its HQ in Newry in Northern Ireland. This lands it in good stead to tackle Brexit. FD has bases in Dublin, Belfast, Newry and across the globe. It is also a fast paced organisation employing almost "400 graduates by Novemeber 2017 making it one of the biggest graduate recruiters in Ireland". First Derivatives is interested in hiring " anyone with a good mathematical background. (Gleeson, 2017)
+The firm has its HQ in Newry in Northern Ireland. This lands it in good stead to tackle Brexit. FD has bases in Dublin, Belfast, Newry and across the globe. It is also a fast paced organisation employing almost "400 graduates by Novemeber 2017 making it one of the biggest graduate recruiters in Ireland" (Gleeson, 2017). First Derivatives is interested in hiring "anyone with a good mathematical background". (Gleeson, 2017)
 
 #### *_References_*:
 Gleeson, C. (2017). First Derivatives to significantly increase graduate hires. [online] The Irish Times. Available at: https://www.irishtimes.com/business/first-derivatives-to-significantly-increase-graduate-hires-1.3282683 [Accessed 26 Apr. 2018].

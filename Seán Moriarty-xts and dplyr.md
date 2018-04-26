@@ -25,7 +25,7 @@ plot(sample.xts[,4])
 addEventLines(events, srt=90, pos=2)
 # End(Not run)
 ```
-![Plot1](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Functional%20Data%20Analysis/plot1.PNG)
+![Plot1](MA4128Assessment-2018/Plot1.png)
 # dplyr
 ## Description
 dplyr provides a flexible grammar of data manipulation. It’s the next iteration of `plyr`, focused on

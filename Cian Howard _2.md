@@ -2,7 +2,7 @@ CFA EXAMS
 ======================================
 ***Cian Howard 13140132***
 
-It’s notoriously difficult – only one candidate in every five signing up will complete the programme. It’s not cheap – it will set you back more than $1,000 (€743) for each of the three exams, and more if you have to repeat. And it takes at least four years to complete.
+It’s notoriously difficult – only one candidate in every five signing up will complete the programme. It’s not cheap – it will set you back more than $1,000 (€743) for each of the three exams, and more if you have to repeat. And it takes at least four years to complete.[1]
 
 These are some of the facts about the Chartered Financial Analyst,launched in the US in 1963, the CFA has slowly come to prominence as one of the world’s most respected and recognised investment qualifications. It first came to Ireland in 2000, and since then hundreds of candidates have embarked on the course, a mixture of academic theory, current industry practice and ethical and professional standards, all in the quest of joining more than 100,000 charterholders worldwide.  
 
@@ -39,4 +39,5 @@ And the difficulty – and specific nature perhaps – of a CFA makes it more ex
 So while being costly for a non-essential professional exam, it may prove being worthwhile to undertake as given the increase in job competition amoung graduates, this exam may prove the difference between a career and disappiontment. And while it is not currently required for jobs this may one day change and become as recognised as the chartered accounting exams. I also found that while on placement that many companies will actually offer to cover the cost of the exam and also allow study leave as they will recieve a more qualified employee, this shows there is an obvious trust in the qualification if companies are willing to undertake such risks.
 
 
-
+***References***
+[1] https://www.irishtimes.com/business/a-thousand-hours-of-study-needed-to-join-elite-group-of-cfa-graduates-1.1878128

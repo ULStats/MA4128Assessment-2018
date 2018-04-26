@@ -10,6 +10,7 @@ Modern portfolio theory was pioneered by Harry Markowitz in 1952 and led him to 
 
 This risk-expected return relationship of efficient portfolios is graphically represented by a curve known as the **efficient frontier**. All efficient portfolios, each represented by a point on the efficient frontier, are well-diversified. For the specific formulas for efficient portfolios, see Portfolio separation in mean-variance analysis. While ignoring higher moments can lead to significant over-investment in risky securities, especially when volatility is high, the optimization of portfolios when return distributions are non-Gaussian is mathematically challenging.
 
+![EF](https://github.com/ULStats/MA4128Assessment-2018/blob/master/EF.jpg)
 
 ## Coding
 

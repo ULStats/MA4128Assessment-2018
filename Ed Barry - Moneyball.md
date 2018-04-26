@@ -13,6 +13,7 @@ The central premise of Moneyball is that the collective wisdom of baseball insid
 By re-evaluating the strategies that produce wins on the field, the 2002 Athletics, with approximately US$44 million in salary, were competitive with larger market teams such as the New York Yankees, who spent over US$125 million in payroll that same season. Because of the team's smaller revenues, Oakland is forced to find players undervalued by the market, and their system for finding value in undervalued players has proven itself thus far. This approach brought the A's to the playoffs in 2002 and 2003.Lewis explored several themes in the book, such as: insiders vs. outsiders (established traditionalists vs. upstart proponents of sabermetrics), the democratization of information causing a flattening of hierarchies, and "the ruthless drive for efficiency that capitalism demands". The book also touches on Oakland's underlying economic need to stay ahead of the curve; as other teams begin mirroring Beane's strategies to evaluate offensive talent, diminishing the Athletics' advantage, Oakland begins looking for other undervalued baseball skills such as defensive capabilities.
 
 * Distribution of team salaries in 2002
+
 ![Alttext](https://github.com/ULStats/MA4128Assessment-2018/blob/master/moneyball%20stats.png)
 * The Oakland A's had the third-lowest team payroll in the league ($40 million) while the New York Yankees enjoyed the highest in the payroll ($120 million).
 

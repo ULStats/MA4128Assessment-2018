@@ -25,6 +25,8 @@ To enroll in the CFA Program and register for your first Level I exam, you must 
 2)Work experience: Four years of professional work experience (does not have to be investment related).  
 3)A combination of professional work experience and education that totals at least four years (part-time positions do not qualify, and the four-year total must be accrued prior to enrollment).  
 
+![Plot1](https://github.com/ULStats/MA4128Assessment-2018/commit/2d1845ea7b914b6cb04140d5c4c4d4495b0390d1)
+
 However entry into the course is no grantee of completition designed as a self-study course, the CFA programme, which consists of three levels covering topics such as ethics, financial accounting and reporting, equity investments and derivatives, is estimated to take 1,000 hours of study to complete.
 
 

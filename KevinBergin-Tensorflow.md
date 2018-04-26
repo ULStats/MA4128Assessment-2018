@@ -49,9 +49,9 @@ becomes the mean bias error and is used to measure model bias. )
 RMSE ( calculates the measure of the differences between predicted values and observed values. Where r-squared is a relative measure of fit, the RMSE is an absolute measure of fit.)
 MAPE (The mean absolute percentage error (MAPE) is a measure of the size of the error in percentage terms.)
 The package is used for fitting different models such as ARIMA models and using the ACF and PACF to determine the type of models used. 
-![alt text](https://www.otexts.org/fpp/8/7)
+![alt text](http://www.otexts.org/sites/default/files/fpp/images/ee4.png)
 The package also contains a residuals function that can be used to check the residuals and validity of the model. the tsdiag function gives a plot of the acf of the residuals, a plot of the residuals and a plot of the ljung box statistics and a normal qq-plot of the residuals.
-![alt text](http://www.stat.pitt.edu/stoffer/tsa2/Examples.htm)
+![alt text](http://www.stat.pitt.edu/stoffer/tsa2/tsdiag.jpg)
 
 ### **Conclusion**
 The Forecasting package created by Rob J Hyndman has made forecasting in R alot more versitile with the functions such as the Arima function and accuracy function helping to fit the model and assess the accuracy of the forecast making it easier to compare different models against each other. The package also contains ACF and PACF function which help in determining if the series is white noise, the type of model to use and also in checking the validity of the model. 

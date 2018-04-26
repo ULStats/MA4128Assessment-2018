@@ -23,7 +23,16 @@ You can use this data and other packages to things like priciple component analy
 Once we have our data things get more interesting. We can use the chartSeries command to produce to display data. 
  ``chartSeries("APPL")`` would produce a simple chart showing the volume of money being traded and the a time series plot showing the price of the stock. This is where to quantmod package is powerful. Through simple commands we can produce a visualisation of the stock. We can also add our own custom indicators. For example we can add moving averages to the data. The most commmon would be the ``addMACD()`` command which illustrates the moving average convergence divergence.
 
-Other indicators are the bollinger bands which is coded using ``addBBands()``.
+Other indicators are the bollinger bands which is coded using ``addBBands()``. Here, Bollinger Bands will be drawn, or scheduled to be drawn, on the current chart. If draw is either percent or width a new figure will be added to the current TA figures charted. The image below captures a large amount of information, the date, open and close price, and volume of trading for each day.  Finally, the addBBands() call adds Bollinger Bands to the chart.  Informally, this amounts to a line indicating moving average and two lines a standard deviation above and below this moving average. 
+
+![http://2.bp.blogspot.com/_FsLa1cMTCWU/TCXXjHy-DTI/AAAAAAAAAKI/xj06hvWk3I0/s1600/APPL.png]
+
+Here are more examples of commands that can be used;
+1) addExpiry - Add Contract Expiration Bars to Chart and apply options or futures expiration vertical bars to current chart.
+e.g "addExpiry(type = "options", lty = "dotted")".
+
+2)addROC - Add Rate Of Change to Chart
+
 
 
 

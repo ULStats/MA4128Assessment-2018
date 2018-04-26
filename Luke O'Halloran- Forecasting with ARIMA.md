@@ -16,12 +16,12 @@ The reader can expect to learn how to:
 
 
 ## Method
-#### 1.Examine your data
+#### 1.Examine your data and plot
 * Plot the data and examine its patterns and irregularities
 * Clean up any outliers or missing values if needed
 * `tsclean()` is a convenient method for outlier removal and inputing missing values
 * Take a logarithm of a series to help stabilize a strong growth trend
-#### 2.Decompose your data
+#### 2.Decompose your data.¨
 * Does the series appear to have trends or seasonality?
 * Use `decompose()` or `stl()` to examine and possibly remove components of the series
 #### 3.Stationarity
@@ -53,6 +53,12 @@ plot(xnew)
 plot(xold, ylab="Miles Flown")
 ```
 ##### Decompose the data and Seasonally differencing.
+Decomposing a time series means separating it into it’s constituent components. 
+These components are as follows:
+* Seasonal: Patterns that repeat with a fixed period of time. We see this in our data with a seasonality of 1 year.
+* Trend: The underlying trend. We see this in our series as the number of miles flown grows each year.
+* Random: This is the residuals of the original time series after the seasonal and trend series are removed.
+
 ```
 ####Decompose data
 decom <- decompose(xnew) 
@@ -64,6 +70,8 @@ plot(diff(xlog))
 acf(seasondiff, lag.max = 40)
 ```
 #### Test Stationarity
+Fitting an ARIMA model requires the series to be stationary. A series is said to be stationary when its mean, variance, and autocovariance are time invariant.
+The augmented Dickey-Fuller (ADF) test is a formal statistical test for stationarity. The null hypothesis assumes that the series is non-stationary. The ADF procedure tests whether the change in Y can be explained by a lagged value and a linear trend. If contribution of the lagged value to the change in Y is non-significant and there is a presence of a trend component, the series is non-stationary and null hypothesis will not be rejected.
 ```
 #dickey fuller
 adf.test(seasondiff)

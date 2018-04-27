@@ -106,4 +106,4 @@ This is a pooled result, as the regression coefficients are averaged over the 5 
 https://cran.r-project.org/web/packages/mice/README.html
 www.stefvanbuuren.nl/mi/mi.html
 
-* well
+

@@ -32,6 +32,3 @@ white = ___________("http://archive.ics.uci.edu/ml/machine-learning-databases/wi
 red = ___________("http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv", sep=';')
 ```
 
-## References
-
-References go here!

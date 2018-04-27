@@ -1,0 +1,13 @@
+__Geometric Brownian Motion__
+===========================
+***Colin Crehan**    14172712*
+
+![rando](https://github.com/ULStats/MA4128Assessment-2018/blob/master/rando.png)
+
+## Introduction
+
+A *Geomtric Brownian Motion* (GBM) is a continuous-time stochastic process in which the logarithm of the randomly varying quantity follows
+a Brownian motion (also called a Wiener process) with drift.[1] It is an important example of stochastic processes satisfying a stochastic
+differential equation (SDE); in particular, it is used in mathematical finance to model stock prices in the Black–Scholes model.
+
+> Functional data is multivariate data with an ordering on the dimensions

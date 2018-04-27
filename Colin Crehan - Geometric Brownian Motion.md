@@ -36,3 +36,8 @@ in honour of the famous American mathematician Norbert
 Wiener (1894-1964).
 The Brownian motion is nowadays widely used to model
 uncertainty in engineering, economics and finance.
+
+# Technical definition: the SDE
+
+![rando](https://github.com/ULStats/MA4128Assessment-2018/blob/master/s.svg)
+

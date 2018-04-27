@@ -49,6 +49,8 @@ The former is used to model deterministic trends, while the latter term is often
 
 ## Simulating Geometric Brownian Motion
 
+The R code below allows us to simulate GBM for a given stock with expected rate of return μ and volatility σ, and initial price P0 and a time horizon T, simulate in R nt many trajectories of the price Pt from time  t=0  up until  t=T  through n many time periods, each of length  Δt = T/n, assuming the geometric Brownian motion model.
+
 ``` R
 
 library(sde)

@@ -54,4 +54,7 @@ Control charts for variable data are used in pairs. The top chart monitors the a
 
 While the initial resource cost of statistical process control can be substantial the return on investment gained from the information and knowledge the tool creates proves to be a successful activity time and time again. This tool requires a great deal of coordination and if done successfully can greatly improve a processes ability to be controlled and analyzed during process improvement projects.
 
-:+1: :sparkles: :Camel: :tada: :rocket: :metal: :octocat:
+## References
+
+
+:+1: :sparkles: :frog: :tada: :rocket: :metal: :octocat: :sunny: :uscle:

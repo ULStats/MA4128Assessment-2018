@@ -22,4 +22,6 @@ So the main response to the question "Why SPC?" therefore this: It guides us to 
 
 The key to any process improvement program is the Plan-Do-Study-Act cycle described by Walter Shewhart.
 
-<p align="center"> ![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Plan%2520Do%2520Study%2520Act.png) </p>
+<p align="center"> 
+![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Plan%2520Do%2520Study%2520Act.png) 
+</p>

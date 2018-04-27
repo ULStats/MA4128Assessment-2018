@@ -37,7 +37,7 @@ Wiener (1894-1964).
 The Brownian motion is nowadays widely used to model
 uncertainty in engineering, economics and finance.
 
-# Technical definition: the SDE
+## Technical definition: the SDE
 
 A stochastic process St is said to follow a GBM if it satisfies the following stochastic differential equation (SDE):
 

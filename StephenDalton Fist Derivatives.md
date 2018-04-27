@@ -9,7 +9,7 @@ First Derivatives (FD) is a leading provider of products and consulting services
 
 
 
-Focused on financial institutions that work cross-asset, often with multi-system and/or high volume trading activities, the Company scopes, designs, develops, implements and supports a broad range of mission critical data and trading systems across front, middle and back-office operations. The Company’s software is also used in a range of industries including telecoms, digital marketing, pharma and utilities to help organisations solve their most demanding data management and analytics challenges.
+Focused on financial institutions that work cross-asset, often with multi-system and/or high volume trading activities, the Company scopes, designs, develops, implements and supports a broad range of mission critical data and trading systems across front, middle and back office operations. The Company’s software is also used in a range of industries including telecoms, digital marketing, pharma and utilities to help organisations solve their most demanding data management and analytics challenges.
 
 ## Foundation
 Incorporated in 1996, FD has served the capital markets industry since its incorporation. The Company holds a niche market position in terms of domain knowledge of capital market asset classes (equities, fixed income, foreign exchange, commodities, etc), as well as expertise in leading financial services systems (such as Calypso, Murex, Opics, Summit, Principia, Opus, Wall Street, kdb+, etc). 

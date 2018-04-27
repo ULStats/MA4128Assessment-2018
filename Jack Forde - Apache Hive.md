@@ -1,3 +1,4 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Apache_Hive_logo.svg/853px-Apache_Hive_logo.svg.png" width="400" height="400">
 ## Apache Hive
 Apache Hive is considered the standard instrument for interactive SQL queries over petabytes of data in Hadoop. Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment. It is part of the Apache project. Hadoop was built to organize and store massive amounts of data with a "schema on read" architecture. This enables the data to be used by different groups who might want to get different insights.
 

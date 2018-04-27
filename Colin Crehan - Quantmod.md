@@ -1,3 +1,11 @@
+__Quantmod__
+===========================
+***Colin Crehan**    14172712*
+
+![fda logo](http://www.psych.mcgill.ca/misc/fda/images/index-fig1.jpg)
+
+
+
 Quantmod is a quantitative financial modelling framework used in R, the statistical programming language.
 It allows users to specify, build, trade, and analyse quantitative financial trading strategies. 
 The package was designed to help quantitative trader in their development, testing,

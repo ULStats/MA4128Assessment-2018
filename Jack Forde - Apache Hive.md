@@ -13,7 +13,7 @@ Data analysts use Hive to query, summarize, explore and analyze that data. Hive 
 There is not one single Hive format in which the data must be. Hive supports tab separated and comma separated text files along with others. The Hive data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. This makes it easy to use as most data scientists will be familiar with SQL. Hives SQL can also be extended by with user defined functions.
 
 * #### Fast	
-Interactive response times, even over huge datasets
+Interactive response times, even over huge datasets.
 
 * #### Scalable and Extensible	
 Hive is designed to maximise scalability as data variety and volume grows, more commodity machines can be added, without a corresponding reduction in performance.

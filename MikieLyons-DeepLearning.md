@@ -25,7 +25,7 @@ Deep learning is part of state-of-the-art systems in various disciplines, partic
 large-vocabulary speech recognition tasks have steadily improved. Convolutional neural networks (CNNs) were superseded for ASR by CTC 
 for LSTM, but are more successful in computer vision.
 The impact of deep learning in industry began in the early 2000s, when CNNs already processed an estimated 10% to 20% of all the checks
-written in the US, according to Yann LeCun. Industrial applications of deep learning to large-scale speech recognition started around
+written in the US according to Yann LeCun. Industrial applications of deep learning to large-scale speech recognition started around
 2010.
 In 2012, a team led by Dahl won the "Merck Molecular Activity Challenge" using multi-task deep neural networks to predict the
 biomolecular target of one drug. In 2014, Hochreiter's group used deep learning to detect off-target and toxic effects of

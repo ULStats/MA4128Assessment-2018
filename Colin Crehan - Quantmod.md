@@ -57,3 +57,8 @@ has several different trading tools built into the program which are quite simpl
 efficient backtesting tools.
 Traders find Quantmod favorabe as it also gives them a user friendly way of analyzing 
 their trading strategy. 
+
+#### *_References_*:
+
+[Quantmod](https://cran.r-project.org/web/packages/quantmod/quantmod.pdf)
+

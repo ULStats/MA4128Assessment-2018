@@ -49,3 +49,9 @@ The control chart is a graph used to study how a process changes over time. Data
 Control charts for variable data are used in pairs. The top chart monitors the average, or the centering of the distribution of data from the process. The bottom chart monitors the range, or the width of the distribution. If your data were shots in target practice, the average is where the shots are clustering, and the range is how tightly they are clustered. Control charts for attribute data are used singly.
 
 ![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/anatomy-of-a-control-chart.jpg)
+
+## Summary
+
+While the initial resource cost of statistical process control can be substantial the return on investment gained from the information and knowledge the tool creates proves to be a successful activity time and time again. This tool requires a great deal of coordination and if done successfully can greatly improve a processes ability to be controlled and analyzed during process improvement projects.
+
+:+1: :sparkles: :Camel: :tada: :rocket: :metal: :octocat:

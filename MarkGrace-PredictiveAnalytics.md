@@ -61,7 +61,7 @@ Analytics teams can use the base open source editions of R and other analytics l
 
 
 ## Use of R Code
-Predictive Analysis can be carried out in R. Here is an example of Time Series ARIMA model data set which is used to forecast to future stock price values on a daily basis.
+Predictive Analysis can be carried out in R. Here is an example of Time Series ARIMA model data set which is used to forecast to future price values on a daily basis.
 ```
 # Load data
 daily_data$Date = as.Date(daily_data$dteday)

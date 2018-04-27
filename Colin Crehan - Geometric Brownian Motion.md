@@ -21,12 +21,18 @@ Some of the arguments for using GBM to model stock prices are:
 
 ## History
 
-In 1944 Ito introduced
-his calculus and a variant of the Brownian motion which is the geometric
-Brownian motion . Since the 1950s mathematicians began to show interest
-in the modeling of stock market prices. Bachelier original proposal that the price
-changes are Gaussian distributed was replaced to a model in which stock prices
-are log-normal distributed. In 1973, Black, Scholes and Merton.
-used the geometric Brownian motion to construct a theory for determining the
-price of stock options. This theory constitutes nowadays the cornerstone of
-mathematical finance.
+The Brownian motion is a mathematical model used to
+describe the random mouvements of particles. It was named
+after Scottish botanist Robert Brown (1773-1858) who has
+published in 1827 a paper in which the chaotic mouvements
+of pollen suspended in water were examined.
+The Brownian motion was used by Louis Bachelier in his PhD
+thesis completed in 1900 and devoted to pricing of options.
+The Brownian motion was also used by physicists to describe
+the diffusion mouvements of particles, in particular, by Albert
+Einstein (1879-1955) in his famous paper published in 1905.
+The Brownian motion is also known as the Wiener process
+in honour of the famous American mathematician Norbert
+Wiener (1894-1964).
+The Brownian motion is nowadays widely used to model
+uncertainty in engineering, economics and finance.

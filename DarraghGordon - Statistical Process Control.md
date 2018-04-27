@@ -31,3 +31,11 @@ __*Do*__ involves making changes to correct or improve the situation.
 __*Study*__ involves examining the effect of the changes (with the help of control charts).
 
 __*Act*__ involves, if the result is successful, standardizing the changes and then working on further improvements or, if the outcome is not successful, implementing other corrective actions.
+
+## Control Charts
+
+The control chart is a graph used to study how a process changes over time. Data are plotted in time order. A control chart always has a central line for the average, an upper line for the upper control limit and a lower line for the lower control limit. These lines are determined from historical data. By comparing current data to these lines, you can draw conclusions about whether the process variation is consistent (in control) or is unpredictable (out of control, affected by special causes of variation).
+
+Control charts for variable data are used in pairs. The top chart monitors the average, or the centering of the distribution of data from the process. The bottom chart monitors the range, or the width of the distribution. If your data were shots in target practice, the average is where the shots are clustering, and the range is how tightly they are clustered. Control charts for attribute data are used singly.
+
+![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/anatomy-of-a-control-chart.jpg)

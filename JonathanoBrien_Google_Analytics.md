@@ -2,10 +2,10 @@
 
 ![Google Analytics Logo](https://cdn.techadvisor.co.uk/cmsdata/features/3666560/is-google-analytics-down-main_thumb800.jpg)
  
-Google Analytics is a analytics service offered by Google that tracks and reports website traffic. It helps Domain owners track customers/visitors on there webpage. Google Analytics was launched in November 2005 after Google acquired Urchin (a web statistics analysis program). There is a web based UI or A mobile app, an SDK that allows gathering usage data from iOS and Android Apps. 
+Google Analytics is an analytics service offered by Google that tracks and reports website traffic. It helps domain owners track customers/visitors on their webpage. Google Analytics was launched in November 2005 after Google acquired Urchin (a web statistics analysis program). There is a web based UI or A mobile app, an SDK that allows gathering usage data from iOS and Android Apps. 
  
  ## History
-Google Analytics was previously known as Urchin before Google bought the company in 2005. Google launched there Google branded software in 2005 and On March 28, 2012 Urchin was discontinuation. For the first year Google analytics was rolled out using a lottery system as the servers couldn't deal with the traffic. 
+Google Analytics was previously known as Urchin before Google bought the company in 2005. Google launched their Google branded software in 2005 and On March 28, 2012 Urchin was discontinued. For the first year Google analytics was rolled out using a lottery system as the servers couldn't deal with the traffic. 
 
 ## How it works
 Google Analytics is implemented with "page tags", in this case, called the Google Analytics Tracking Code, which is a snippet of JavaScript code that the website owner adds to every page of the website. The tracking code runs in the client browser when the client browses the page (if JavaScript is enabled in the browser) and collects visitor data and sends it to a Google data collection server as part of a request for a web beacon. Here is a sample of the java code that is used on the Bank of Ireland [Homepage](https://www.bankofireland.com/)
@@ -36,10 +36,8 @@ This Java script is collecting the visitors data and storing it in the clound wh
 
 ###### Cons
 * Adblocker can stop the visitors data from being collected. 
-* Its bassed of the use of cookies whick can be deleted.
+* It is based on the use of cookies whick can be deleted.
 * Sampling is used to generate the reports. 
 
 ## Dimensions  
 Here is a list of all the [dimensions](https://developers.google.com/analytics/devguides/reporting/core/dimsmets) that are used. There are also custom dimentions that cam be set by the operator. 
-
-**Comments**: Overall good. A few spelling mistakes were corrected. Perhaps you could come to your own conclusion at the end.

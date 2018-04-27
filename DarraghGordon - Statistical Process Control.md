@@ -19,11 +19,11 @@ SPC is method of measuring and controlling quality by monitoring the manufacturi
 
 The application of SPC involves three main phases of activity:
 
-Understanding the process and the specification limits.
+1: Understanding the process and the specification limits.
 
-Eliminating assignable (special) sources of variation, so that the process is stable.
+2: Eliminating assignable (special) sources of variation, so that the process is stable.
 
-Monitoring the ongoing production process, assisted by the use of control charts, to detect significant changes of mean or variation.
+3: Monitoring the ongoing production process, assisted by the use of control charts, to detect significant changes of mean or variation.
 
 ## Why Use SPC?
 

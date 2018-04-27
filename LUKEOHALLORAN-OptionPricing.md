@@ -40,7 +40,9 @@ values}
 
 ## Example of code
 ```
+#Input(Stock,Strike,Intrest rate, Time to maturity, Volatility)
 blackscholes(100,110,.05,.25,.25)
+#Output Call Premium, Put Premium
 [1]  1.980506 10.614064
 ```
 #### *_References_*:
@@ -51,5 +53,4 @@ https://www.investopedia.com/terms/o/option.asp.
 
 ***Luke O'Halloran***
 
-***Comment***
-You could maybe include the output of some of the code and explain your output -- Jack H
+

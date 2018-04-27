@@ -18,3 +18,15 @@ Some of the arguments for using GBM to model stock prices are:
 * A GBM process only assumes positive values, just like real stock prices.
 * A GBM process shows the same kind of 'roughness' in its paths as we see in real stock prices.
 * Calculations with GBM processes are relatively easy.
+
+## History
+
+In 1944 Ito introduced
+his calculus and a variant of the Brownian motion which is the geometric
+Brownian motion . Since the 1950s mathematicians began to show interest
+in the modeling of stock market prices. Bachelier original proposal that the price
+changes are Gaussian distributed was replaced to a model in which stock prices
+are log-normal distributed. In 1973, Black, Scholes and Merton.
+used the geometric Brownian motion to construct a theory for determining the
+price of stock options. This theory constitutes nowadays the cornerstone of
+mathematical finance.

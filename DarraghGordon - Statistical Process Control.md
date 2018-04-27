@@ -60,7 +60,7 @@ While the initial resource cost of statistical process control can be substantia
 
 2: *asq. 2018. Learn About Quality. [ONLINE] Available at: https://www.asq.org. [Accessed 25 April 2018].*
 
-3: *www.winspc.com. 2018. What is SPC. [ONLINE] Available at: https://www.winspc.com. [Accessed 25 April 2018].*
+3: *winspc. 2018. What is SPC. [ONLINE] Available at: https://www.winspc.com. [Accessed 25 April 2018].*
 
 
 :+1: :sparkles: :frog: :tada: :rocket: :metal: :octocat: :sunny: :muscle:

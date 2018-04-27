@@ -2,7 +2,7 @@ __Quantmod__
 ===========================
 ***Colin Crehan**    14172712*
 
-![fda logo](https://github.com/ULStats/MA4128Assessment-2018/blob/master/AAPL-full.png)
+![appl](https://github.com/ULStats/MA4128Assessment-2018/blob/master/AAPL-full.png)
 
 
 

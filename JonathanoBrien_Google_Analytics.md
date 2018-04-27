@@ -39,5 +39,5 @@ This Java script is collecting the visitors data and storing it in the clound wh
 * Its bassed of the use of cookies whick can be deleted.
 * Sampling is used to generate the reports. 
 
-## Dimentions  
-Here is a list of all the [dimentions](https://developers.google.com/analytics/devguides/reporting/core/dimsmets) that are used. There are also custom dimentions that cam be set by the operator. 
+## Dimensions  
+Here is a list of all the [dimensions](https://developers.google.com/analytics/devguides/reporting/core/dimsmets) that are used. There are also custom dimentions that cam be set by the operator. 

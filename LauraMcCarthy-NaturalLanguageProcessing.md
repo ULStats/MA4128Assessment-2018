@@ -1,6 +1,10 @@
 __Natural Language Processing__
 
 ***Laura McCarthy***
+
+<img src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/NLP/Natural-Language-Processing-Definition-1.jpg">
+
+
 ===============================
 ## Introduction
 
@@ -17,6 +21,10 @@ Until the 1980s most Natural Language Processing was based on hand written code,
 
 From that time up until now most NLP relies in machine learning using Stastical Inference. Previously direct hand coding was used which was cumbersome and slow. The learning procedures used during machine learning automatically focus on the most common cases, where with handwritten code these cases would not always be as obvious. The automatic learning processes can use statistical inference to produce models that deal with unfamiliar input (new words and sentence structures) as well as spelling and grammatical errors. 
 
+<img src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/NLP/Semantics%20vs%20syntax.jpg">
+
 NLP learns with two main areas, much like a child learning to read. These are Syntax and Semantics. Syntax includes Morphological Segmentation, which is separating the words into individual morphemes. For example the morpheme “ed” at the end of a word would imply a past tense verb, wanted, liked, cited. English Language has quite a simple morphology but languages like Turkish have a very different one.  Other speed-bumps in the Syntax category include “Part-of-Speech tagging” which focuses on the meaning of the word in speech, e.g. book could be a noun or a verb and Word Segmentation which focuses on separating chunks of text into separate words. Again this is quite simple with English Language but far more difficult with languages such as Chinese.
 
 Semantics focuses on the actual meaning of words as opposed to the grammatical structures of them. Again in a language like English it is quite easy to distinguish proper nouns (places, names etc.) as they all begin with a capital letter. However non-western languages are very different and so the code must account for that. 
+
+<img src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/NLP/Chinese%20NLP.gif">

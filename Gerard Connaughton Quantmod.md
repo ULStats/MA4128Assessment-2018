@@ -1,7 +1,7 @@
 ***Gerard Connaughton***
 
 ### Quantmod.
-* The Quantmod package for R is designed to assist the quantitative trader in the development, testing, 
+* The Quantmod package for R is designed to assist the quantitative trader in the development testing, 
 and deployment of statistically based trading models.
 * Quantmod is a rapid prototyping environment, where quant traders can quickly and cleanly explore and build trading models.
 * It makes modelling easier by removing the repetitive workflow issues surrounding data management, modelling interfaces,

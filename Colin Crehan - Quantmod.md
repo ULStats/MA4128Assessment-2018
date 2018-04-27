@@ -2,7 +2,7 @@ __Quantmod__
 ===========================
 ***Colin Crehan**    14172712*
 
-![fda logo](http://www.psych.mcgill.ca/misc/fda/images/index-fig1.jpg)
+![fda logo](https://www.google.ie/search?q=quantmod+r&rlz=1C1GCEB_enIE794IE794&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiK5-vVytraAhXJAMAKHYEpCuAQ_AUICigB&biw=1440&bih=794#imgrc=IPGYHWsB3U8PoM:)
 
 
 

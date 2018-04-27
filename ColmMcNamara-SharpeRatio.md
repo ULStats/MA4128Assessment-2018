@@ -7,7 +7,7 @@ Sharpe Ratio
 ## Sharpe Ratio Uses
 ![alt text](https://www.markettamer.com/blog/wp-content/uploads/2015/08/Graph-of-Sharpe-Ratio.png "Logo Title Text 1")
 
- The Sharpe ratio characterizes how well the return of an asset compensates the investor for the risk taken. When comparing two assets versus a common benchmark, the one with a higher Sharpe ratio provides better return for the same risk (or, equivalently, the same return for lower risk). However, like any other mathematical model, it relies on the data being correct.Sharpe ratio is defined as, 
+ The Sharpe ratio characterizes how well the return of an asset compensates the investor for the risk taken. When comparing two assets versus a common benchmark, the one with a higher Sharpe ratio provides better return for the same risk (or, equivalently, the same return for lower risk). However, like any other mathematical model, it relies on the data being correct.Sharpe ratio is defined as 
   
 ![alt text](https://cdn.corporatefinanceinstitute.com/assets/sharpe-ratio.png "Logo Title Text 1")
 

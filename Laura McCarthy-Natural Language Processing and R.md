@@ -1,5 +1,6 @@
 
 __NLP and R__
+Laura McCarthy
 
 ## Main uses of NLP
 Some of the main uses of NLP in the modern world are Machine Translation, Fighting Spam, Information Extraction and Summarisation.

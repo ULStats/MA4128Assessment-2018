@@ -15,6 +15,16 @@ Based on experience with many types of process data, and supported by the laws o
 
 SPC is method of measuring and controlling quality by monitoring the manufacturing process. Quality data is collected in the form of product or process measurements or readings from various machines or instrumentation. The data is collected and used to evaluate, monitor and control a process. SPC is an effective method to drive continuous improvement. By monitoring and controlling a process, we can assure that it operates at its fullest potential at all times. If a process is not operationg to its fullest potential, this can be seen from the data which has been collected, from this data the required changes may be made to a process or a machine to improve the output of the process/machine.
 
+**Applications of SPC**
+
+The application of SPC involves three main phases of activity:
+
+Understanding the process and the specification limits.
+
+Eliminating assignable (special) sources of variation, so that the process is stable.
+
+Monitoring the ongoing production process, assisted by the use of control charts, to detect significant changes of mean or variation.
+
 ## Why Use SPC?
 
 The plain fact is that when a process is within statistical control, its output is indiscernible from random variation: the kind of variation which one gets from tossing coins, throwing dice, or shuffling cards. Whether or not the process is in control, the numbers will go up, the numbers will go down; indeed, occasionally we shall get a number that is the highest or the lowest for some time. Of course we shall: how could it be otherwise? The question is - do these individual occurrences mean anything important? When the process is out of control, the answer will sometimes be yes. When the process is in control, the answer is no.

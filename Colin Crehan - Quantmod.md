@@ -61,5 +61,6 @@ their trading strategy.
 #### *_References_*:
 
 [Quantmod](https://cran.r-project.org/web/packages/quantmod/quantmod.pdf)
+
 [Statmath](http://statmath.wu.ac.at/~hornik/QFS1/quantmod-vignette.pdf)
 

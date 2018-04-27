@@ -10,9 +10,11 @@ A *Geomtric Brownian Motion* (GBM) is a continuous-time stochastic process in wh
 a Brownian motion (also called a Wiener process) with drift.[1] It is an important example of stochastic processes satisfying a stochastic
 differential equation (SDE); in particular, it is used in mathematical finance to model stock prices in the Black–Scholes model.
 
-A stochastic process St is said to follow a GBM if it satisfies the following stochastic differential equation (SDE):
+Geometric Brownian motion is used to model stock prices in the Black–Scholes model and is the most widely used model of stock price behavior.
 
-{\displaystyle dS_{t}=\mu S_{t}\,dt+\sigma S_{t}\,dW_{t}} dS_{t}=\mu S_{t}\,dt+\sigma S_{t}\,dW_{t}
-where {\displaystyle W_{t}} W_{t} is a Wiener process or Brownian motion, and {\displaystyle \mu } \mu  ('the percentage drift') and {\displaystyle \sigma } \sigma  ('the percentage volatility') are constants.
+Some of the arguments for using GBM to model stock prices are:
 
-The former is used to model deterministic trends, while the latter term is often used to model a set of unpredictable events occurring during this motion
+*The expected returns of GBM are independent of the value of the process (stock price), which agrees with what we would expect in reality
+*A GBM process only assumes positive values, just like real stock prices.
+*A GBM process shows the same kind of 'roughness' in its paths as we see in real stock prices.
+*Calculations with GBM processes are relatively easy.

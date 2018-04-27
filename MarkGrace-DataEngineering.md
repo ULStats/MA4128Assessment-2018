@@ -131,4 +131,7 @@ After Rebu takes over the world, a database centric data engineer might design a
 
 A data warehouse takes in data, then makes it easy for others to query it.
 
+## Conclusion
+Data Engineering is a high value endeavor. It is one of the defining factors that will make or break a company in the age of insight and AI.
+
 

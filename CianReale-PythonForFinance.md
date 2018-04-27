@@ -58,5 +58,4 @@ Python is commonly used in solving problems related to the following areas:
 Python and NumPy can be used to implement fast Monte Carlo algorithms. It is in cases such as these that the value of Pyhton's speed can be recognized. According to Mevedev _et al_ (2009); "a Matlab code implementing the code of Longstaff & Schwartz (2001) takes dozens of minutes to compute a single option price." This same action would take Pythons precisely two seconds. 
 ![Example of Monte Carlo simulation](https://raw.githubusercontent.com/balzer82/Pandas-Stoxx-Europe-600/master/Monte-Carlo-Simulation-TSLA.png)
 
-* Refrence?
 

@@ -16,7 +16,7 @@ quantitative trader can conveniently investigate and build trading models.
 An important attribute of quantmod is it's ability to load financial data from a variety
 sources such as 'Yahoo Finance' for stock prices and 'Oanda' for Foreign Exchange rates. 
 
-* getSymbols("GOOGL",src="google") # from google finance 
+* getSymbols("GOOGL",src="google") # from google finance *
 *[1] "GOOGL" 
 
 The command above for example loads the Google stock price into the workspace. The above 

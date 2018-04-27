@@ -8,7 +8,7 @@ __Kitman Labs__
 
 
 ## Background
-Stephen Smith founded sports technology company Kitman Labs in 2012 to enable professional and elite sports teams to help reduce injury risk and increase player availability. Prior to founding Kitman Labs, Stephen was senior injury rehabilitation and conditioning coach with Leinster Rugby for six years. Kitman Labs was founded in Dublin in October 2012, where its headquarters remain. The foundation of the company was Smith's Master's research, which focused on combined risk factors as predictors of athletic injury. 
+Stephen Smith founded sports technology company Kitman Labs in 2012 to enable professional and elite sports teams to help reduce injury risk and increase player availability. Prior to founding Kitman Labs, Stephen was a senior injury rehabilitation and conditioning coach with Leinster Rugby for six years. Kitman Labs was founded in Dublin in October 2012, where its headquarters remain. The foundation of the company was Smith's Master's research, which focused on combined risk factors as predictors of athletic injury. 
 
 Built by sports practitioners and data and sport scientists, Kitman Labs understands there is a better way to leverage the data available to sports coaches and staff. Based around its Athlete Optimisation System, it enables teams to optimise athlete health and performance while reducing injury risk and increasing overall performance potential. 
 
@@ -57,7 +57,7 @@ odds of winning. It is estimated that it costs US sports teams $500 million in s
 injury. To reduce their clients injury profiles by 30-32 percent, represents a massive saving to Kitman Labs clients.
 
 ## Quantifying Injury Risk 
-Stephen Smith discusses the importance of Kitman Labs' role in identifying and quantifying injury risks.
+Stephen Smith discusses the importance of Kitman Labs' role in identifying and quantifying injury risks, in the following video.
   https://www.youtube.com/watch?v=AO1Q9_SX_Us
 
 

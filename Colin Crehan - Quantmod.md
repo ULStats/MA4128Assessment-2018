@@ -30,6 +30,7 @@ the adjusted closing prices shown here are the stock's closing prices on any giv
 trading that has been amended to include any distributions and corporate actions that occurred
 at any time prior to the next day's open.
 
+<pre><code>
            GOOGL.Open GOOGL.High GOOGL.Low GOOGL.Close GOOGL.Volume GOOGL.Adjusted
 2015-04-06     538.84     545.54    535.70      543.95      1685900         543.95
 2015-04-07     544.99     550.16    543.59      544.86      1365900         544.86
@@ -37,6 +38,7 @@ at any time prior to the next day's open.
 2015-04-09     549.21     549.37    541.95      548.02      1618300         548.02
 2015-04-10     549.57     549.85    544.98      548.54      1305200         548.54
 2015-04-13     547.05     553.27    546.30      548.64      1466300         548.64
+</code></pre>
 
 Quantmod offers many different ways of illustrating data from histograms and general line 
 plots of stock prices. It also offers the option of adding technical indicators.

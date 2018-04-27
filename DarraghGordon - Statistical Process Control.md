@@ -24,7 +24,10 @@ The key to any process improvement program is the Plan-Do-Study-Act cycle descri
 
 ![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Plan%2520Do%2520Study%2520Act.png)
 
-*Plan* involves using SPC tools to help you identify problems and possible causes.
-*Do* involves making changes to correct or improve the situation.
-*Study* involves examining the effect of the changes (with the help of control charts).
-*Act* involves, if the result is successful, standardizing the changes and then working on further improvements or, if the outcome is not successful, implementing other corrective actions.
+__*Plan*__ involves using SPC tools to help you identify problems and possible causes.
+
+__*Do*__ involves making changes to correct or improve the situation.
+
+__*Study*__ involves examining the effect of the changes (with the help of control charts).
+
+__*Act*__ involves, if the result is successful, standardizing the changes and then working on further improvements or, if the outcome is not successful, implementing other corrective actions.

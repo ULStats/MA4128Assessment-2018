@@ -33,7 +33,7 @@ When running the MICE package in r there is an assumption that the missing data 
 ## Visualisation of Missing Data Patterns
 As part of the MICE package it is possible to visualise the missing data patterns. 
 Using md.pattern() a table is created to display the observations with missing data as seen below.
-In the given dataset (Eldermet), it was of interest to analyse the missing data patterns in the Weight recordings. Test were done at 3 time intervals and the missing data pattern was as follows:
+In the given dataset (Eldermet), it was of interest to analyse the missing data patterns in the Weight recordings. Tests were done at 3 time intervals and the missing data pattern was as follows:
 ```
 > md.pattern(NewWeight)
     Weight WeightT3 WeightT6    

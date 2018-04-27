@@ -1,6 +1,6 @@
 ## Darragh Gordon
 
-14177749
+14177749 - Technology Management
 
 *In a numbers game, whoever has the most information usually ends up winning. That has largely been the thinking in the gambling industry, with the house having the better odds in any game that is played. Gambling is already all about the numbers, so it should probably come as no surprise that the rise of big data has caught industry leaders’ attention.*
 
@@ -36,4 +36,5 @@ Whether used by casinos or gamblers, for oddsmakers or those playing the odds, b
 
 ## References
 
+1: The Innovation Enterprise. 2017. How big data is changing the gambling world. [ONLINE] Available at: https://channels.theinnovationenterprise.com. [Accessed 25 April 2018].
 

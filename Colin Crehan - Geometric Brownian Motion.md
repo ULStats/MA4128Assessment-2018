@@ -14,7 +14,7 @@ Geometric Brownian motion is used to model stock prices in the Black–Scholes m
 
 Some of the arguments for using GBM to model stock prices are:
 
-*The expected returns of GBM are independent of the value of the process (stock price), which agrees with what we would expect in reality.
-*A GBM process only assumes positive values, just like real stock prices.
-*A GBM process shows the same kind of 'roughness' in its paths as we see in real stock prices.
-*Calculations with GBM processes are relatively easy.
+* The expected returns of GBM are independent of the value of the process (stock price), which agrees with what we would expect in reality.
+* A GBM process only assumes positive values, just like real stock prices.
+* A GBM process shows the same kind of 'roughness' in its paths as we see in real stock prices.
+* Calculations with GBM processes are relatively easy.

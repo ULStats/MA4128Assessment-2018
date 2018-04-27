@@ -57,4 +57,4 @@ While the initial resource cost of statistical process control can be substantia
 ## References
 
 
-:+1: :sparkles: :frog: :tada: :rocket: :metal: :octocat: :sunny: :uscle:
+:+1: :sparkles: :frog: :tada: :rocket: :metal: :octocat: :sunny: :muscle:

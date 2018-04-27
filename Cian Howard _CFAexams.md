@@ -21,9 +21,9 @@ The CFA Program provides the strongest foundation in advanced investment, analys
 **How to become qualified?**  
 There are three leveles of the CFA program exam,these focus areas vary by exam level, increasing in complexity and difficulty with a core of ethics and professional standards across all levels.
 To enroll in the CFA Program and register for your first Level I exam, you must have an international travel passport and one of the following:  
-1)Undergraduate education: A bachelor’s (or equivalent) degree or be in the final year of your bachelor’s degree program.  
-2)Work experience: Four years of professional work experience (does not have to be investment related).  
-3)A combination of professional work experience and education that totals at least four years (part-time positions do not qualify, and the four-year total must be accrued prior to enrollment).  
+1. Undergraduate education: A bachelor’s (or equivalent) degree or be in the final year of your bachelor’s degree program.  
+2. Work experience: Four years of professional work experience (does not have to be investment related).  
+3. A combination of professional work experience and education that totals at least four years (part-time positions do not qualify, and the four-year total must be accrued prior to enrollment).  
 
 ![Plot1](https://github.com/ULStats/MA4128Assessment-2018/blob/master/cfa.PNG)
 
@@ -34,8 +34,10 @@ However entry into the course is no grantee of completition designed as a self-s
 
 **Opportunity cost**  
 There is an opportunity cost associated with taking a year or two out of paid employment to complete an MBA. A CFA, on the other hand, can give you the prestige of a qualification but at a much lower cost and allow you to remain in your day job.
+
 And the difficulty – and specific nature perhaps – of a CFA makes it more exclusive: about a million people globally claim to hold an MBA, compared with a little over 100,000 CFA holders.However, for all its relative strengths, it’s unlikely that, as the Financial Times recently proclaimed, the CFA will rival the broad reach of the MBA anytime soon.  
 
+**Software**
 
 **Conclusion**  
 So while being costly for a non-essential professional exam, it may prove being worthwhile to undertake as given the increase in job competition amoung graduates, this exam may prove the difference between a career and disappiontment. And while it is not currently required for jobs this may one day change and become as recognised as the chartered accounting exams. I also found that while on placement that many companies will actually offer to cover the cost of the exam and also allow study leave as they will recieve a more qualified employee, this shows there is an obvious trust in the qualification if companies are willing to undertake such risks.

@@ -20,6 +20,6 @@ SPC is method of measuring and controlling quality by monitoring the manufacturi
 The plain fact is that when a process is within statistical control, its output is indiscernible from random variation: the kind of variation which one gets from tossing coins, throwing dice, or shuffling cards. Whether or not the process is in control, the numbers will go up, the numbers will go down; indeed, occasionally we shall get a number that is the highest or the lowest for some time. Of course we shall: how could it be otherwise? The question is - do these individual occurrences mean anything important? When the process is out of control, the answer will sometimes be yes. When the process is in control, the answer is no.
 So the main response to the question "Why SPC?" therefore this: It guides us to the type of action that is appropriate for trying to improve the functioning of a process. Should we react to individual results from the process (which is only sensible, if such a result is signalled by a control chart as being due to a special cause) or should we instead be going for change to the process itself, guided by cumulated evidence from its output (which is only sensible if the process is in control)?
 
-The key to any process improvement program is the Plan-Do-Study-Act cycle described by Walter Shewhart.
+The key to any process improvement program is the Plan-Do-Study-Act cycle described by Walter Shewhart
 
-<p align="center">"![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Plan%2520Do%2520Study%2520Act.png)"<p align="center">
+![image](https://github.com/ULStats/MA4128Assessment-2018/blob/master/Plan%2520Do%2520Study%2520Act.png)

@@ -4,7 +4,7 @@ Moneyball
 
 ![Alttext](https://github.com/ULStats/MA4128Assessment-2018/blob/master/moneyball.jpg)
 ## Introduction
-This brief essay focuses on the use of sabermetrics in sports analytics, primarly in baseball, that has revolutionised the way major baseball teams evaluate talent and which has allowed small, low-market MLB teams compete with the giants of the game.
+This brief essay focuses on the use of sabermetrics in sports analytics, primarily in baseball, that has revolutionised the way major baseball teams evaluate talent and which has allowed small, low-market MLB teams compete with the giants of the game.
 ## Background
 Moneyball: The Art of Winning an Unfair Game is a book by Michael Lewis, published in 2003, about the Oakland Athletics baseball team and its general manager Billy Beane. Its focus is the team's analytical, evidence-based, sabermetric approach to assembling a competitive baseball team, despite Oakland's disadvantaged revenue situation. A film based on the book starring Brad Pitt and Jonah Hill was released in 2011.
 ## About
@@ -23,6 +23,8 @@ Moneyball has entered baseball's lexicon; teams that appear to value the concept
 Nevertheless, Moneyball changed the way many major league front offices do business. In its wake, teams such as the New York Mets, New York Yankees, San Diego Padres, St. Louis Cardinals, Boston Red Sox, Washington Nationals, Arizona Diamondbacks, Cleveland Indians, and the Toronto Blue Jays have hired full-time sabermetric analysts.
 
 When the New York Mets hired Sandy Alderson – Beane's predecessor and mentor with the A's – as their general manager after the 2010 season, and hired Beane's former associates Paul DePodesta and J.P. Ricciardi to the front office, the team was jokingly referred to as the "Moneyball Mets". Like the Oakland A's in the 1990s, the Mets have been directed by their ownership to slash payroll. Under Alderson's tenure, the team payroll dropped below $100 million per year from 2012–14, and the Mets reached the 2015 World Series (defeating the MLB's highest payroll team, the Los Angeles Dodgers, en route). Michael Lewis has acknowledged that the book's success may have hurt the Athletics' fortunes as other teams have accepted the use of sabermetrics, reducing the edge that Oakland received from using sabermetric-based evaluations. Daryl Morey's own unorthodox approaches in the NBA have often been referred to as "Moreyball".Since the book's publication and success, Lewis has discussed plans for a sequel to Moneyball called Underdogs, revisiting the players and their relative success several years into their careers, although only four players from the 2002 draft played much at the Major League level.
+
+**Comments**: Very good comprehensive piece of work. Include one or two references and perfect article
 
 ## References
 

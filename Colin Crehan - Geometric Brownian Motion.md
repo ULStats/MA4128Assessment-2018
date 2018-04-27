@@ -43,6 +43,6 @@ A stochastic process St is said to follow a GBM if it satisfies the following st
 
 ![rando](https://github.com/ULStats/MA4128Assessment-2018/blob/master/s.svg)
 
-where `W` is a Wiener process or Brownian motion, and {\displaystyle \mu } \mu  ('the percentage drift') and {\displaystyle \sigma } \sigma  ('the percentage volatility') are constants.
+where W is a Wiener process or Brownian motion, and "u" ('the percentage drift') and sigma ('the percentage volatility') are constants.
 
 The former is used to model deterministic trends, while the latter term is often used to model a set of unpredictable events occurring during this motion.

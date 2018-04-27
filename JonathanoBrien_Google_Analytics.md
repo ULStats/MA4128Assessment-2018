@@ -35,9 +35,11 @@ This Java script is collecting the visitors data and storing it in the clound wh
 * Very little coding ability is needed as the application as dashboards and funnels can be set up and tracked live. 
 
 ###### Cons
-* Adblockerd can stop the visitors data from being collected. 
+* Adblocker can stop the visitors data from being collected. 
 * Its bassed of the use of cookies whick can be deleted.
 * Sampling is used to generate the reports. 
 
 ## Dimensions  
 Here is a list of all the [dimensions](https://developers.google.com/analytics/devguides/reporting/core/dimsmets) that are used. There are also custom dimentions that cam be set by the operator. 
+
+**Comments**: Overall good. A few spelling mistakes were corrected. Perhaps you could come to your own conclusion at the end.

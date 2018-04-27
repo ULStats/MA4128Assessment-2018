@@ -127,6 +127,8 @@ A database-centric data engineer is focused on setting up and populating analyti
 After Rebu takes over the world, a database centric data engineer might design an analytics database, then create scripts to pull information from the main app database into the analytics database.
 
 ![OtherSources](https://raw.githubusercontent.com/ULStats/MA4128Assessment-2018/master/DataEngineering/Other%20Data.jpg)
+
+
 A data warehouse takes in data, then makes it easy for others to query it.
 
 

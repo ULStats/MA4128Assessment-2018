@@ -67,3 +67,7 @@ plot(t,X[1,],t='l',ylim=c(ymin, ymax), col=1,
 for(i in 2:nt){lines(t,X[i,], t='l',ylim=c(ymin, ymax),col=i)}
 
 ```
+
+## References
+* Simulation and Inference for Stochastic Differential Equations : https://cran.r-project.org/web/packages/sde/sde.pdf
+

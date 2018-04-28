@@ -58,3 +58,6 @@ speye(n)      #Creates a n-by-n identity matrix.
 ```
 
 We can also convert an array A to a sparse or full matrix by using `sparse(A)` or `full(A)` repectively.
+
+## References
+* https://julialang.org/

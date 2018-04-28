@@ -103,7 +103,7 @@ The black dashed line represents the actual time series. The blue line represent
 
 
 ## Example of code used 
-
+<pre><code>
 #######Entering Data into R###########
 
 setwd('E:\\Time Series')
@@ -333,7 +333,7 @@ x10<- tail(RiverTS,64)
 	RiverTS10<- ts(x10,freq=12, start=c(1970,9))  ####Start Data set 3 months earlier                    		      
 	length(RiverTS10)                                                                		      
 	RiverTS10
-
+</code></pre>
 
 
 

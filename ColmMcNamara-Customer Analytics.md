@@ -77,3 +77,5 @@ https://www.brandwatch.com/blog/how-to-write-customer-analysis/
 
 http://www.amadeus.com/blog/07/04/5-examples-predictive-analytics-travel-industry/
 
+https://customeranalytics.com/discover
+

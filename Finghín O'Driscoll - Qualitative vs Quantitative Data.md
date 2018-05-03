@@ -62,3 +62,5 @@ You can find out where most of your website traffic is coming from by using quan
 ### 3) Conversion funnel
 Use quantitative analytics when you’re trying to identify where customers abandon your conversion funnel. You can use this data to create a strategy to improve certain steps of the funnel so you can increase the overall conversion rate. l
 
+https://simplypsychology.org/qualitative-quantitative.html
+

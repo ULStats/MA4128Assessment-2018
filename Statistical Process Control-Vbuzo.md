@@ -1,0 +1,28 @@
+**Control Charts and Minitab Software**
+
+Control Charts are tools broadly used in processes that require monitoring to understand their characteristics and behaviors. From the process target, deviations might occur and when they do so, they might be detected, analyzed and treated. Those deviations might be analyzed under statistical metrics that take into consideration evidences of statistical significance. As a basic principle, any process is subject to random variations, which most of the times are not controllable or identifiable thus within limits, some variation is allowed (Xie et al 2002).It is necessary to understand how these tools work so that their   and potential become recognizable. 
+
+Run chart is a scatter graphic in which a succession of measurements are plotted versus the time order in which they happen in the process. The data points are connected by lines that enable the recognition of patterns, which otherwise would not be visible. In order to highlight where the process center is, a line might be drawn. In other words, this line is positioned exactly where the process mean is and thus where the process target is located. Specification limits are externally specified, for example, by the customers. They are two and are named USL (Upper Specification Limit) and LSL (Lower Specification Limit). 
+Measurements that fall outside those limits are considered unacceptable thus rejected. The ideas above do not necessarily need to be used just in manufacturing processes but also in services such as queues in banks, number of complaints, delivery times among many other situations.
+
+Regarding stability, a process will be considered stable if the distribution of any variable X does not change over the time. To check this, imagine you taking pictures from a process in approximately the same timeframe. If the distributions look like similar then the process is stable. The stability is our ally when we want to forecast the variation in our product in the future and then it enables us to develop systems that can deal with this level of variability. Thereby, stability makes us capable of setting up a forward planning.
+
+Control charts enables us to react when a process starts to become unstable and to do not respond when common causes happen, which are indeed inherent to any process. However, some metric is necessary to differ them. 
+In a Normal distribution, 99.7% of the observations fall within three standard deviations from the mean, which is µ ± 3σ. Thereby, if measurements of the sample start to fall outside those limits, the process would no longer be in control. Additionally, if the distribution is not normal, the famous result called Chebyshev’s inequality ensures that regardless of the type of distribution, at least 89% falls within the 3-sigma limit and that this percentage increases until 99.7% as the distribution becomes more similar to the normal one. Nevertheless, if we use other limit? For example, 2-sigma. Experiences have shown that in this case, some unexplainable special causes happen. Thus, through the 3-sigma approach it is possible to identify the origin of the special causes.
+
+There are many types of control charts such as x-charts for looking for changes in the average level; R-charts for changes in variability (It is possible to detect problems of wearing, for example), and ^p-charts which monitor proportions of items which are defective (Wild and Seber 2000). There are also the np-chart that stands for the count of defective items in the sample, the u-chart that looks for the number of defectives per unit in the sample and finally the c-chart looking for the count of defects from a sample.
+It is possible to identify the process’s capability by using a metric called Cp. This statistic shows how much the process meets the customer’s requirements. Cp is calculated by the following formula: Cp = Customer specified range / (6*sigma). Thus, if CP is greater than 1, the process fits the customer range. If Cp = 1, customer and process have the same requirements for the process. Finally, if Cp is lower than 1, the process does not meet the customer requirements and so the process is generating a large number of defective items and the process need to be reviewed (Webber and Wallace 2007). 
+
+Regarding some technologic resources for analysis, the Minitab software can be used to generate many types of Control Chart. When visiting the Minitab website, in the specific menu for Control Charts, it is possible to find six subdivisions, which are as follows: Variables charts for subgroups; Variables charts for individuals; Attribute charts; Time-Weighted chart; Multivariate Chart and Rare event chart.
+
+Minitab also offer a service of help assistance menu in which there is a tree-structure for guiding the user throughout his/her needs. Besides, in the user support area, there are the submenu for Creating and interpreting control charts, Adding stages to a control chart, Updating control charts, Adding date/time labels to control charts and interpreting capability analysis. Additionally, concerning quality tools, Minitab provides Pareto analysis, a module for Six Sigma tools, Cause-and-Effect diagram among other features.
+
+**Reference List**
+
+Xie, M., Goh, T. N., Kuralmani, V.  (2002) Statistical Models and Control Charts for High-Quality Processes, New York: Springer
+
+Wild, C. J.,  Seber A. F. G. (2000) Chance Encounters: A First Course in Data Analysis and Inference, United States: Wiley sons publishing
+
+Webber, L., Wallace, M. (2007) Quality Control for Dummies, Indianapolis: Wiley Publishing
+
+Minitab Inc. (2016) Minitab [online], available: http://www.minitab.com/en-us/ [Accessed 22nd March 2016] 

@@ -1,0 +1,1 @@
+At the beginning I would like to talk explained the aim of data analysis is to provide relationship between two variables. Actually, regression is the most common type to obtain this aim. If you want to define regression, we will say is the statistical measure that attempts to determine relationship between one dependent variable and many others changing variables.

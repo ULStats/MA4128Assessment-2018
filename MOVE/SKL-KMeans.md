@@ -4,7 +4,9 @@ This post is a follow on of my previous paper where I introduced Python and diff
 
 ![image](https://user-images.githubusercontent.com/35773761/39299112-e61fb0d6-493f-11e8-8f02-76139b2d401e.png)
 
-K-means clustering is a type of unsupervised learning, which is used when you have unlabeled data (i.e., data without defined categories or groups). The goal of this algorithm is to find groups in the data, with the number of groups represented by the variable K. The algorithm works iteratively to assign each data point to one of K groups based on the features that are provided. Data points are clustered based on feature similarity. Rather than defining groups before looking at the data, clustering allows you to find and analyze the groups that have formed organically. Each centroid of a cluster is a collection of feature values which define the resulting groups. Examining the centroid feature weights can be used to qualitatively interpret what kind of group each cluster represents. The Κ-means clustering algorithm uses iterative refinement to produce a final result. The algorithm inputs are the number of clusters Κ and the data set.
+K-means clustering is a type of unsupervised learning, which is used when you have unlabeled data (i.e., data without defined categories or groups). The goal of this algorithm is to find groups in the data, with the number of groups represented by the variable K. The algorithm works iteratively to assign each data point to one of K groups based on the features that are provided. Data points are clustered based on feature similarity. 
+
+Rather than defining groups before looking at the data, clustering allows you to find and analyze the groups that have formed organically. Each centroid of a cluster is a collection of feature values which define the resulting groups. Examining the centroid feature weights can be used to qualitatively interpret what kind of group each cluster represents. The Κ-means clustering algorithm uses iterative refinement to produce a final result. The algorithm inputs are the number of clusters Κ and the data set.
 
 
 ## Coding it up
@@ -33,7 +35,9 @@ df
 
 We can now analyse the data for our K-Means investigation. We need to decide how many clusters we want for the data. To do 
 this we plot an “Elbow Curve” to highlight the relationship between how many clusters we choose, and the Sum of Squared Errors (SSE) 
-resulting from using that number of clusters. From this plot we identify the optimal number of clusters to use – we would prefer a 
+resulting from using that number of clusters. 
+
+From this plot we identify the optimal number of clusters to use – we would prefer a 
 lower number of clusters, but also would prefer the SSE to be lower – so this trade off needs to be taken into account. In my analysis
 I look the point at the center to the elbow. kmeans is a module imported from the 
 [scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.vq.kmeans.html#scipy.cluster.vq.kmeans) package. Please 

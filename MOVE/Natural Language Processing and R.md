@@ -1,7 +1,6 @@
 
 __NLP and R__
 ==========================
-***Laura McCarthy***
 
 ## Main uses of NLP
 Some of the main uses of NLP in the modern world are Machine Translation, Fighting Spam, Information Extraction and Summarisation.
@@ -18,7 +17,9 @@ Information extraction is similar to the spam filtering. However it can be used 
 <img src="https://github.com/ULStats/MA4128Assessment-2018/blob/master/NLP/data%20github%20project.PNG">
 
 
-Text mining encompasses a vast field of theoretical approaches and methods with one thing in common: text as input information. A text mining analysis involves several challenging process steps mainly influenced by the fact that texts, from a computer perspective, are rather unstructured collections of words. A text mining analyst typically starts with a set of highly heterogeneous input texts. 
+Text mining encompasses a vast field of theoretical approaches and methods with one thing in common: text as input information. A text mining analysis involves several challenging process steps mainly influenced by the fact that texts, from a computer perspective, are rather unstructured collections of words. 
+
+A text mining analyst typically starts with a set of highly heterogeneous input texts. 
 So the first step is to import these texts into one’s favourite computing environment, in this case R. There is an R package “tm” available which provides a framework for text mining applications within R. 
 
 Simultaneously it is important to organize and structure the texts to be able to access them in a uniform manner. Once the texts are organized in a repository, the second step is tidying up the texts, including pre-processing the texts to obtain a convenient representation for later analysis.

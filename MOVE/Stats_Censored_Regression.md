@@ -1,10 +1,12 @@
-#Censored regression 
+## Censored regression 
   
-  In engineering, economics and statistics, certain data analysis requires that a significant proportion of the dependent variable is censored. 
+In engineering, economics and statistics, certain data analysis requires that a significant proportion of the dependent variable is censored. 
+
 **For example**, if an engineering company wanted to examine the failure rate (*r*) of a newly developed electronic device within twenty-four hours (*T*) of operation.
-  Since the data points with a failure rate of greater than 24 hours (*>T*), is more numerous than r, a high percentage of the data set is excluded from the analysis.
-  Thus this data is deemed to be right-censored, or Type I censored data (*NIST, 2016*).
-  In the case whereby the rate of observed failures (*r*) is fixed and T is unknown, the data is labelled left censored, or Type II data (NIST, 2016). 
+
+Since the data points with a failure rate of greater than 24 hours (*>T*), is more numerous than r, a high percentage of the data set is excluded from the analysis.
+
+Thus this data is deemed to be right-censored, or Type I censored data (*NIST, 2016*).  In the case whereby the rate of observed failures (*r*) is fixed and T is unknown, the data is labelled left censored, or Type II data (NIST, 2016). 
   Censored regression models are not to be confused with truncated regression models (*Chen & Zhou, 2012*).
 **For example**, supposing students must have a minimum IQ level of 120 to gain membership of a Gifted and Talented Education Programme.
   If a study sought to model achievement as a function of language abilities and hours spent studying then the entire sample could have to be truncated at an IQ score of 120, thus a truncated regression model would be applied.

@@ -1,6 +1,5 @@
 Marketing Analytics
 ==============================
-***Jingyi Wang***
 
 What is Marketing Analytics?
 
@@ -8,7 +7,8 @@ What is Marketing Analytics?
 Marketing analytics is the practice of managing and studying metrics data in order to determine the ROI of marketing efforts, as well as the act of identifying opportunities for improvement.
 
 It's impossible, of course, to discuss analytics apart from metrics, but it's also crucial to define the difference. Marketing metrics are the data points themselves. Analytics is putting that data in the context of your brand and market, telling managers and investors a complete story about how your marketing efforts are driving revenue.
-Why do I need Marketing Analytics?
+
+### Why do I need Marketing Analytics?
 
  
 
